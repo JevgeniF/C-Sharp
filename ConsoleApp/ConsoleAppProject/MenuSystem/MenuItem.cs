@@ -1,14 +1,18 @@
-﻿namespace MenuSystem
-{
-    public sealed class MenuItem
-    {
-        private string Label { get; }
-        private string UserChoice { get; }
+﻿using System;
 
-        public MenuItem(string label, string userChoice)
+namespace MenuSystem
+{
+    public class MenuItem
+    {
+        public virtual string Label { get; }
+        public virtual string UserChoice { get; }
+        public virtual Action MethodToExecute { get; }
+
+        public MenuItem(string label, string userChoice, Action methodToExecute)
         {
             Label = label;
             UserChoice = userChoice;
+            MethodToExecute = methodToExecute;
         }
 
         public override string ToString()
