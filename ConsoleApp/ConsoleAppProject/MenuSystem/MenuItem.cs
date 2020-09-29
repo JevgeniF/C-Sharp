@@ -10,8 +10,8 @@ namespace MenuSystem
 
         public MenuItem(string label, string userChoice, Action methodToExecute)
         {
-            Label = label;
-            UserChoice = userChoice;
+            Label = label.Trim();
+            UserChoice = userChoice.Trim();
             MethodToExecute = methodToExecute;
         }
 

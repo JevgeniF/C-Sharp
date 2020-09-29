@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 
 namespace MenuSystem
@@ -11,21 +10,31 @@ namespace MenuSystem
         First,
         Second
     }
-    
+
     public class Menu
     {
-        public List<MenuItem> MenuItems { get; } = new List<MenuItem>();
+        private Dictionary<string, MenuItem> MenuItems { get; } = new Dictionary<string, MenuItem>();
         private readonly MenuLevel _menuLevel;
 
         public Menu(MenuLevel level)
         {
             _menuLevel = level;
         }
-        
+
+        public void AddMenuItem(MenuItem item)
+        {
+            if (item.UserChoice == "")
+            {
+                throw new Exception($"UserChoice can't be empty");
+            }
+
+            MenuItems.Add(item.UserChoice, item);
+        }
+
         public void RunMenu()
         {
             string userChoice;
-            
+
             do
             {
                 foreach (var menuItem in MenuItems)
@@ -50,6 +59,7 @@ namespace MenuSystem
                     default:
                         throw new Exception("Unknown menu depth!");
                 }
+
                 Console.Write("Your choice ->");
 
                 // User choice formatting.
@@ -61,21 +71,26 @@ namespace MenuSystem
                     Console.WriteLine("Good bye!");
                     Environment.Exit(0);
                 }
-                if (_menuLevel == MenuLevel.Second && userChoice == "P")
+
+                if (userChoice == "P" & _menuLevel == MenuLevel.Second)
                 {
                     break;
                 }
-                var userMenuItem = MenuItems.FirstOrDefault(t => t.UserChoice == userChoice);
-                if (userMenuItem != null)
+
+                if (userChoice == "M")
+                {
+
+                }
+
+                if (MenuItems.TryGetValue(userChoice, out var userMenuItem))
                 {
                     userMenuItem.MethodToExecute();
                 }
                 else
                 {
-                    Console.WriteLine("I don't have such option!");  
+                    Console.WriteLine("I don't have such option!");
                 }
-            }
-            while (userChoice != "X");
+            } while (userChoice != "X");
         }
     }
 }
