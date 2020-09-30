@@ -4,16 +4,18 @@ using System.Linq;
 
 namespace MenuSystem
 {
-    public enum MenuLevel
+    public enum MenuLevel // Names for indicators of level depths.
     {
         Root,
         First,
-        Second
+        Secondary // for every level after First
     }
 
     public class Menu
     {
-        private Dictionary<string, MenuItem> MenuItems { get; set; } = new Dictionary<string, MenuItem>();
+        private Dictionary<string, MenuItem> MenuItems { get; set; } =
+            new Dictionary<string, MenuItem>(); // Dictionary for Menu Listings
+
         private readonly MenuLevel _menuLevel;
         private readonly string[] _reservedActions = new[] {"X", "M", "P"};
 
@@ -22,7 +24,7 @@ namespace MenuSystem
             _menuLevel = level;
         }
 
-        public void AddMenuItem(MenuItem item)
+        public void AddMenuItem(MenuItem item) // Adding every menu item to Listing with User Choice check.
         {
             if (item.UserChoice == "")
             {
@@ -32,10 +34,9 @@ namespace MenuSystem
             MenuItems.Add(item.UserChoice, item);
         }
 
-        public string RunMenu()
+        public string RunMenu() // main method for screening menus and functionality.
         {
             string userChoice;
-
             do
             {
                 foreach (var menuItem in MenuItems)
@@ -46,14 +47,14 @@ namespace MenuSystem
                 switch (_menuLevel)
                 {
                     case MenuLevel.Root:
-                        Console.WriteLine("   X) eXit");
+                        Console.WriteLine("   X) eXit"); // hardcoded main menu options
                         break;
                     case MenuLevel.First:
-                        Console.WriteLine("   M) Main Menu");
+                        Console.WriteLine("   M) Main Menu"); // hardcoded first level menu options
                         Console.WriteLine("   X) eXit");
                         break;
-                    case MenuLevel.Second:
-                        Console.WriteLine("   P) Previous Menu");
+                    case MenuLevel.Secondary:
+                        Console.WriteLine("   P) Previous Menu"); // hardcoded every secondary level menu options
                         Console.WriteLine("   M) Main Menu");
                         Console.WriteLine("   X) eXit");
                         break;
@@ -61,11 +62,12 @@ namespace MenuSystem
                         throw new Exception("Unknown menu depth!");
                 }
 
-                Console.Write("Your choice ->");
+                Console.Write("->");
 
                 // User choice formatting.
                 userChoice = Console.ReadLine()?.ToUpper().Trim() ?? "";
 
+                // User interaction functions.
                 if (!_reservedActions.Contains(userChoice))
                 {
                     if (MenuItems.TryGetValue(userChoice, out var userMenuItem))
@@ -93,11 +95,10 @@ namespace MenuSystem
                     break;
                 }
 
-                if (_menuLevel == MenuLevel.Second && userChoice == "P")
+                if (_menuLevel == MenuLevel.Secondary && userChoice == "P")
                 {
                     break;
                 }
-
             } while (true);
 
             return userChoice;

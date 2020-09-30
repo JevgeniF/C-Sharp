@@ -6,12 +6,12 @@ namespace MenuSystem
     {
         private string Label { get; set; }
         public string UserChoice { get; set; }
-
-        public static string? Background { get; set; }
-
-        public static string? Foreground { get; set; }
+        public static string? Background { get; set; } // For Theme Menu Item only. Null by default
+        public static string? Foreground { get; set; } // For Theme Menu Item only. Null by default
         public Func<string> MethodToExecute { get; set; }
 
+        
+        //Menu Item Constructor
         public MenuItem(string label, string userChoice, Func<string> methodToExecute,
             string background = null!, string foreground = null!)
         {
