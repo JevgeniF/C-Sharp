@@ -1,0 +1,9 @@
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\MenuSystem\bin\Debug\netstandard2.1\MenuSystem.deps.json
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\MenuSystem\bin\Debug\netstandard2.1\MenuSystem.dll
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\MenuSystem\bin\Debug\netstandard2.1\MenuSystem.pdb
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\MenuSystem\obj\Debug\netstandard2.1\MenuSystem.csprojAssemblyReference.cache
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\MenuSystem\obj\Debug\netstandard2.1\MenuSystem.AssemblyInfoInputs.cache
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\MenuSystem\obj\Debug\netstandard2.1\MenuSystem.AssemblyInfo.cs
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\MenuSystem\obj\Debug\netstandard2.1\MenuSystem.csproj.CoreCompileInputs.cache
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\MenuSystem\obj\Debug\netstandard2.1\MenuSystem.dll
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\MenuSystem\obj\Debug\netstandard2.1\MenuSystem.pdb

@@ -3,7 +3,7 @@ using MenuSystem;
 
 namespace ConsoleApp
 {
-    class Program
+    internal static class Program
     {
         static void Main()
         {
@@ -26,14 +26,17 @@ namespace ConsoleApp
             menuMain.AddMenuItem(new MenuItem("New Game: Player vs AI", "2", DefaultMenuAction));
             menuMain.AddMenuItem(new MenuItem("New Game: AI vs AI", "3", DefaultMenuAction));
             menuMain.AddMenuItem(new MenuItem("Options", "4", menuOptions.RunMenu));
+            
             menuMain.RunMenu();
+            
             Console.WriteLine("");
-            Console.WriteLine("                        ===> J.Fenko(c) 2020 <===");
+            Console.WriteLine("===> (c) 2020 <===");
         }
 
-        static void DefaultMenuAction()
+        static string DefaultMenuAction()
         {
             Console.WriteLine("Not implemented yet.");
+            return "";
         }
     }
 }

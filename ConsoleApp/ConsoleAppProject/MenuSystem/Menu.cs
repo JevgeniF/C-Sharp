@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-
+using System.Linq;
 
 namespace MenuSystem
 {
@@ -15,7 +15,8 @@ namespace MenuSystem
     {
         private Dictionary<string, MenuItem> MenuItems { get; } = new Dictionary<string, MenuItem>();
         private readonly MenuLevel _menuLevel;
-
+        private readonly string[] _reservedActions = new[] {"X", "M", "P"};
+        
         public Menu(MenuLevel level)
         {
             _menuLevel = level;
@@ -31,7 +32,7 @@ namespace MenuSystem
             MenuItems.Add(item.UserChoice, item);
         }
 
-        public void RunMenu()
+        public string RunMenu()
         {
             string userChoice;
 
@@ -39,7 +40,7 @@ namespace MenuSystem
             {
                 foreach (var menuItem in MenuItems)
                 {
-                    Console.WriteLine(menuItem);
+                    Console.WriteLine(menuItem.Value);
                 }
 
                 switch (_menuLevel)
@@ -65,32 +66,39 @@ namespace MenuSystem
                 // User choice formatting.
                 userChoice = Console.ReadLine()?.ToUpper().Trim() ?? "";
 
-                // User choice implementation.
+                if (!_reservedActions.Contains(userChoice))
+                {
+                    if (MenuItems.TryGetValue(userChoice, out var userMenuItem))
+                    {
+                        userChoice = userMenuItem.MethodToExecute();
+                    }
+                    else
+                    {
+                        Console.WriteLine("I don't have such option!");
+                    }
+                }
+                
                 if (userChoice == "X")
                 {
-                    Console.WriteLine("Good bye!");
-                    Environment.Exit(0);
+                    if (_menuLevel == MenuLevel.Root)
+                    {
+                        Console.WriteLine("Good bye!");
+                    }
+                    break;
                 }
-
-                if (userChoice == "P" & _menuLevel == MenuLevel.Second)
+                if (_menuLevel != MenuLevel.Root && userChoice == "M")
                 {
                     break;
                 }
-
-                if (userChoice == "M")
+                if (_menuLevel == MenuLevel.Second && userChoice == "P")
                 {
+                    break;
+                }
+                
+            }
+            while (true);
 
-                }
-
-                if (MenuItems.TryGetValue(userChoice, out var userMenuItem))
-                {
-                    userMenuItem.MethodToExecute();
-                }
-                else
-                {
-                    Console.WriteLine("I don't have such option!");
-                }
-            } while (userChoice != "X");
+            return userChoice;
         }
     }
 }

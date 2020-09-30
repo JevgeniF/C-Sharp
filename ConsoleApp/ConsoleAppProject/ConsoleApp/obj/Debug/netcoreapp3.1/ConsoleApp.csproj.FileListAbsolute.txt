@@ -1,0 +1,16 @@
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.exe
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.deps.json
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.json
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.runtimeconfig.dev.json
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.dll
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\ConsoleApp\bin\Debug\netcoreapp3.1\ConsoleApp.pdb
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\ConsoleApp\bin\Debug\netcoreapp3.1\MenuSystem.dll
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\ConsoleApp\bin\Debug\netcoreapp3.1\MenuSystem.pdb
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csprojAssemblyReference.cache
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfoInputs.cache
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.AssemblyInfo.cs
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.csproj.CopyComplete
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.dll
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.pdb
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\ConsoleApp\obj\Debug\netcoreapp3.1\ConsoleApp.genruntimeconfig.cache
