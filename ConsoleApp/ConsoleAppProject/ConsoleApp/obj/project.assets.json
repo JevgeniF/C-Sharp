@@ -27,19 +27,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jevfe\\.nuget\\packages\\": {}
+    "C:\\Users\\jevge\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\ConsoleApp\\ConsoleApp.csproj",
+      "projectUniqueName": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\ConsoleApp\\ConsoleApp.csproj",
       "projectName": "ConsoleApp",
-      "projectPath": "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\ConsoleApp\\ConsoleApp.csproj",
-      "packagesPath": "C:\\Users\\jevfe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\ConsoleApp\\obj\\",
+      "projectPath": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\ConsoleApp\\ConsoleApp.csproj",
+      "packagesPath": "C:\\Users\\jevge\\.nuget\\packages\\",
+      "outputPath": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\ConsoleApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\jevfe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\jevge\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -50,8 +50,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\MenuSystem\\MenuSystem.csproj": {
-              "projectPath": "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\MenuSystem\\MenuSystem.csproj"
+            "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\MenuSystem\\MenuSystem.csproj": {
+              "projectPath": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\MenuSystem\\MenuSystem.csproj"
             }
           }
         }
@@ -79,7 +79,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Users\\jevfe\\.dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

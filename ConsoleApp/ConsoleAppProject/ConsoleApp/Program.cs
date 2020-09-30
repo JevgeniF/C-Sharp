@@ -8,18 +8,15 @@ namespace ConsoleApp
         static void Main()
         {
             // App name.
-
             Console.WriteLine("============================> BATTLESHIP <=============================");
             Console.WriteLine("");
             
-            var menuThemes = new Menu(MenuLevel.Second);
-                menuThemes.AddMenuItem(new MenuItem("Default", "1", DefaultMenuAction));
-                menuThemes.AddMenuItem(new MenuItem("Crimson", "2", DefaultMenuAction));
-                menuThemes.AddMenuItem(new MenuItem("Old School", "3", DefaultMenuAction));
-                menuThemes.AddMenuItem(new MenuItem("Commander", "4", DefaultMenuAction));
-            
+            var menuGraphics = new Menu(MenuLevel.Second);
+                menuGraphics.AddMenuItem(new MenuItem("Default", "1", ThemeReset));
+                menuGraphics.AddMenuItem(new MenuItem("Old School", "2", ThemeChanger, "black", "green"));
+
             var menuOptions = new Menu(MenuLevel.First);
-            menuOptions.AddMenuItem(new MenuItem("Graphics", "1", menuThemes.RunMenu));
+            menuOptions.AddMenuItem(new MenuItem("Graphics", "1", menuGraphics.RunMenu));
 
             var menuMain = new Menu(MenuLevel.Root);
             menuMain.AddMenuItem(new MenuItem("New Game: Player vs Player", "1", DefaultMenuAction));
@@ -36,6 +33,45 @@ namespace ConsoleApp
         static string DefaultMenuAction()
         {
             Console.WriteLine("Not implemented yet.");
+            return "";
+        }
+
+        static string ThemeReset()
+        {
+            Console.ResetColor();
+            Console.WriteLine("Default Theme Set!");
+            return "";
+        }
+        
+        static string ThemeChanger()
+        {
+            var background = MenuItem.Background;
+            var foreground = MenuItem.Foreground;
+            
+            ConsoleColor consoleColorBack;
+            try
+            {
+                consoleColorBack = (ConsoleColor)Enum.Parse(typeof(ConsoleColor), background!, true);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Invalid Color!");
+                throw;
+            }
+            Console.BackgroundColor = consoleColorBack;
+            
+            ConsoleColor consoleColorFront;
+            try
+            {
+                consoleColorFront = (ConsoleColor)Enum.Parse(typeof(ConsoleColor), foreground!, true);
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("Invalid Color!");
+                throw;
+            }
+            Console.ForegroundColor = consoleColorFront;
+            Console.WriteLine("Theme Changed");
             return "";
         }
     }

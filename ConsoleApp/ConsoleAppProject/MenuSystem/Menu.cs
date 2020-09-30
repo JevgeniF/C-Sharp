@@ -13,10 +13,10 @@ namespace MenuSystem
 
     public class Menu
     {
-        private Dictionary<string, MenuItem> MenuItems { get; } = new Dictionary<string, MenuItem>();
+        private Dictionary<string, MenuItem> MenuItems { get; set; } = new Dictionary<string, MenuItem>();
         private readonly MenuLevel _menuLevel;
         private readonly string[] _reservedActions = new[] {"X", "M", "P"};
-        
+
         public Menu(MenuLevel level)
         {
             _menuLevel = level;
@@ -26,7 +26,7 @@ namespace MenuSystem
         {
             if (item.UserChoice == "")
             {
-                throw new Exception($"UserChoice can't be empty");
+                throw new Exception("UserChoice can't be empty");
             }
 
             MenuItems.Add(item.UserChoice, item);
@@ -77,26 +77,28 @@ namespace MenuSystem
                         Console.WriteLine("I don't have such option!");
                     }
                 }
-                
+
                 if (userChoice == "X")
                 {
                     if (_menuLevel == MenuLevel.Root)
                     {
                         Console.WriteLine("Good bye!");
                     }
+
                     break;
                 }
+
                 if (_menuLevel != MenuLevel.Root && userChoice == "M")
                 {
                     break;
                 }
+
                 if (_menuLevel == MenuLevel.Second && userChoice == "P")
                 {
                     break;
                 }
-                
-            }
-            while (true);
+
+            } while (true);
 
             return userChoice;
         }

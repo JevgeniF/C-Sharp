@@ -22,11 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="087c9d12-053f-49e1-a61a-5dc22906456e" name="Default Changelist" comment="Main Menu switch still not implemented.&#10;Themes, Arrows controls not implemented">
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/Menu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/MenuItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/MenuItem.cs" afterDir="false" />
-    </list>
+    <list default="true" id="087c9d12-053f-49e1-a61a-5dc22906456e" name="Default Changelist" comment="unversioned files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +30,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -53,6 +52,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleAppProject.sln" />
     <property name="do_not_show_solution_notification" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.environmentSetup" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -145,5 +145,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1601386013272" />
+    <state x="642" y="0" width="781" height="1027" key="dock-window-1" timestamp="1601479230266">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="642" y="0" width="781" height="1027" key="dock-window-1/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1601479230266" />
   </component>
 </project>

@@ -7,3 +7,12 @@ C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\MenuSyst
 C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\MenuSystem\obj\Debug\netstandard2.1\MenuSystem.csproj.CoreCompileInputs.cache
 C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\MenuSystem\obj\Debug\netstandard2.1\MenuSystem.dll
 C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\MenuSystem\obj\Debug\netstandard2.1\MenuSystem.pdb
+D:\TalTech\Projects\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\MenuSystem\bin\Debug\netstandard2.1\MenuSystem.deps.json
+D:\TalTech\Projects\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\MenuSystem\bin\Debug\netstandard2.1\MenuSystem.dll
+D:\TalTech\Projects\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\MenuSystem\bin\Debug\netstandard2.1\MenuSystem.pdb
+D:\TalTech\Projects\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\MenuSystem\obj\Debug\netstandard2.1\MenuSystem.csprojAssemblyReference.cache
+D:\TalTech\Projects\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\MenuSystem\obj\Debug\netstandard2.1\MenuSystem.AssemblyInfoInputs.cache
+D:\TalTech\Projects\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\MenuSystem\obj\Debug\netstandard2.1\MenuSystem.AssemblyInfo.cs
+D:\TalTech\Projects\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\MenuSystem\obj\Debug\netstandard2.1\MenuSystem.csproj.CoreCompileInputs.cache
+D:\TalTech\Projects\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\MenuSystem\obj\Debug\netstandard2.1\MenuSystem.dll
+D:\TalTech\Projects\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\MenuSystem\obj\Debug\netstandard2.1\MenuSystem.pdb
