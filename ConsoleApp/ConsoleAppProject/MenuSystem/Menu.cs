@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Linq;
 
-
 namespace MenuSystem
 {
     public enum MenuLevel
@@ -11,26 +10,37 @@ namespace MenuSystem
         First,
         Second
     }
-    
+
     public class Menu
     {
-        public List<MenuItem> MenuItems { get; } = new List<MenuItem>();
+        private Dictionary<string, MenuItem> MenuItems { get; } = new Dictionary<string, MenuItem>();
         private readonly MenuLevel _menuLevel;
-
+        private readonly string[] _reservedActions = new[] {"X", "M", "P"};
+        
         public Menu(MenuLevel level)
         {
             _menuLevel = level;
         }
-        
-        public void RunMenu()
+
+        public void AddMenuItem(MenuItem item)
+        {
+            if (item.UserChoice == "")
+            {
+                throw new Exception($"UserChoice can't be empty");
+            }
+
+            MenuItems.Add(item.UserChoice, item);
+        }
+
+        public string RunMenu()
         {
             string userChoice;
-            
+
             do
             {
                 foreach (var menuItem in MenuItems)
                 {
-                    Console.WriteLine(menuItem);
+                    Console.WriteLine(menuItem.Value);
                 }
 
                 switch (_menuLevel)
@@ -50,32 +60,45 @@ namespace MenuSystem
                     default:
                         throw new Exception("Unknown menu depth!");
                 }
+
                 Console.Write("Your choice ->");
 
                 // User choice formatting.
                 userChoice = Console.ReadLine()?.ToUpper().Trim() ?? "";
 
-                // User choice implementation.
+                if (!_reservedActions.Contains(userChoice))
+                {
+                    if (MenuItems.TryGetValue(userChoice, out var userMenuItem))
+                    {
+                        userChoice = userMenuItem.MethodToExecute();
+                    }
+                    else
+                    {
+                        Console.WriteLine("I don't have such option!");
+                    }
+                }
+                
                 if (userChoice == "X")
                 {
-                    Console.WriteLine("Good bye!");
-                    Environment.Exit(0);
+                    if (_menuLevel == MenuLevel.Root)
+                    {
+                        Console.WriteLine("Good bye!");
+                    }
+                    break;
+                }
+                if (_menuLevel != MenuLevel.Root && userChoice == "M")
+                {
+                    break;
                 }
                 if (_menuLevel == MenuLevel.Second && userChoice == "P")
                 {
                     break;
                 }
-                var userMenuItem = MenuItems.FirstOrDefault(t => t.UserChoice == userChoice);
-                if (userMenuItem != null)
-                {
-                    userMenuItem.MethodToExecute();
-                }
-                else
-                {
-                    Console.WriteLine("I don't have such option!");  
-                }
+                
             }
-            while (userChoice != "X");
+            while (true);
+
+            return userChoice;
         }
     }
 }

@@ -2,16 +2,16 @@
 
 namespace MenuSystem
 {
-    public class MenuItem
+    public sealed class MenuItem
     {
-        public virtual string Label { get; }
-        public virtual string UserChoice { get; }
-        public virtual Action MethodToExecute { get; }
+        private string Label { get; }
+        public string UserChoice { get; }
+        public Func<string> MethodToExecute { get; }
 
-        public MenuItem(string label, string userChoice, Action methodToExecute)
+        public MenuItem(string label, string userChoice, Func<string> methodToExecute)
         {
-            Label = label;
-            UserChoice = userChoice;
+            Label = label.Trim();
+            UserChoice = userChoice.Trim();
             MethodToExecute = methodToExecute;
         }
 
