@@ -1,4 +1,7 @@
 ﻿using System;
+using System.Diagnostics;
+using GameEngine;
+using GameUIConsole;
 using MenuSystem;
 
 namespace ConsoleApp
@@ -17,10 +20,11 @@ namespace ConsoleApp
             menuGraphics.AddMenuItem(new MenuItem("Old School", "2", ThemeChanger, "black", "green"));
 
             var menuOptions = new Menu(MenuLevel.First);
-            menuOptions.AddMenuItem(new MenuItem("Graphics", "1", menuGraphics.RunMenu));
+            menuOptions.AddMenuItem(new MenuItem("Color", "1", menuGraphics.RunMenu));
+            menuOptions.AddMenuItem(new MenuItem("Board Size", "2", BoardSettings));
 
             var menuMain = new Menu(MenuLevel.Root);
-            menuMain.AddMenuItem(new MenuItem("New Game: Player vs Player", "1", DefaultMenuAction));
+            menuMain.AddMenuItem(new MenuItem("New Game: Player vs Player", "1", Game));
             menuMain.AddMenuItem(new MenuItem("New Game: Player vs AI", "2", DefaultMenuAction));
             menuMain.AddMenuItem(new MenuItem("New Game: AI vs AI", "3", DefaultMenuAction));
             menuMain.AddMenuItem(new MenuItem("Options", "4", menuOptions.RunMenu));
@@ -36,6 +40,30 @@ namespace ConsoleApp
         static string DefaultMenuAction() //Default action for not implemented menu functions
         {
             Console.WriteLine("Not implemented yet.");
+            return "";
+        }
+        
+        static string Game() //Default action for game
+        {
+            var game = new Battleships();
+            ConsoleUI.DrawBoard(game.GetBoard());
+
+            return "";
+        }
+        
+        static string BoardSettings() //Default action for not implemented menu functions
+        {
+            Console.WriteLine("What size of board do you prefer? Enter width (max = 20):");
+            int width = Convert.ToInt32(Console.ReadLine());
+
+            if (width <= 20 && width > 0)
+            {
+                Battleships.width = width;
+            }
+            else
+            {
+                Console.WriteLine("Invalid width!");
+            }
             return "";
         }
 
