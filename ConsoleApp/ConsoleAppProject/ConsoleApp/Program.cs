@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Diagnostics;
+using System.Runtime.Serialization.Formatters;
 using GameEngine;
 using GameUIConsole;
 using MenuSystem;
@@ -17,22 +17,22 @@ namespace ConsoleApp
             // Menu options "constructor"
             var menuGraphics = new Menu(MenuLevel.Secondary);
             menuGraphics.AddMenuItem(new MenuItem("Default", "1", ThemeReset));
-            menuGraphics.AddMenuItem(new MenuItem("Old School", "2", ThemeChanger, "black", "green"));
+            menuGraphics.AddMenuItem(new MenuItem("Old Radar", "2", ThemeChanger, "black", "green"));
 
             var menuOptions = new Menu(MenuLevel.First);
             menuOptions.AddMenuItem(new MenuItem("Color", "1", menuGraphics.RunMenu));
             menuOptions.AddMenuItem(new MenuItem("Board Size", "2", BoardSettings));
 
-            var menuMain = new Menu(MenuLevel.Root);
-            menuMain.AddMenuItem(new MenuItem("New Game: Player vs Player", "1", Game));
-            menuMain.AddMenuItem(new MenuItem("New Game: Player vs AI", "2", DefaultMenuAction));
-            menuMain.AddMenuItem(new MenuItem("New Game: AI vs AI", "3", DefaultMenuAction));
-            menuMain.AddMenuItem(new MenuItem("Options", "4", menuOptions.RunMenu));
+            var menu = new Menu(MenuLevel.Root);
+            menu.AddMenuItem(new MenuItem("New Game: Player vs Player", "1", Game));
+            menu.AddMenuItem(new MenuItem("New Game: Player vs AI", "2", DefaultMenuAction));
+            menu.AddMenuItem(new MenuItem("New Game: AI vs AI", "3", DefaultMenuAction));
+            menu.AddMenuItem(new MenuItem("Options", "4", menuOptions.RunMenu));
 
-            menuMain.RunMenu();
-            
+            menu.RunMenu();
+
             Console.WriteLine("");
-            
+
             //App footer.
             Console.WriteLine("===> (c) 2020 <===");
         }
@@ -42,15 +42,68 @@ namespace ConsoleApp
             Console.WriteLine("Not implemented yet.");
             return "";
         }
-        
+
         static string Game() //Default action for game
         {
             var game = new Battleships();
-            ConsoleUI.DrawBoard(game.GetBoard());
 
+            do
+            {   var menu = new Menu(MenuLevel.Game);
+                menu.AddMenuItem(new MenuItem($"Player Two shooting board","B",() =>
+                {
+                    var boards = game.GetBoards();
+                    switch (game.NextMoveByFirst)
+                    {
+                        case true: ;
+                            ConsoleUi.DrawBoard((CellState[,]) boards[0]);
+                            break;
+                        case false:
+                            ConsoleUi.DrawBoard((CellState[,]) boards[1]);
+                            break;
+                    }
+
+                    return "";
+                }));
+                menu.AddMenuItem(new MenuItem($"Player {(game.NextMoveByFirst ? "One" : "Two")} make a move", "P",
+                    () =>
+                    {
+                        GetMoveCoordinates();
+                        game.MakeAMove();
+                        Console.WriteLine(game.NextMoveByFirst);
+                        return "";
+                    }));
+                menu.AddMenuItem(new MenuItem("Save Game", "S", DefaultMenuAction));
+                menu.AddMenuItem(new MenuItem("Exit Game", "E", DefaultMenuAction));
+                var userChoice = menu.RunMenu();
+            } while (true);
+            /*
+            var menu = new Menu(MenuLevel.Root);
+            menu.AddMenuItem(new MenuItem($"Player {(game.NextMoveByFirst ? "One" : "Two")} make a move", "P",
+                () =>
+                {
+                    var move = GetMoveCoordinates(game);
+                    game.MakeAMove(move);
+                    ConsoleUi.DrawBoard(game.GetBoard());
+                    return "";
+                }));
+            menu.AddMenuItem(new MenuItem("Save Game", "S", DefaultMenuAction));
+            menu.AddMenuItem(new MenuItem("Exit Game", "E", DefaultMenuAction));
+            var userChoice = menu.RunMenu();
+
+
+            return userChoice;
+            */
             return "";
         }
-        
+
+        static string GetMoveCoordinates()
+        {
+            Console.WriteLine("Indicate a square for attack, Commander!");
+            var userValue = Console.ReadLine();
+            Battleships.MoveCoordinates = userValue;
+            return userValue;
+        }
+
         static string BoardSettings() //Default action for not implemented menu functions
         {
             Console.WriteLine("What size of board do you prefer? Enter width (max = 20):");
@@ -58,12 +111,13 @@ namespace ConsoleApp
 
             if (width <= 20 && width > 0)
             {
-                Battleships.width = width;
+                Battleships.Width = width;
             }
             else
             {
                 Console.WriteLine("Invalid width!");
             }
+
             return "";
         }
 

@@ -10,7 +10,7 @@ namespace MenuSystem
         public static string? Foreground { get; set; } // For Theme Menu Item only. Null by default
         public Func<string> MethodToExecute { get; set; }
 
-        
+
         //Menu Item Constructor
         public MenuItem(string label, string userChoice, Func<string> methodToExecute,
             string background = null!, string foreground = null!)
@@ -26,6 +26,5 @@ namespace MenuSystem
         {
             return $"   {UserChoice}) {Label}";
         }
-
     }
 }

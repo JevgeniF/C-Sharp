@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\jevge\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\jevge\AppData\Local\JetBrains\Rider2020.2\resharper-host\temp\Rider\v202\TempCaches\Solution.ConsoleAppProject.00" t="ExcludeRecursive" />
+    <e p="C:\Users\jevge\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_ConsoleAppProject.1361786452.00" t="ExcludeRecursive" />
     <e p="C:\Users\jevge\AppData\Roaming\JetBrains\Rider2020.2\scratches" t="IncludeRecursive" />
     <e p="D:\TalTech\Projects\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject" t="IncludeFlat">
       <e p="ConsoleApp" t="IncludeRecursive">
@@ -23,6 +23,7 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="CellState.cs" t="Include" />
         <e p="GameEngine.csproj" t="IncludeRecursive" />
+        <e p="GameState.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netstandard2.1" t="Include">

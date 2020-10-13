@@ -8,7 +8,8 @@ namespace MenuSystem
     {
         Root,
         First,
-        Secondary // for every level after First
+        Secondary, // for every level after First
+        Game
     }
 
     public class Menu
@@ -17,7 +18,7 @@ namespace MenuSystem
             new Dictionary<string, MenuItem>(); // Dictionary for Menu Listings
 
         private readonly MenuLevel _menuLevel;
-        private readonly string[] _reservedActions = new[] {"X", "M", "P"};
+        private readonly string[] _reservedActions = new[] {"X", "M", "R"};
 
         public Menu(MenuLevel level)
         {
@@ -54,9 +55,11 @@ namespace MenuSystem
                         Console.WriteLine("   X) eXit");
                         break;
                     case MenuLevel.Secondary:
-                        Console.WriteLine("   P) Previous Menu"); // hardcoded every secondary level menu options
+                        Console.WriteLine("   R) Previous Menu"); // hardcoded every secondary level menu options
                         Console.WriteLine("   M) Main Menu");
                         Console.WriteLine("   X) eXit");
+                        break;
+                    case MenuLevel.Game:
                         break;
                     default:
                         throw new Exception("Unknown menu depth!");
@@ -95,7 +98,7 @@ namespace MenuSystem
                     break;
                 }
 
-                if (_menuLevel == MenuLevel.Secondary && userChoice == "P")
+                if (_menuLevel == MenuLevel.Secondary && userChoice == "R")
                 {
                     break;
                 }
