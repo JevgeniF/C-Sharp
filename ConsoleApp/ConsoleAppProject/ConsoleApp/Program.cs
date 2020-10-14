@@ -46,12 +46,12 @@ namespace ConsoleApp
         static string Game() //Default action for game
         {
             var game = new Battleships();
+            var boards = game.GetBoards();
 
             do
             {   var menu = new Menu(MenuLevel.Game);
                 menu.AddMenuItem(new MenuItem($"Player Two shooting board","B",() =>
                 {
-                    var boards = game.GetBoards();
                     switch (game.NextMoveByFirst)
                     {
                         case true: ;
@@ -68,7 +68,15 @@ namespace ConsoleApp
                     () =>
                     {
                         GetMoveCoordinates();
-                        game.MakeAMove();
+                        if (game.NextMoveByFirst)
+                        {
+                            game.MakeAMove((CellState[,]) boards[0]);
+                        }
+                        else
+                        {
+                            game.MakeAMove((CellState[,]) boards[1]);
+                        }
+
                         Console.WriteLine(game.NextMoveByFirst);
                         return "";
                     }));

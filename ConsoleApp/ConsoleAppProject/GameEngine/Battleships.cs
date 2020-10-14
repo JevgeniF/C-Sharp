@@ -22,16 +22,16 @@ namespace GameEngine
 
         public bool NextMoveByFirst => _nextMoveByFirst;
 
-        public bool MakeAMove()
+        public bool MakeAMove(CellState[,] board)
         {
             int attackCol = (char.ToUpper(MoveCoordinates[0]) - 65);
             int attackRow = Int32.Parse(MoveCoordinates.Substring(1)) - 1;
             if (attackCol >= Width || attackRow >= Width)
             {
                 Console.WriteLine("Wrong move! Try again!");
-            } else if (_board[attackCol, attackRow] == CellState.Empty)
+            } else if (board[attackCol, attackRow] == CellState.Empty)
             {
-                _board[attackCol, attackRow] = _nextMoveByFirst ? CellState.O : CellState.T;
+                board[attackCol, attackRow] = _nextMoveByFirst ? CellState.O : CellState.T;
                 _nextMoveByFirst = !_nextMoveByFirst;
                 return true;
             }

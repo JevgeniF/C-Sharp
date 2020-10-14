@@ -22,47 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9fe0bfb-303f-46f8-843f-9021e59e1cfe" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/GameEngine/GameState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleAppProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleAppProject/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="a9fe0bfb-303f-46f8-843f-9021e59e1cfe" name="Default Changelist" comment="can't get 2nd board to work">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleAppProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleAppProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/GameEngine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/GameEngine.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/GameEngine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/GameEngine.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/GameUIConsole.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/GameUIConsole.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/GameUIConsole.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/GameUIConsole.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/MenuSystem.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/MenuSystem.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/MenuSystem.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/MenuSystem.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameEngine/Battleships.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameEngine/Battleships.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameEngine/CellState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameEngine/CellState.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameEngine/bin/Debug/netstandard2.1/GameEngine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GameEngine/bin/Debug/netstandard2.1/GameEngine.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameEngine/bin/Debug/netstandard2.1/GameEngine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GameEngine/bin/Debug/netstandard2.1/GameEngine.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameEngine/obj/Debug/netstandard2.1/GameEngine.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GameEngine/obj/Debug/netstandard2.1/GameEngine.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameEngine/obj/Debug/netstandard2.1/GameEngine.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GameEngine/obj/Debug/netstandard2.1/GameEngine.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameEngine/obj/Debug/netstandard2.1/GameEngine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GameEngine/obj/Debug/netstandard2.1/GameEngine.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameEngine/obj/Debug/netstandard2.1/GameEngine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GameEngine/obj/Debug/netstandard2.1/GameEngine.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameUIConsole/ConsoleUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameUIConsole/ConsoleUI.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameUIConsole/bin/Debug/netstandard2.1/GameEngine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GameUIConsole/bin/Debug/netstandard2.1/GameEngine.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameUIConsole/bin/Debug/netstandard2.1/GameEngine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GameUIConsole/bin/Debug/netstandard2.1/GameEngine.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameUIConsole/bin/Debug/netstandard2.1/GameUIConsole.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GameUIConsole/bin/Debug/netstandard2.1/GameUIConsole.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameUIConsole/bin/Debug/netstandard2.1/GameUIConsole.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GameUIConsole/bin/Debug/netstandard2.1/GameUIConsole.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuSystem/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MenuSystem/Menu.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuSystem/MenuItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MenuSystem/MenuItem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuSystem/bin/Debug/netstandard2.1/MenuSystem.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MenuSystem/bin/Debug/netstandard2.1/MenuSystem.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuSystem/bin/Debug/netstandard2.1/MenuSystem.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MenuSystem/bin/Debug/netstandard2.1/MenuSystem.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuSystem/obj/Debug/netstandard2.1/MenuSystem.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MenuSystem/obj/Debug/netstandard2.1/MenuSystem.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuSystem/obj/Debug/netstandard2.1/MenuSystem.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MenuSystem/obj/Debug/netstandard2.1/MenuSystem.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuSystem/obj/Debug/netstandard2.1/MenuSystem.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MenuSystem/obj/Debug/netstandard2.1/MenuSystem.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuSystem/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MenuSystem/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,8 +99,16 @@
       <workItem from="1601479238155" duration="507000" />
       <workItem from="1601479832142" duration="11208000" />
       <workItem from="1602530148747" duration="8596000" />
-      <workItem from="1602607700875" duration="18469000" />
+      <workItem from="1602607700875" duration="18644000" />
+      <workItem from="1602652098599" duration="415000" />
     </task>
+    <task id="LOCAL−00001" summary="can't get 2nd board to work">
+      <created>1602627011119</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1602627011119</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,27 +130,29 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="can't get 2nd board to work" />
+    <option name="LAST_COMMIT_MESSAGE" value="can't get 2nd board to work" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="528" key="GridCell.Tab.0.bottom" timestamp="1602625221009">
+    <state width="1877" height="528" key="GridCell.Tab.0.bottom" timestamp="1602627034635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="528" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602625221009" />
+    <state width="1877" height="528" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602627034635" />
     <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1601342846177" />
-    <state width="1877" height="528" key="GridCell.Tab.0.center" timestamp="1602625221009">
+    <state width="1877" height="528" key="GridCell.Tab.0.center" timestamp="1602627034635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="528" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602625221009" />
+    <state width="1877" height="528" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602627034635" />
     <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1601342846177" />
-    <state width="1877" height="528" key="GridCell.Tab.0.left" timestamp="1602625221009">
+    <state width="1877" height="528" key="GridCell.Tab.0.left" timestamp="1602627034635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="528" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602625221009" />
+    <state width="1877" height="528" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602627034635" />
     <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1601342846177" />
-    <state width="1877" height="528" key="GridCell.Tab.0.right" timestamp="1602625221009">
+    <state width="1877" height="528" key="GridCell.Tab.0.right" timestamp="1602627034635">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="528" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602625221009" />
+    <state width="1877" height="528" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602627034635" />
     <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1601342846177" />
     <state x="552" y="262" key="Rider.ProjectTemplateDialog.Size" timestamp="1601479855185">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -189,9 +163,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="185" key="SettingsEditor/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1601321746397" />
-    <state x="552" y="273" key="Vcs.Push.Dialog.v2" timestamp="1601330354170">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="552" y="263" key="Vcs.Push.Dialog.v2" timestamp="1602627014495">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="552" y="263" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602627014495" />
     <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1601330354170" />
     <state x="777" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601330322818">
       <screen x="0" y="0" width="1920" height="1080" />
