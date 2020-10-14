@@ -7,3 +7,12 @@ D:\TalTech\Projects\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\Gam
 D:\TalTech\Projects\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\GameEngine\obj\Debug\netstandard2.1\GameEngine.csproj.CoreCompileInputs.cache
 D:\TalTech\Projects\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\GameEngine\obj\Debug\netstandard2.1\GameEngine.dll
 D:\TalTech\Projects\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\GameEngine\obj\Debug\netstandard2.1\GameEngine.pdb
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\GameEngine\bin\Debug\netstandard2.1\GameEngine.deps.json
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\GameEngine\bin\Debug\netstandard2.1\GameEngine.dll
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\GameEngine\bin\Debug\netstandard2.1\GameEngine.pdb
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\GameEngine\obj\Debug\netstandard2.1\GameEngine.csprojAssemblyReference.cache
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\GameEngine\obj\Debug\netstandard2.1\GameEngine.AssemblyInfoInputs.cache
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\GameEngine\obj\Debug\netstandard2.1\GameEngine.AssemblyInfo.cs
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\GameEngine\obj\Debug\netstandard2.1\GameEngine.csproj.CoreCompileInputs.cache
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\GameEngine\obj\Debug\netstandard2.1\GameEngine.dll
+C:\Users\jevfe\RiderProjects\icd0008-2020f\ConsoleApp\ConsoleAppProject\GameEngine\obj\Debug\netstandard2.1\GameEngine.pdb

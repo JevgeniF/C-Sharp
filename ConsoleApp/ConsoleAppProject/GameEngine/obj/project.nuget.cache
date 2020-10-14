@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AKqTDVSyxmoCAyGuYaLK7260nwfwqtJeDSOApj1W9OYxZu+fIFiMAzKcPOa6vD70Yo/JNc4ZEbg4Ytuial2yhg==",
+  "dgSpecHash": "fuXj9cnEZKSTrbnvqFsmUHweO6zD9oiiRTPiaY3aQ8rZPqHK0F9PWYflxuDRJ6BlfxpnWk7kJKjz77q2zb0Vqg==",
   "success": true,
-  "projectFilePath": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameEngine\\GameEngine.csproj",
+  "projectFilePath": "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameEngine\\GameEngine.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

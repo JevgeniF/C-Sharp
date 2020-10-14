@@ -18,7 +18,7 @@ namespace MenuSystem
             new Dictionary<string, MenuItem>(); // Dictionary for Menu Listings
 
         private readonly MenuLevel _menuLevel;
-        private readonly string[] _reservedActions = new[] {"X", "M", "R"};
+        private readonly string[] _reservedActions = new[] {"X", "M", "R", "E"};
 
         public Menu(MenuLevel level)
         {
@@ -60,6 +60,7 @@ namespace MenuSystem
                         Console.WriteLine("   X) eXit");
                         break;
                     case MenuLevel.Game:
+                        Console.WriteLine("   E) Exit Game");
                         break;
                     default:
                         throw new Exception("Unknown menu depth!");
@@ -93,7 +94,7 @@ namespace MenuSystem
                     break;
                 }
 
-                if (_menuLevel != MenuLevel.Root && userChoice == "M")
+                if ((_menuLevel != MenuLevel.Root && userChoice == "M") || (_menuLevel != MenuLevel.Root && userChoice == "E"))
                 {
                     break;
                 }

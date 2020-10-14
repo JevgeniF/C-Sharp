@@ -47,26 +47,23 @@ namespace ConsoleApp
         {
             var game = new Battleships();
             var boards = game.GetBoards();
+            string userChoice;
 
             do
             {   var menu = new Menu(MenuLevel.Game);
-                menu.AddMenuItem(new MenuItem($"Player Two shooting board","B",() =>
-                {
-                    switch (game.NextMoveByFirst)
-                    {
-                        case true: ;
-                            ConsoleUi.DrawBoard((CellState[,]) boards[0]);
-                            break;
-                        case false:
-                            ConsoleUi.DrawBoard((CellState[,]) boards[1]);
-                            break;
-                    }
-
-                    return "";
-                }));
                 menu.AddMenuItem(new MenuItem($"Player {(game.NextMoveByFirst ? "One" : "Two")} make a move", "P",
                     () =>
                     {
+                        switch (game.NextMoveByFirst)
+                        {
+                            case true: ;
+                                ConsoleUi.DrawBoard((CellState[,]) boards[0]);
+                                break;
+                            case false:
+                                ConsoleUi.DrawBoard((CellState[,]) boards[1]);
+                                break;
+                        }
+                        
                         GetMoveCoordinates();
                         if (game.NextMoveByFirst)
                         {
@@ -77,34 +74,17 @@ namespace ConsoleApp
                             game.MakeAMove((CellState[,]) boards[1]);
                         }
 
-                        Console.WriteLine(game.NextMoveByFirst);
+                        Console.Clear();
                         return "";
                     }));
                 menu.AddMenuItem(new MenuItem("Save Game", "S", DefaultMenuAction));
-                menu.AddMenuItem(new MenuItem("Exit Game", "E", DefaultMenuAction));
-                var userChoice = menu.RunMenu();
-            } while (true);
-            /*
-            var menu = new Menu(MenuLevel.Root);
-            menu.AddMenuItem(new MenuItem($"Player {(game.NextMoveByFirst ? "One" : "Two")} make a move", "P",
-                () =>
-                {
-                    var move = GetMoveCoordinates(game);
-                    game.MakeAMove(move);
-                    ConsoleUi.DrawBoard(game.GetBoard());
-                    return "";
-                }));
-            menu.AddMenuItem(new MenuItem("Save Game", "S", DefaultMenuAction));
-            menu.AddMenuItem(new MenuItem("Exit Game", "E", DefaultMenuAction));
-            var userChoice = menu.RunMenu();
+                userChoice = menu.RunMenu();
+            } while (userChoice != "E");
 
-
-            return userChoice;
-            */
             return "";
         }
 
-        static string GetMoveCoordinates()
+        static string GetMoveCoordinates() // Get coordinates of user move
         {
             Console.WriteLine("Indicate a square for attack, Commander!");
             var userValue = Console.ReadLine();
