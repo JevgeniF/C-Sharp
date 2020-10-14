@@ -23,9 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9fe0bfb-303f-46f8-843f-9021e59e1cfe" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Directory.Build.props" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleAppProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleAppProject/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleAppProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleAppProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleApp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleApp.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.exe" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.pdb" afterDir="false" />
@@ -38,6 +41,7 @@
       <change beforePath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/MenuSystem.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/bin/Debug/netcoreapp3.1/MenuSystem.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/ConsoleApp.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/ConsoleApp.csproj.nuget.dgspec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/ConsoleApp.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/ConsoleApp.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csproj.FileListAbsolute.txt" afterDir="false" />
@@ -48,6 +52,12 @@
       <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleAppProject.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleAppProject.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/Battleships.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameEngine/Battleships.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/GameEngine.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/GameEngine/GameEngine.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/GameState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameEngine/GameState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameEngine/bin/Debug/netstandard2.1/GameEngine.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/GameEngine/bin/Debug/netstandard2.1/GameEngine.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameEngine/bin/Debug/netstandard2.1/GameEngine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GameEngine/bin/Debug/netstandard2.1/GameEngine.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameEngine/bin/Debug/netstandard2.1/GameEngine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GameEngine/bin/Debug/netstandard2.1/GameEngine.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameEngine/obj/Debug/netstandard2.1/GameEngine.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameEngine/obj/Debug/netstandard2.1/GameEngine.AssemblyInfo.cs" afterDir="false" />
@@ -63,8 +73,10 @@
       <change beforePath="$PROJECT_DIR$/GameEngine/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GameEngine/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameEngine/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/GameEngine/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameEngine/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/GameEngine/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameUIConsole/GameUIConsole.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/GameUIConsole/GameUIConsole.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameUIConsole/bin/Debug/netstandard2.1/GameEngine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GameUIConsole/bin/Debug/netstandard2.1/GameEngine.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameUIConsole/bin/Debug/netstandard2.1/GameEngine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GameUIConsole/bin/Debug/netstandard2.1/GameEngine.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameUIConsole/bin/Debug/netstandard2.1/GameUIConsole.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/GameUIConsole/bin/Debug/netstandard2.1/GameUIConsole.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameUIConsole/bin/Debug/netstandard2.1/GameUIConsole.dll" beforeDir="false" afterPath="$PROJECT_DIR$/GameUIConsole/bin/Debug/netstandard2.1/GameUIConsole.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameUIConsole/bin/Debug/netstandard2.1/GameUIConsole.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/GameUIConsole/bin/Debug/netstandard2.1/GameUIConsole.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.AssemblyInfo.cs" afterDir="false" />
@@ -80,7 +92,8 @@
       <change beforePath="$PROJECT_DIR$/GameUIConsole/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GameUIConsole/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameUIConsole/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/GameUIConsole/obj/project.packagespec.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GameUIConsole/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/GameUIConsole/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuSystem/Menu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MenuSystem/Menu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuSystem/MenuSystem.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MenuSystem/MenuSystem.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuSystem/bin/Debug/netstandard2.1/MenuSystem.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/MenuSystem/bin/Debug/netstandard2.1/MenuSystem.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MenuSystem/bin/Debug/netstandard2.1/MenuSystem.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MenuSystem/bin/Debug/netstandard2.1/MenuSystem.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MenuSystem/bin/Debug/netstandard2.1/MenuSystem.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MenuSystem/bin/Debug/netstandard2.1/MenuSystem.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MenuSystem/obj/Debug/netstandard2.1/MenuSystem.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MenuSystem/obj/Debug/netstandard2.1/MenuSystem.AssemblyInfo.cs" afterDir="false" />
@@ -94,6 +107,7 @@
       <change beforePath="$PROJECT_DIR$/MenuSystem/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MenuSystem/obj/project.assets.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MenuSystem/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MenuSystem/obj/project.nuget.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MenuSystem/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MenuSystem/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MenuSystem/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MenuSystem/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +116,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/GameEngine/Battleships.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MenuSystem/MenuItem.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GameEngine/GameState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/ConsoleApp/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GameUIConsole/ConsoleUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/GameEngine/CellState.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -112,10 +134,12 @@
         <option value="$PROJECT_DIR$/Options/Theme.cs" />
         <option value="$PROJECT_DIR$/GameEngine/CellState.cs" />
         <option value="$PROJECT_DIR$/MenuSystem/MenuItem.cs" />
-        <option value="$PROJECT_DIR$/GameEngine/GameState.cs" />
         <option value="$PROJECT_DIR$/GameUIConsole/ConsoleUI.cs" />
-        <option value="$PROJECT_DIR$/GameEngine/Battleships.cs" />
         <option value="$PROJECT_DIR$/MenuSystem/Menu.cs" />
+        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch_1.properties" />
+        <option value="$PROJECT_DIR$/Directory.Build.props" />
+        <option value="$PROJECT_DIR$/GameEngine/GameState.cs" />
+        <option value="$PROJECT_DIR$/GameEngine/Battleships.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp/Program.cs" />
       </list>
     </option>
@@ -130,8 +154,9 @@
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="GitIgnore" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Properties&#10;GitIgnore" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -168,6 +193,8 @@
       <workItem from="1602530148747" duration="8596000" />
       <workItem from="1602607700875" duration="18644000" />
       <workItem from="1602652098599" duration="415000" />
+      <workItem from="1602698986109" duration="871000" />
+      <workItem from="1602699891796" duration="8899000" />
     </task>
     <task id="LOCAL−00001" summary="can't get 2nd board to work">
       <created>1602627011119</created>
@@ -201,34 +228,39 @@
     <option name="LAST_COMMIT_MESSAGE" value="can't get 2nd board to work" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="938" height="281" key="GridCell.Tab.0.bottom" timestamp="1602681764105">
+    <state x="536" y="165" key="#Inspection_severity" timestamp="1602699614058">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602681764105" />
+    <state x="536" y="165" key="#Inspection_severity/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602699614058" />
+    <state width="938" height="403" key="GridCell.Tab.0.bottom" timestamp="1602708534225">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="938" height="403" key="GridCell.Tab.0.bottom/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602708534225" />
     <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1601342846177" />
-    <state width="938" height="281" key="GridCell.Tab.0.center" timestamp="1602681764105">
+    <state width="938" height="403" key="GridCell.Tab.0.center" timestamp="1602708534225">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602681764105" />
+    <state width="938" height="403" key="GridCell.Tab.0.center/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602708534225" />
     <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1601342846177" />
-    <state width="938" height="281" key="GridCell.Tab.0.left" timestamp="1602681764105">
+    <state width="938" height="403" key="GridCell.Tab.0.left" timestamp="1602708534225">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602681764105" />
+    <state width="938" height="403" key="GridCell.Tab.0.left/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602708534225" />
     <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1601342846177" />
-    <state width="938" height="281" key="GridCell.Tab.0.right" timestamp="1602681764105">
+    <state width="938" height="403" key="GridCell.Tab.0.right" timestamp="1602708534225">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602681764105" />
+    <state width="938" height="403" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602708534225" />
     <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1601342846177" />
-    <state x="552" y="262" key="Rider.ProjectTemplateDialog.Size" timestamp="1601479855185">
+    <state x="552" y="262" key="Rider.ProjectTemplateDialog.Size" timestamp="1602698449594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="262" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1601479855185" />
+    <state x="552" y="262" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602698449594" />
     <state x="552" y="272" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1601325577585" />
-    <state x="461" y="185" key="SettingsEditor" timestamp="1601321746397">
-      <screen x="0" y="0" width="1920" height="1080" />
+    <state x="461" y="178" key="SettingsEditor" timestamp="1602698815534">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="461" y="178" key="SettingsEditor/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602698815534" />
     <state x="461" y="185" key="SettingsEditor/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1601321746397" />
     <state x="552" y="263" key="Vcs.Push.Dialog.v2" timestamp="1602627014495">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -239,5 +271,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="777" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1601330322818" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1602700173216">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602700173216" />
   </component>
 </project>

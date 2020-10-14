@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\MenuSystem\\MenuSystem.csproj",
+    "projectUniqueName": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\MenuSystem\\MenuSystem.csproj",
     "projectName": "MenuSystem",
-    "projectPath": "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\MenuSystem\\MenuSystem.csproj",
-    "outputPath": "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\MenuSystem\\obj\\",
+    "projectPath": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\MenuSystem\\MenuSystem.csproj",
+    "outputPath": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\MenuSystem\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netstandard2.1"
@@ -16,15 +16,16 @@
       "netstandard2.1": {
         "projectReferences": {}
       }
-    },
-    "warningProperties": {
-      "warnAsError": [
-        "NU1605"
-      ]
     }
   },
   "frameworks": {
     "netstandard2.1": {
+      "dependencies": {
+        "System.Text.Json": {
+          "target": "Package",
+          "version": "[4.7.2, )"
+        }
+      },
       "imports": [
         "net461",
         "net462",
@@ -40,7 +41,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "C:\\Users\\jevfe\\.dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
     }
   }
 }

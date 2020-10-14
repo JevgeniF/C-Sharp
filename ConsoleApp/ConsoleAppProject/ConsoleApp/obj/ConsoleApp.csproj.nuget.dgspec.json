@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\ConsoleApp\\ConsoleApp.csproj": {}
+    "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\ConsoleApp\\ConsoleApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\ConsoleApp\\ConsoleApp.csproj": {
+    "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\ConsoleApp\\ConsoleApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\ConsoleApp\\ConsoleApp.csproj",
+        "projectUniqueName": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\ConsoleApp\\ConsoleApp.csproj",
         "projectName": "ConsoleApp",
-        "projectPath": "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\ConsoleApp\\ConsoleApp.csproj",
-        "packagesPath": "C:\\Users\\jevfe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\ConsoleApp\\obj\\",
+        "projectPath": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\ConsoleApp\\ConsoleApp.csproj",
+        "packagesPath": "C:\\Users\\jevge\\.nuget\\packages\\",
+        "outputPath": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\ConsoleApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jevfe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jevge\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -25,26 +25,27 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameEngine\\GameEngine.csproj": {
-                "projectPath": "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameEngine\\GameEngine.csproj"
+              "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameEngine\\GameEngine.csproj": {
+                "projectPath": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameEngine\\GameEngine.csproj"
               },
-              "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameUIConsole\\GameUIConsole.csproj": {
-                "projectPath": "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameUIConsole\\GameUIConsole.csproj"
+              "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameUIConsole\\GameUIConsole.csproj": {
+                "projectPath": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameUIConsole\\GameUIConsole.csproj"
               },
-              "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\MenuSystem\\MenuSystem.csproj": {
-                "projectPath": "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\MenuSystem\\MenuSystem.csproj"
+              "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\MenuSystem\\MenuSystem.csproj": {
+                "projectPath": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\MenuSystem\\MenuSystem.csproj"
               }
             }
           }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
         }
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -60,21 +61,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\jevfe\\.dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameEngine\\GameEngine.csproj": {
+    "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameEngine\\GameEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameEngine\\GameEngine.csproj",
+        "projectUniqueName": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameEngine\\GameEngine.csproj",
         "projectName": "GameEngine",
-        "projectPath": "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameEngine\\GameEngine.csproj",
-        "packagesPath": "C:\\Users\\jevfe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameEngine\\obj\\",
+        "projectPath": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameEngine\\GameEngine.csproj",
+        "packagesPath": "C:\\Users\\jevge\\.nuget\\packages\\",
+        "outputPath": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameEngine\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jevfe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jevge\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -86,15 +87,16 @@
           "netstandard2.1": {
             "projectReferences": {}
           }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
         }
       },
       "frameworks": {
         "netstandard2.1": {
+          "dependencies": {
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -110,21 +112,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\jevfe\\.dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameUIConsole\\GameUIConsole.csproj": {
+    "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameUIConsole\\GameUIConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameUIConsole\\GameUIConsole.csproj",
+        "projectUniqueName": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameUIConsole\\GameUIConsole.csproj",
         "projectName": "GameUIConsole",
-        "projectPath": "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameUIConsole\\GameUIConsole.csproj",
-        "packagesPath": "C:\\Users\\jevfe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameUIConsole\\obj\\",
+        "projectPath": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameUIConsole\\GameUIConsole.csproj",
+        "packagesPath": "C:\\Users\\jevge\\.nuget\\packages\\",
+        "outputPath": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameUIConsole\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jevfe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jevge\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -135,20 +137,21 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameEngine\\GameEngine.csproj": {
-                "projectPath": "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameEngine\\GameEngine.csproj"
+              "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameEngine\\GameEngine.csproj": {
+                "projectPath": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameEngine\\GameEngine.csproj"
               }
             }
           }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
         }
       },
       "frameworks": {
         "netstandard2.1": {
+          "dependencies": {
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -164,21 +167,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\jevfe\\.dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\MenuSystem\\MenuSystem.csproj": {
+    "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\MenuSystem\\MenuSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\MenuSystem\\MenuSystem.csproj",
+        "projectUniqueName": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\MenuSystem\\MenuSystem.csproj",
         "projectName": "MenuSystem",
-        "projectPath": "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\MenuSystem\\MenuSystem.csproj",
-        "packagesPath": "C:\\Users\\jevfe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jevfe\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\MenuSystem\\obj\\",
+        "projectPath": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\MenuSystem\\MenuSystem.csproj",
+        "packagesPath": "C:\\Users\\jevge\\.nuget\\packages\\",
+        "outputPath": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\MenuSystem\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jevfe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jevge\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -190,15 +193,16 @@
           "netstandard2.1": {
             "projectReferences": {}
           }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
         }
       },
       "frameworks": {
         "netstandard2.1": {
+          "dependencies": {
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[4.7.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -214,7 +218,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\jevfe\\.dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

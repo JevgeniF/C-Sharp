@@ -1,5 +1,5 @@
 ﻿using System;
-using System.Runtime.Serialization.Formatters;
+using System.Linq;
 using GameEngine;
 using GameUIConsole;
 using MenuSystem;
@@ -8,6 +8,7 @@ namespace ConsoleApp
 {
     internal static class Program
     {
+        public static Battleships CurrentGame = new Battleships();
         static void Main()
         {
             // App Header.
@@ -27,7 +28,7 @@ namespace ConsoleApp
             menu.AddMenuItem(new MenuItem("New Game: Player vs Player", "1", Game));
             menu.AddMenuItem(new MenuItem("New Game: Player vs AI", "2", DefaultMenuAction));
             menu.AddMenuItem(new MenuItem("New Game: AI vs AI", "3", DefaultMenuAction));
-            menu.AddMenuItem(new MenuItem("Options", "4", menuOptions.RunMenu));
+            menu.AddMenuItem(new MenuItem("Options", "O", menuOptions.RunMenu));
 
             menu.RunMenu();
 
@@ -49,54 +50,121 @@ namespace ConsoleApp
             var boards = game.GetBoards();
             string userChoice;
 
+            EndPoint:
+            Console.WriteLine("Would you like to load previous game? (Y/N)");
+            var option = Console.ReadLine()?.ToUpper().Trim();
+            if (option == "Y")
+            {
+                LoadGameAction(game);
+            } else if (option != "N" && option != "Y")
+            {
+                Console.WriteLine("No such Option");
+                goto EndPoint;
+            }
+
             do
-            {   var menu = new Menu(MenuLevel.Game);
-                menu.AddMenuItem(new MenuItem($"Player {(game.NextMoveByFirst ? "One" : "Two")} make a move", "P",
+            {
+                if (Battleships.NextMoveByFirst)
+                {
+                    Console.WriteLine("It's PLAYER'S ONE turn");
+                }
+                else if (!Battleships.NextMoveByFirst)
+                {
+                    Console.WriteLine("It's PLAYER'S TWO turn");
+                }
+                var menu = new Menu(MenuLevel.Game);
+                menu.AddMenuItem(new MenuItem($"Press to engage weapons system", "P",
                     () =>
                     {
-                        switch (game.NextMoveByFirst)
+                        switch (Battleships.NextMoveByFirst)
                         {
-                            case true: ;
-                                ConsoleUi.DrawBoard((CellState[,]) boards[0]);
+                            case true:
+                                ConsoleUi.DrawBoard(boards[0]);
                                 break;
                             case false:
-                                ConsoleUi.DrawBoard((CellState[,]) boards[1]);
+                                ConsoleUi.DrawBoard(boards[1]);
                                 break;
                         }
-                        
+
                         GetMoveCoordinates();
-                        if (game.NextMoveByFirst)
-                        {
-                            game.MakeAMove((CellState[,]) boards[0]);
+                        if (Battleships.NextMoveByFirst)
+                        { 
+                            Battleships.MakeAMove(boards[0]);
                         }
                         else
                         {
-                            game.MakeAMove((CellState[,]) boards[1]);
+                            Battleships.MakeAMove(boards[1]);
                         }
-
-                        Console.Clear();
+                        
+                        if (Battleships.NextMoveByFirst)
+                        {
+                            Console.WriteLine("It's PLAYER'S ONE turn");
+                        }
+                        else if (!Battleships.NextMoveByFirst)
+                        {
+                            Console.WriteLine("It's PLAYER'S TWO turn");
+                        }
+                        
                         return "";
                     }));
-                menu.AddMenuItem(new MenuItem("Save Game", "S", DefaultMenuAction));
+                menu.AddMenuItem(new MenuItem("Save Game", "S", () => { return SaveGameAction(game); }));
                 userChoice = menu.RunMenu();
             } while (userChoice != "E");
-
             return "";
         }
 
-        static string GetMoveCoordinates() // Get coordinates of user move
+        static void GetMoveCoordinates() // Get coordinates of user move
         {
             Console.WriteLine("Indicate a square for attack, Commander!");
-            var userValue = Console.ReadLine();
+            var userValue = Console.ReadLine()?.ToUpper().Trim() ?? "";
             Battleships.MoveCoordinates = userValue;
-            return userValue;
+        }
+
+        static string SaveGameAction(Battleships game)
+        {
+            var defaultName = "save_" + DateTime.Now.ToString("yyyy-MM-dd") + ".json";
+            Console.WriteLine($"File name ({defaultName}:");
+            var fileName = Console.ReadLine();
+            if (string.IsNullOrWhiteSpace(fileName))
+            {
+                fileName = defaultName;
+            }
+
+            var serializedGame = game.GetSerializedGameState();
+            System.IO.File.WriteAllText(fileName, serializedGame);
+            return "";
+        }
+        
+        static void LoadGameAction(Battleships game)
+        {
+            var files = System.IO.Directory.EnumerateFiles(".", "*.json").ToList();
+            for (var i = 0; i < files.Count; i++)
+            {
+                Console.WriteLine($"{i} - {files[i]}");
+            }
+            Console.WriteLine("Enter SaveFile Number:");
+            var number = Console.ReadLine();
+            var fileNumber = files.Count + 1;
+            var fileName = "";
+            bool success = number != null && Int32.TryParse(number.Trim(), out fileNumber);
+            if (success)
+            {
+                if (fileNumber >= 0 && files.Count > fileNumber)
+                {
+                    fileName = files[fileNumber];
+                }
+            }
+
+            var jsonString = System.IO.File.ReadAllText(fileName);
+
+            game.SetGameStateFromJson(jsonString);
         }
 
         static string BoardSettings() //Default action for not implemented menu functions
         {
             Console.WriteLine("What size of board do you prefer? Enter width (max = 20):");
-            int width = Convert.ToInt32(Console.ReadLine());
 
+            int width = Convert.ToInt32(Console.ReadLine());
             if (width <= 20 && width > 0)
             {
                 Battleships.Width = width;
@@ -123,6 +191,7 @@ namespace ConsoleApp
 
             ConsoleColor consoleColorBack;
             try
+
             {
                 consoleColorBack = (ConsoleColor) Enum.Parse(typeof(ConsoleColor), background!, true);
             }
@@ -136,6 +205,7 @@ namespace ConsoleApp
 
             ConsoleColor consoleColorFront;
             try
+
             {
                 consoleColorFront = (ConsoleColor) Enum.Parse(typeof(ConsoleColor), foreground!, true);
             }
