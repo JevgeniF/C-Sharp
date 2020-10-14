@@ -7,6 +7,5 @@
         public CellState[][] BoardTwo { get; set; } = null!;
         public int Width { get; set; }
         public int Height { get; set; }
-
     }
 }

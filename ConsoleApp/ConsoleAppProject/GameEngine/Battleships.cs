@@ -7,9 +7,10 @@ namespace GameEngine
     {
         public static int Width = 10;
         public static string MoveCoordinates = "";
-        private readonly CellState[,] _board = new CellState[Width, Width];
-        private static bool _nextMoveByFirst = true;
         private static CellState[][,] _boards = null!;
+        private readonly CellState[,] _board = new CellState[Width, Width];
+
+        public static bool NextMoveByFirst { get; private set; } = true;
 
         public CellState[][,] GetBoards()
         {
@@ -22,17 +23,12 @@ namespace GameEngine
             return resses;
         }
 
-        public static bool NextMoveByFirst => _nextMoveByFirst;
-
-        public static bool MakeAMove(CellState[,] board)
+        public static void MakeAMove(CellState[,] board)
         {
-            int attackCol = (char.ToUpper(MoveCoordinates[0]) - 65);
-            int attackRow = Width + 1;
-            bool success = Int32.TryParse((MoveCoordinates.Substring(1)), out int number);
-            if (success)
-            {
-                attackRow = number - 1;
-            }
+            var attackCol = char.ToUpper(MoveCoordinates[0]) - 65;
+            var attackRow = Width + 1;
+            var success = int.TryParse(MoveCoordinates.Substring(1), out var number);
+            if (success) attackRow = number - 1;
 
             if (attackCol >= Width || attackRow >= Width)
             {
@@ -40,80 +36,52 @@ namespace GameEngine
             }
             else if (board[attackCol, attackRow] == CellState.Empty)
             {
-                board[attackCol, attackRow] = _nextMoveByFirst ? CellState.O : CellState.T;
-                _nextMoveByFirst = !_nextMoveByFirst;
-                return true;
+                board[attackCol, attackRow] = NextMoveByFirst ? CellState.O : CellState.T;
+                NextMoveByFirst = !NextMoveByFirst;
             }
-
-            return false;
         }
 
         public string GetSerializedGameState()
         {
             var state = new GameState
             {
-                NextMoveByFirst = _nextMoveByFirst, Width = _board.GetLength(0), Height = _board.GetLength(1)
+                NextMoveByFirst = NextMoveByFirst, Width = _board.GetLength(0), Height = _board.GetLength(1)
             };
             state.BoardOne = new CellState[state.Width][];
-            
-            for (var i = 0; i < state.BoardOne.Length; i++)
-            {
-                state.BoardOne[i] = new CellState[state.Height];
-            }
+
+            for (var i = 0; i < state.BoardOne.Length; i++) state.BoardOne[i] = new CellState[state.Height];
 
             for (var x = 0; x < state.Width; x++)
-            {
-                for (var y = 0; y < state.Height; y++)
-                {
-                    state.BoardOne[x][y] = _boards[0][x, y];
-                }
-            }
-            
-            
-            
-            
+            for (var y = 0; y < state.Height; y++)
+                state.BoardOne[x][y] = _boards[0][x, y];
+
+
             state.BoardTwo = new CellState[state.Width][];
-            for (var i = 0; i < state.BoardTwo.Length; i++)
-            {
-                state.BoardTwo[i] = new CellState[state.Height];
-            }
-            
+            for (var i = 0; i < state.BoardTwo.Length; i++) state.BoardTwo[i] = new CellState[state.Height];
+
             for (var x = 0; x < state.Width; x++)
-            {
-                for (var y = 0; y < state.Height; y++)
-                {
-                    state.BoardTwo[x][y] = _boards[1][x, y];
-                }
-            }
-            var jsonOption = new JsonSerializerOptions()
+            for (var y = 0; y < state.Height; y++)
+                state.BoardTwo[x][y] = _boards[1][x, y];
+            var jsonOption = new JsonSerializerOptions
             {
                 WriteIndented = true
             };
-            
+
             return JsonSerializer.Serialize(state, jsonOption);
         }
 
         public void SetGameStateFromJson(string jsonString)
         {
             var state = JsonSerializer.Deserialize<GameState>(jsonString);
-            _nextMoveByFirst = state.NextMoveByFirst;
+            NextMoveByFirst = state.NextMoveByFirst;
             _boards[0] = new CellState[state.Width, state.Height];
             for (var x = 0; x < state.Width; x++)
-            {
-                for (var y = 0; y < state.Height; y++)
-                {
-                    _boards[0][x, y] = state.BoardOne[x][y];
-                }
-            }
+            for (var y = 0; y < state.Height; y++)
+                _boards[0][x, y] = state.BoardOne[x][y];
             _boards[1] = new CellState[state.Width, state.Height];
             for (var x = 0; x < state.Width; x++)
-            {
-                for (var y = 0; y < state.Height; y++)
-                {
-                    _boards[1][x, y] = state.BoardTwo[x][y];
-                }
-            }
+            for (var y = 0; y < state.Height; y++)
+                _boards[1][x, y] = state.BoardTwo[x][y];
         }
     }
-    
 }

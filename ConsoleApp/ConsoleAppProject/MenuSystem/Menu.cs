@@ -14,16 +14,16 @@ namespace MenuSystem
 
     public class Menu
     {
-        private Dictionary<string, MenuItem> MenuItems { get; set; } =
-            new Dictionary<string, MenuItem>(); // Dictionary for Menu Listings
-
         private readonly MenuLevel _menuLevel;
-        private readonly string[] _reservedActions = new[] {"X", "M", "R", "E"};
+        private readonly string[] _reservedActions = {"X", "M", "R", "E"};
 
         public Menu(MenuLevel level)
         {
             _menuLevel = level;
         }
+
+        private Dictionary<string, MenuItem> MenuItems { get; } =
+            new Dictionary<string, MenuItem>(); // Dictionary for Menu Listings
 
         public void AddMenuItem(MenuItem item) // Adding every menu item to Listing with User Choice check.
         {
@@ -94,7 +94,8 @@ namespace MenuSystem
                     break;
                 }
 
-                if ((_menuLevel != MenuLevel.Root && userChoice == "M") || (_menuLevel != MenuLevel.Root && userChoice == "E"))
+                if (_menuLevel != MenuLevel.Root && userChoice == "M" ||
+                    _menuLevel != MenuLevel.Root && userChoice == "E")
                 {
                     break;
                 }
