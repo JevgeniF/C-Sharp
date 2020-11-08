@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "RjE1k3rv4tyuNwLTcpH/zrXw5RlZQREi9flrXYr2rxMIrQhAb4z71lIK66jYTu/w0i9mjJQWnA5m/404TGUmVA==",
+  "dgSpecHash": "zlx+toviubhrzG5tnrt558zXK1KXjtYB5wgXpptPe/JBKWIxqk1wNH3hAZ5PAEPou/C3L5CyoUmc3w2RojLh/A==",
   "success": true,
-  "projectFilePath": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\ConsoleApp\\ConsoleApp.csproj",
+  "projectFilePath": "/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/ConsoleApp/ConsoleApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jevge\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+    "/Users/jevgeni/.nuget/packages/system.text.json/4.7.2/system.text.json.4.7.2.nupkg.sha512"
   ],
   "logs": []
 }

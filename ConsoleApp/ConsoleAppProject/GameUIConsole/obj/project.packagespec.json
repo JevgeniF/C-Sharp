@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameUIConsole\\GameUIConsole.csproj",
+    "projectUniqueName": "/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameUIConsole/GameUIConsole.csproj",
     "projectName": "GameUIConsole",
-    "projectPath": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameUIConsole\\GameUIConsole.csproj",
-    "outputPath": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameUIConsole\\obj\\",
+    "projectPath": "/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameUIConsole/GameUIConsole.csproj",
+    "outputPath": "/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netstandard2.1"
@@ -15,8 +15,8 @@
     "frameworks": {
       "netstandard2.1": {
         "projectReferences": {
-          "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameEngine\\GameEngine.csproj": {
-            "projectPath": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameEngine\\GameEngine.csproj"
+          "/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameEngine/GameEngine.csproj": {
+            "projectPath": "/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameEngine/GameEngine.csproj"
           }
         }
       }
@@ -45,7 +45,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
     }
   }
 }

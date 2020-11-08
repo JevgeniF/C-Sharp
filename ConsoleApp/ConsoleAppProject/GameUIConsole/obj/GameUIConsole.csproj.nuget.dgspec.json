@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameUIConsole\\GameUIConsole.csproj": {}
+    "/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameUIConsole/GameUIConsole.csproj": {}
   },
   "projects": {
-    "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameEngine\\GameEngine.csproj": {
+    "/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameEngine/GameEngine.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameEngine\\GameEngine.csproj",
+        "projectUniqueName": "/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameEngine/GameEngine.csproj",
         "projectName": "GameEngine",
-        "projectPath": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameEngine\\GameEngine.csproj",
-        "packagesPath": "C:\\Users\\jevge\\.nuget\\packages\\",
-        "outputPath": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameEngine\\obj\\",
+        "projectPath": "/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameEngine/GameEngine.csproj",
+        "packagesPath": "/Users/jevgeni/.nuget/packages/",
+        "outputPath": "/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameEngine/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jevge\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/jevgeni/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -51,21 +51,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameUIConsole\\GameUIConsole.csproj": {
+    "/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameUIConsole/GameUIConsole.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameUIConsole\\GameUIConsole.csproj",
+        "projectUniqueName": "/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameUIConsole/GameUIConsole.csproj",
         "projectName": "GameUIConsole",
-        "projectPath": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameUIConsole\\GameUIConsole.csproj",
-        "packagesPath": "C:\\Users\\jevge\\.nuget\\packages\\",
-        "outputPath": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameUIConsole\\obj\\",
+        "projectPath": "/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameUIConsole/GameUIConsole.csproj",
+        "packagesPath": "/Users/jevgeni/.nuget/packages/",
+        "outputPath": "/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jevge\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/jevgeni/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -76,8 +76,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameEngine\\GameEngine.csproj": {
-                "projectPath": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\GameEngine\\GameEngine.csproj"
+              "/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameEngine/GameEngine.csproj": {
+                "projectPath": "/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameEngine/GameEngine.csproj"
               }
             }
           }
@@ -106,7 +106,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
         }
       }
     }

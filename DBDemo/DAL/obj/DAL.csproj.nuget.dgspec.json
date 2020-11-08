@@ -1,0 +1,126 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/jevgeni/RiderProjects/icd0008-2020f/DBDemo/DAL/DAL.csproj": {}
+  },
+  "projects": {
+    "/Users/jevgeni/RiderProjects/icd0008-2020f/DBDemo/DAL/DAL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jevgeni/RiderProjects/icd0008-2020f/DBDemo/DAL/DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "/Users/jevgeni/RiderProjects/icd0008-2020f/DBDemo/DAL/DAL.csproj",
+        "packagesPath": "/Users/jevgeni/.nuget/packages/",
+        "outputPath": "/Users/jevgeni/RiderProjects/icd0008-2020f/DBDemo/DAL/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jevgeni/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "/Users/jevgeni/RiderProjects/icd0008-2020f/DBDemo/Domain/Domain.csproj": {
+                "projectPath": "/Users/jevgeni/RiderProjects/icd0008-2020f/DBDemo/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[3.1.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/jevgeni/RiderProjects/icd0008-2020f/DBDemo/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/jevgeni/RiderProjects/icd0008-2020f/DBDemo/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/jevgeni/RiderProjects/icd0008-2020f/DBDemo/Domain/Domain.csproj",
+        "packagesPath": "/Users/jevgeni/.nuget/packages/",
+        "outputPath": "/Users/jevgeni/RiderProjects/icd0008-2020f/DBDemo/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/jevgeni/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

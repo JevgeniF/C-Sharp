@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\MenuSystem\\MenuSystem.csproj": {}
+    "/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/MenuSystem/MenuSystem.csproj": {}
   },
   "projects": {
-    "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\MenuSystem\\MenuSystem.csproj": {
+    "/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/MenuSystem/MenuSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\MenuSystem\\MenuSystem.csproj",
+        "projectUniqueName": "/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/MenuSystem/MenuSystem.csproj",
         "projectName": "MenuSystem",
-        "projectPath": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\MenuSystem\\MenuSystem.csproj",
-        "packagesPath": "C:\\Users\\jevge\\.nuget\\packages\\",
-        "outputPath": "D:\\TalTech\\Projects\\RiderProjects\\icd0008-2020f\\ConsoleApp\\ConsoleAppProject\\MenuSystem\\obj\\",
+        "projectPath": "/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/MenuSystem/MenuSystem.csproj",
+        "packagesPath": "/Users/jevgeni/.nuget/packages/",
+        "outputPath": "/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/MenuSystem/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jevge\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/jevgeni/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -51,7 +51,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
         }
       }
     }

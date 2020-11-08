@@ -22,7 +22,85 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="087c9d12-053f-49e1-a61a-5dc22906456e" name="Default Changelist" comment="unversioned files" />
+    <list default="true" id="087c9d12-053f-49e1-a61a-5dc22906456e" name="Default Changelist" comment="unversioned files">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.icd0008-2020f.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.icd0008-2020f.dir/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.icd0008-2020f.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.icd0008-2020f.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/.idea/.idea.ConsoleAppProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/.idea/.idea.ConsoleAppProject/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/.idea/.idea.ConsoleAppProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/.idea/.idea.ConsoleAppProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/bin/Debug/netcoreapp3.1/ConsoleApp.runtimeconfig.dev.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/bin/Debug/netcoreapp3.1/GameEngine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/bin/Debug/netcoreapp3.1/GameEngine.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/bin/Debug/netcoreapp3.1/GameEngine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/bin/Debug/netcoreapp3.1/GameEngine.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/bin/Debug/netcoreapp3.1/GameUIConsole.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/bin/Debug/netcoreapp3.1/GameUIConsole.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/bin/Debug/netcoreapp3.1/GameUIConsole.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/bin/Debug/netcoreapp3.1/GameUIConsole.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/bin/Debug/netcoreapp3.1/MenuSystem.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/bin/Debug/netcoreapp3.1/MenuSystem.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/bin/Debug/netcoreapp3.1/MenuSystem.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/bin/Debug/netcoreapp3.1/MenuSystem.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/ConsoleApp.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/ConsoleApp.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/ConsoleApp.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/ConsoleApp.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/bin/Debug/netstandard2.1/GameEngine.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/bin/Debug/netstandard2.1/GameEngine.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/bin/Debug/netstandard2.1/GameEngine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/bin/Debug/netstandard2.1/GameEngine.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/bin/Debug/netstandard2.1/GameEngine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/bin/Debug/netstandard2.1/GameEngine.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/Debug/netstandard2.1/GameEngine.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/Debug/netstandard2.1/GameEngine.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/Debug/netstandard2.1/GameEngine.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/Debug/netstandard2.1/GameEngine.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/Debug/netstandard2.1/GameEngine.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/Debug/netstandard2.1/GameEngine.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/Debug/netstandard2.1/GameEngine.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/Debug/netstandard2.1/GameEngine.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/Debug/netstandard2.1/GameEngine.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/Debug/netstandard2.1/GameEngine.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/Debug/netstandard2.1/GameEngine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/Debug/netstandard2.1/GameEngine.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/Debug/netstandard2.1/GameEngine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/Debug/netstandard2.1/GameEngine.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/GameEngine.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/GameEngine.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/GameEngine.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/GameEngine.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/bin/Debug/netstandard2.1/GameEngine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/bin/Debug/netstandard2.1/GameEngine.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/bin/Debug/netstandard2.1/GameEngine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/bin/Debug/netstandard2.1/GameEngine.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/bin/Debug/netstandard2.1/GameUIConsole.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/bin/Debug/netstandard2.1/GameUIConsole.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/bin/Debug/netstandard2.1/GameUIConsole.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/bin/Debug/netstandard2.1/GameUIConsole.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/bin/Debug/netstandard2.1/GameUIConsole.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/bin/Debug/netstandard2.1/GameUIConsole.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/GameUIConsole.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/GameUIConsole.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/GameUIConsole.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/GameUIConsole.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/bin/Debug/netstandard2.1/MenuSystem.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/bin/Debug/netstandard2.1/MenuSystem.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/bin/Debug/netstandard2.1/MenuSystem.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/bin/Debug/netstandard2.1/MenuSystem.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/bin/Debug/netstandard2.1/MenuSystem.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/bin/Debug/netstandard2.1/MenuSystem.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/Debug/netstandard2.1/MenuSystem.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/Debug/netstandard2.1/MenuSystem.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/Debug/netstandard2.1/MenuSystem.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/Debug/netstandard2.1/MenuSystem.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/Debug/netstandard2.1/MenuSystem.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/Debug/netstandard2.1/MenuSystem.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/Debug/netstandard2.1/MenuSystem.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/Debug/netstandard2.1/MenuSystem.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/Debug/netstandard2.1/MenuSystem.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/Debug/netstandard2.1/MenuSystem.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/Debug/netstandard2.1/MenuSystem.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/Debug/netstandard2.1/MenuSystem.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/Debug/netstandard2.1/MenuSystem.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/Debug/netstandard2.1/MenuSystem.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/MenuSystem.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/MenuSystem.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/MenuSystem.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/MenuSystem.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +132,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleAppProject.sln" />
     <property name="do_not_show_solution_notification" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.environmentSetup" />
+    <property name="settings.editor.selected.configurable" value="SolutionBuilderGeneralOptionsPageId" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -88,6 +166,9 @@
       <workItem from="1601363923678" duration="134000" />
       <workItem from="1601364113596" duration="11157000" />
       <workItem from="1601468657975" duration="6503000" />
+      <workItem from="1604850933726" duration="91000" />
+      <workItem from="1604851085987" duration="181000" />
+      <workItem from="1604855057284" duration="62000" />
     </task>
     <task id="LOCAL−00001" summary="Main Menu switch still not implemented.&#10;Themes, Arrows controls not implemented">
       <created>1601386011407</created>
@@ -121,6 +202,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Main Menu switch still not implemented.&#10;Themes, Arrows controls not implemented" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="568" y="324" key="#Notifications" timestamp="1604850939326">
+      <screen x="0" y="25" width="1680" height="940" />
+    </state>
+    <state x="568" y="324" key="#Notifications/0.25.1680.940@0.25.1680.940" timestamp="1604850939326" />
     <state width="928" height="266" key="GridCell.Tab.0.bottom" timestamp="1601474907896">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -137,10 +222,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="928" height="266" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1601474907896" />
-    <state x="461" y="165" key="SettingsEditor" timestamp="1601364052516">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="459" y="133" key="SettingsEditor" timestamp="1604851217330">
+      <screen x="0" y="25" width="1680" height="940" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1601364052516" />
+    <state x="459" y="133" key="SettingsEditor/0.25.1680.940@0.25.1680.940" timestamp="1604851217330" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601386013272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

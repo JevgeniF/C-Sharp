@@ -109,9 +109,17 @@ namespace ConsoleApp
         private static string SaveGameAction(Battleships game)
         {
             var defaultName = "save_" + DateTime.Now.ToString("yyyy-MM-dd") + ".json";
-            Console.WriteLine($"File name ({defaultName}:");
-            var fileName = Console.ReadLine();
-            if (string.IsNullOrWhiteSpace(fileName)) fileName = defaultName;
+            Console.WriteLine($"File name ({defaultName}):");
+            var fileName = "";
+            var name = Console.ReadLine();
+            if (string.IsNullOrWhiteSpace(name))
+            {
+                fileName = defaultName;
+            }
+            else
+            {
+                fileName = "save_" + name + ".json";
+            }
 
             var serializedGame = game.GetSerializedGameState();
             File.WriteAllText(fileName, serializedGame);
@@ -120,20 +128,35 @@ namespace ConsoleApp
 
         private static void LoadGameAction(Battleships game)
         {
-            var files = Directory.EnumerateFiles(".", "*.json").ToList();
+            var files = Directory.EnumerateFiles(".", "save_*.json").ToList();
             for (var i = 0; i < files.Count; i++) Console.WriteLine($"{i} - {files[i]}");
             Console.WriteLine("Enter SaveFile Number:");
             var number = Console.ReadLine();
-            var fileNumber = files.Count + 1;
-            var fileName = "";
-            var success = number != null && int.TryParse(number.Trim(), out fileNumber);
-            if (success)
-                if (fileNumber >= 0 && files.Count > fileNumber)
-                    fileName = files[fileNumber];
-
-            var jsonString = File.ReadAllText(fileName);
-
-            game.SetGameStateFromJson(jsonString);
+            number = number?.Trim();
+            if (!string.IsNullOrEmpty(number))
+            { 
+                var fileNumber = files.Count + 1; 
+                var success = number != "" && int.TryParse(number, out fileNumber); 
+                if (success) 
+                { 
+                    if (fileNumber >= 0 && files.Count - 1 >= fileNumber) 
+                    { 
+                        var fileName = files[fileNumber]; 
+                        var jsonString = File.ReadAllText(fileName); 
+                        game.SetGameStateFromJson(jsonString);
+                    }
+                    else 
+                    { 
+                        Console.WriteLine("Save not found!"); 
+                        LoadGameAction(game);
+                    }
+                }
+            }
+            else
+            {
+                Console.WriteLine("Save not found!");
+                LoadGameAction(game);
+            }
         }
 
         private static string BoardSettings() //Default action for not implemented menu functions
