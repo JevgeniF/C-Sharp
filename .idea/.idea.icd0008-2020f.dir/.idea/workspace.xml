@@ -23,19 +23,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="087c9d12-053f-49e1-a61a-5dc22906456e" name="Default Changelist" comment="unversioned files">
+      <change afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.icd0008-2020f.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.icd0008-2020f.dir/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.icd0008-2020f.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.icd0008-2020f.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDemo/.idea/.idea.DBDemo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DBDemo/.idea/.idea.DBDemo/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/.idea/.idea.ConsoleAppProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/.idea/.idea.ConsoleAppProject/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/.idea/.idea.ConsoleAppProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/.idea/.idea.ConsoleAppProject/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleAppProject.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleAppProject.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/Debug/netstandard2.1/GameEngine.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/Debug/netstandard2.1/GameEngine.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameEngine/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/Debug/netstandard2.1/MenuSystem.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/Debug/netstandard2.1/MenuSystem.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/obj/rider.project.restore.info" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DBDemo/.idea/.idea.DBDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DBDemo/.idea/.idea.DBDemo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDemo/DAL/obj/Debug/netstandard2.1/DAL.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DBDemo/DAL/obj/Debug/netstandard2.1/DAL.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDemo/DAL/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/DBDemo/DAL/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDemo/DBDemo/bin/Debug/netcoreapp3.1/DBDemo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DBDemo/DBDemo/bin/Debug/netcoreapp3.1/DBDemo.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDemo/DBDemo/bin/Debug/netcoreapp3.1/DBDemo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DBDemo/DBDemo/bin/Debug/netcoreapp3.1/DBDemo.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDemo/DBDemo/obj/Debug/netcoreapp3.1/DBDemo.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DBDemo/DBDemo/obj/Debug/netcoreapp3.1/DBDemo.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDemo/DBDemo/obj/Debug/netcoreapp3.1/DBDemo.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DBDemo/DBDemo/obj/Debug/netcoreapp3.1/DBDemo.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDemo/DBDemo/obj/Debug/netcoreapp3.1/DBDemo.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DBDemo/DBDemo/obj/Debug/netcoreapp3.1/DBDemo.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDemo/DBDemo/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/DBDemo/DBDemo/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDemo/Domain/obj/Debug/netstandard2.1/Domain.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DBDemo/Domain/obj/Debug/netstandard2.1/Domain.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DBDemo/Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/DBDemo/Domain/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +56,7 @@
         <option value="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/MenuItem.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleApp/Program.cs" />
         <option value="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/MenuSystem/Menu.cs" />
+        <option value="$PROJECT_DIR$/ConsoleApp/ConsoleAppProject/ConsoleAppProject.sln" />
       </list>
     </option>
   </component>
@@ -107,6 +110,8 @@
       <workItem from="1604855057284" duration="62000" />
       <workItem from="1604956227478" duration="48000" />
       <workItem from="1605029198759" duration="155000" />
+      <workItem from="1605041434703" duration="175000" />
+      <workItem from="1605043963915" duration="7000" />
     </task>
     <task id="LOCAL−00001" summary="Main Menu switch still not implemented.&#10;Themes, Arrows controls not implemented">
       <created>1601386011407</created>

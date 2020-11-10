@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4rE8tAylkxggqvt6NZKSMWvddy/3mzI4ugiQUqDfriGTthZe17qT6YhIw8L6ELTN01PTw+tffaimZqctJkwYVQ==",
+  "success": true,
+  "projectFilePath": "/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/Domain/Domain.csproj",
+  "expectedPackageFiles": [
+    "/Users/jevgeni/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
