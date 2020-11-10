@@ -7,9 +7,15 @@ namespace Domain
         public int GradeValue { get; set; }
         
         public int StudentId { get; set; }
-        public Student Student { get; set; }
+        public Student? Student { get; set; }
         
         public int HomeworkId { get; set; }
-        public Homework Homework { get; set; }
+        public Homework? Homework { get; set; }
+
+        public override string ToString()
+        {
+            return
+                $"{GradeId} - {GradeValue}. StudentId: {StudentId}, HomeworkId: {HomeworkId}, Student: {Student}, Homework: {Homework}";
         }
+    }
 }

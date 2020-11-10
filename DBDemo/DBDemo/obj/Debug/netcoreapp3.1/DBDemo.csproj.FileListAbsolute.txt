@@ -77,3 +77,7 @@
 /Users/jevgeni/RiderProjects/icd0008-2020f/DBDemo/DBDemo/bin/Debug/netcoreapp3.1/Domain.pdb
 /Users/jevgeni/RiderProjects/icd0008-2020f/DBDemo/DBDemo/obj/Debug/netcoreapp3.1/DBDemo.csproj.CopyComplete
 /Users/jevgeni/RiderProjects/icd0008-2020f/DBDemo/DBDemo/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
+/Users/jevgeni/RiderProjects/icd0008-2020f/DBDemo/DBDemo/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Configuration.dll
+/Users/jevgeni/RiderProjects/icd0008-2020f/DBDemo/DBDemo/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Logging.Console.dll
+/Users/jevgeni/RiderProjects/icd0008-2020f/DBDemo/DBDemo/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Options.ConfigurationExtensions.dll
+/Users/jevgeni/RiderProjects/icd0008-2020f/DBDemo/DBDemo/bin/Debug/netcoreapp3.1/System.ComponentModel.Annotations.dll

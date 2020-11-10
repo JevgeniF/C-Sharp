@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "U3dgsxwVJ3Lh6Y6TrAvifPtgphh2ZRWHjBEXk5nI5+9WG1LypDBvtkIS4FUO2ssHOXHhVbCn+Awz3px+xR9aEQ==",
+  "dgSpecHash": "vDoc4NBqzeY784LYqaioMpyoz4hIcwdAu/+MNY62klTVjaEUvIyQmQ7yiZVtdYhb3aIk0aXmtr0B06IyaV5geQ==",
   "success": true,
   "projectFilePath": "/Users/jevgeni/RiderProjects/icd0008-2020f/DBDemo/Domain/Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/jevgeni/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
