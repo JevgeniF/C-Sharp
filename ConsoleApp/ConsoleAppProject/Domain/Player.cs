@@ -16,5 +16,7 @@ namespace Domain
         public Game? Game { get; set; }
 
         public ICollection<GameBoat>? GameBoats { get; set; }
+        
+        public  ICollection<PlayerBoardState>? PlayerBoardStates { get; set; }
     }
 }

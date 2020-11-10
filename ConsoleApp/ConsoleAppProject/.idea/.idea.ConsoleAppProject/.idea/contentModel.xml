@@ -20,6 +20,18 @@
         <e p="Program.cs" t="Include" />
       </e>
       <e p="ConsoleAppProject.sln" t="IncludeFlat" />
+      <e p="DAL" t="IncludeRecursive">
+        <e p="ApplicationDbContext.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DAL.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.1" t="Include">
+              <e p="DAL.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
       <e p="Directory.Build.props" t="Include" />
       <e p="Domain" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
