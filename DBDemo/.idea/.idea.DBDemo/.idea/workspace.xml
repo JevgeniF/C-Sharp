@@ -23,6 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e948f334-4579-44bc-95e9-057e3b0419db" name="Default Changelist" comment="DBDemo complete">
+      <change afterPath="$PROJECT_DIR$/../RazorDemo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RazorDemo/.idea/.idea.RazorDemo/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RazorDemo/.idea/.idea.RazorDemo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RazorDemo/.idea/.idea.RazorDemo/.idea/projectSettingsUpdater.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RazorDemo/.idea/.idea.RazorDemo/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ConsoleApp/ConsoleAppProject/.idea/.idea.ConsoleAppProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleApp/ConsoleAppProject/.idea/.idea.ConsoleAppProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DBDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DBDemo/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,6 +107,7 @@
       <workItem from="1604956285157" duration="276000" />
       <workItem from="1605029367932" duration="10285000" />
       <workItem from="1605041425097" duration="2000" />
+      <workItem from="1605119007522" duration="496000" />
     </task>
     <task id="LOCAL-00001" summary="DBDemo complete">
       <created>1605041215606</created>

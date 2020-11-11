@@ -22,34 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9fe0bfb-303f-46f8-843f-9021e59e1cfe" name="Default Changelist" comment="DataStructure (Domain)">
-      <change afterPath="$PROJECT_DIR$/DAL/ApplicationDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/DAL.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/obj/DAL.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/obj/DAL.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/obj/DAL.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/obj/Debug/netstandard2.1/.NETStandard,Version=v2.1.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/obj/Debug/netstandard2.1/DAL.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/obj/Debug/netstandard2.1/DAL.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/obj/Debug/netstandard2.1/DAL.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/obj/Debug/netstandard2.1/DAL.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleAppProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleAppProject/.idea/contentModel.xml" afterDir="false" />
+    <list default="true" id="a9fe0bfb-303f-46f8-843f-9021e59e1cfe" name="Default Changelist" comment="just pushing to be able to continue on another PC">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ConsoleAppProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ConsoleAppProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/Debug/netcoreapp3.1/ConsoleApp.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleApp/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleApp/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ConsoleAppProject.sln" beforeDir="false" afterPath="$PROJECT_DIR$/ConsoleAppProject.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/Debug/netstandard2.1/Domain.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/Debug/netstandard2.1/Domain.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameEngine/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/GameEngine/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GameUIConsole/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/GameUIConsole/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuSystem/obj/Debug/netstandard2.1/MenuSystem.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MenuSystem/obj/Debug/netstandard2.1/MenuSystem.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MenuSystem/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MenuSystem/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,6 +136,8 @@
       <workItem from="1605041615939" duration="800000" />
       <workItem from="1605043978228" duration="5372000" />
       <workItem from="1605050516399" duration="1555000" />
+      <workItem from="1605052524315" duration="45000" />
+      <workItem from="1605116529818" duration="645000" />
     </task>
     <task id="LOCAL−00001" summary="can't get 2nd board to work">
       <created>1602627011119</created>
@@ -182,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605049479080</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="just pushing to be able to continue on another PC">
+      <created>1605052557292</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605052557292</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +191,8 @@
     <MESSAGE value="can't get 2nd board to work" />
     <MESSAGE value="Save works.&#10;Loading works (askind to load previous game, while starting new game)&#10;Player indicator works." />
     <MESSAGE value="DataStructure (Domain)" />
-    <option name="LAST_COMMIT_MESSAGE" value="DataStructure (Domain)" />
+    <MESSAGE value="just pushing to be able to continue on another PC" />
+    <option name="LAST_COMMIT_MESSAGE" value="just pushing to be able to continue on another PC" />
   </component>
   <component name="WindowStateProjectService">
     <state x="536" y="165" key="#Inspection_severity" timestamp="1602699614058">
@@ -243,24 +227,24 @@
     <state width="938" height="403" key="GridCell.Tab.0.right/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602708534225" />
     <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1601342846177" />
     <state width="1638" height="160" key="GridCell.Tab.0.right/0.25.1680.940@0.25.1680.940" timestamp="1604855053821" />
-    <state x="836" y="237" key="Rider.ProjectTemplateDialog.Size" timestamp="1605051175964">
+    <state x="836" y="237" key="Rider.ProjectTemplateDialog.Size" timestamp="1605116576293">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="552" y="262" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602698449594" />
     <state x="552" y="272" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1601325577585" />
-    <state x="836" y="237" key="Rider.ProjectTemplateDialog.Size/0.23.1680.1027@0.23.1680.1027" timestamp="1605051175964" />
+    <state x="836" y="237" key="Rider.ProjectTemplateDialog.Size/0.23.1680.1027@0.23.1680.1027" timestamp="1605116576293" />
     <state x="403" y="186" key="SettingsEditor" timestamp="1604851306219">
       <screen x="0" y="25" width="1680" height="940" />
     </state>
     <state x="461" y="178" key="SettingsEditor/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602698815534" />
     <state x="461" y="185" key="SettingsEditor/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1601321746397" />
     <state x="403" y="186" key="SettingsEditor/0.25.1680.940@0.25.1680.940" timestamp="1604851306219" />
-    <state x="483" y="283" key="Vcs.Push.Dialog.v2" timestamp="1605049482072">
+    <state x="483" y="283" key="Vcs.Push.Dialog.v2" timestamp="1605052560476">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="552" y="263" key="Vcs.Push.Dialog.v2/0.0.1920.1040/0.-1080.1920.1040@0.0.1920.1040" timestamp="1602708930824" />
     <state x="552" y="273" key="Vcs.Push.Dialog.v2/0.0.1920.1080/0.-1080.1920.1080@0.0.1920.1080" timestamp="1601330354170" />
-    <state x="483" y="283" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1605049482072" />
+    <state x="483" y="283" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1605052560476" />
     <state x="777" y="454" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601330322818">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

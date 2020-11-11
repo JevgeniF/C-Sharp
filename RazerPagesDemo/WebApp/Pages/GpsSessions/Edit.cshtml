@@ -1,0 +1,50 @@
+@page
+@model WebApp.Pages.GpsSessions.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>GpsSession</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="GpsSession.GpsSessionId" />
+            <div class="form-group">
+                <label asp-for="GpsSession.Name" class="control-label"></label>
+                <input asp-for="GpsSession.Name" class="form-control" />
+                <span asp-validation-for="GpsSession.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GpsSession.CreatedAt" class="control-label"></label>
+                <input asp-for="GpsSession.CreatedAt" class="form-control" />
+                <span asp-validation-for="GpsSession.CreatedAt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GpsSession.SessionLength" class="control-label"></label>
+                <input asp-for="GpsSession.SessionLength" class="form-control" />
+                <span asp-validation-for="GpsSession.SessionLength" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GpsSession.Duration" class="control-label"></label>
+                <input asp-for="GpsSession.Duration" class="form-control" />
+                <span asp-validation-for="GpsSession.Duration" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
