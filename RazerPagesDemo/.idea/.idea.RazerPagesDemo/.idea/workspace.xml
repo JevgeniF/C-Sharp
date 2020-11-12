@@ -22,86 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f8334b2-2d84-42cd-b97d-a73ed4a23f5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Domain/GpsLocation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/.idea/.idea.RazorDemo/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/.idea/.idea.RazorDemo/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/.idea/.idea.RazorDemo/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/.idea/.idea.RazorDemo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/.idea/.idea.RazorDemo/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/.idea/.idea.RazorDemo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/.idea/.idea.RazorDemo/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/Directory.Build.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/RazorDemo.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/Pages/Error.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/Pages/Error.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/Pages/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/Pages/Index.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/Pages/Privacy.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/Pages/Privacy.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/Pages/Shared/_Layout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/Pages/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/Pages/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/Pages/_ViewStart.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/WebApp.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/obj/Debug/netcoreapp3.1/WebApp.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/obj/Debug/netcoreapp3.1/WebApp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/obj/Debug/netcoreapp3.1/WebApp.RazorAssemblyInfo.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/obj/Debug/netcoreapp3.1/WebApp.RazorAssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/obj/Debug/netcoreapp3.1/WebApp.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/obj/Debug/netcoreapp3.1/WebApp.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/obj/WebApp.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/obj/WebApp.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/obj/WebApp.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/js/site.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RazorDemo/WebApp/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleApp/ConsoleAppProject/.idea/.idea.ConsoleAppProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleApp/ConsoleAppProject/.idea/.idea.ConsoleAppProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DBDemo/.idea/.idea.DBDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DBDemo/.idea/.idea.DBDemo/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7f8334b2-2d84-42cd-b97d-a73ed4a23f5a" name="Default Changelist" comment="RazorPagesDemo">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RazerPagesDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RazerPagesDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RazorDemo/.idea/.idea.RazorDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RazorDemo/.idea/.idea.RazorDemo/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,8 +102,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605124119569</updated>
-      <workItem from="1605124140585" duration="5420000" />
+      <workItem from="1605124140585" duration="5839000" />
     </task>
+    <task id="LOCAL-00001" summary="RazorPagesDemo">
+      <created>1605130282633</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605130282633</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,27 +132,33 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="RazorPagesDemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="RazorPagesDemo" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="798" height="280" key="GridCell.Tab.0.bottom" timestamp="1605128936142">
+    <state width="399" height="280" key="GridCell.Tab.0.bottom" timestamp="1605130539354">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="798" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1605128936142" />
-    <state width="798" height="280" key="GridCell.Tab.0.center" timestamp="1605128936141">
+    <state width="399" height="280" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1605130539354" />
+    <state width="399" height="280" key="GridCell.Tab.0.center" timestamp="1605130539353">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="798" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1605128936141" />
-    <state width="798" height="280" key="GridCell.Tab.0.left" timestamp="1605128936137">
+    <state width="399" height="280" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1605130539353" />
+    <state width="399" height="280" key="GridCell.Tab.0.left" timestamp="1605130539353">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="798" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1605128936137" />
-    <state width="798" height="280" key="GridCell.Tab.0.right" timestamp="1605128936141">
+    <state width="399" height="280" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1605130539353" />
+    <state width="399" height="280" key="GridCell.Tab.0.right" timestamp="1605130539353">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="798" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1605128936141" />
+    <state width="399" height="280" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1605130539353" />
     <state x="860" y="275" key="Rider.ProjectTemplateDialog.Size" timestamp="1605124893457">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="860" y="275" key="Rider.ProjectTemplateDialog.Size/0.23.1680.1027@0.23.1680.1027" timestamp="1605124893457" />
+    <state x="860" y="276" key="Vcs.Push.Dialog.v2" timestamp="1605130286891">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state x="860" y="276" key="Vcs.Push.Dialog.v2/0.23.1680.1027@0.23.1680.1027" timestamp="1605130286891" />
   </component>
 </project>

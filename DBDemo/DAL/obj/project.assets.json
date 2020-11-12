@@ -7396,16 +7396,23 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
           "projectReferences": {
             "/Users/jevgeni/RiderProjects/icd0008-2020f/DBDemo/Domain/Domain.csproj": {
               "projectPath": "/Users/jevgeni/RiderProjects/icd0008-2020f/DBDemo/Domain/Domain.csproj"
             }
           }
         }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
       }
     },
     "frameworks": {
       "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",
@@ -7439,7 +7446,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }

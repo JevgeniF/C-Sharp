@@ -6,11 +6,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{59F513FD-358E-45CB-8A98-30593F968B69}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{01D30091-4030-49C2-A862-47A51B94A619}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{01D30091-4030-49C2-A862-47A51B94A619}"
 EndProject
 ProjectSection(SolutionItems) = preProject
-    Directory.Build.props = Directory.Build.props
-    .gitignore = .gitignore
+				Directory.Build.props = Directory.Build.props
+				.gitignore = .gitignore
 EndProjectSection
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

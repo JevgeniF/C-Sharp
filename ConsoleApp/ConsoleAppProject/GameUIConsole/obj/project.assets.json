@@ -2,13 +2,10 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.1": {
-      "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
+      "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
         "type": "package",
-        "dependencies": {
-          "System.Threading.Tasks.Extensions": "4.5.2"
-        },
         "compile": {
-          "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {}
@@ -46,16 +43,16 @@
           "lib/netstandard2.0/System.Numerics.Vectors.dll": {}
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.7.1": {
+      "System.Runtime.CompilerServices.Unsafe/5.0.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
+          "ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.dll": {}
         },
         "runtime": {
           "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
       },
-      "System.Text.Encodings.Web/4.7.1": {
+      "System.Text.Encodings.Web/5.0.0": {
         "type": "package",
         "compile": {
           "lib/netstandard2.1/System.Text.Encodings.Web.dll": {}
@@ -64,15 +61,15 @@
           "lib/netstandard2.1/System.Text.Encodings.Web.dll": {}
         }
       },
-      "System.Text.Json/4.7.2": {
+      "System.Text.Json/5.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "1.1.0",
+          "Microsoft.Bcl.AsyncInterfaces": "5.0.0",
           "System.Buffers": "4.5.1",
           "System.Memory": "4.5.4",
           "System.Numerics.Vectors": "4.5.0",
-          "System.Runtime.CompilerServices.Unsafe": "4.7.1",
-          "System.Text.Encodings.Web": "4.7.1",
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0",
+          "System.Text.Encodings.Web": "5.0.0",
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
         "compile": {
@@ -98,7 +95,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
-          "System.Text.Json": "4.7.2"
+          "System.Text.Json": "5.0.0"
         },
         "compile": {
           "bin/placeholder/GameEngine.dll": {}
@@ -110,13 +107,14 @@
     }
   },
   "libraries": {
-    "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
-      "sha512": "1Am6l4Vpn3/K32daEqZI+FFr96OlZkgwK2LcT3pZ2zWubR5zTPW3/FkO1Rat9kb7oQOa4rxgl9LJHc5tspCWfg==",
+    "Microsoft.Bcl.AsyncInterfaces/5.0.0": {
+      "sha512": "W8DPQjkMScOMTtJbPwmPyj9c3zYSFGawDW3jwlBOOsnY+EzZFLgNQ/UMkK35JmkNOVPdCyPr2Tw7Vv9N+KA3ZQ==",
       "type": "package",
-      "path": "microsoft.bcl.asyncinterfaces/1.1.0",
+      "path": "microsoft.bcl.asyncinterfaces/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net461/Microsoft.Bcl.AsyncInterfaces.dll",
@@ -125,11 +123,8 @@
         "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.xml",
         "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
         "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.xml",
-        "microsoft.bcl.asyncinterfaces.1.1.0.nupkg.sha512",
+        "microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
         "microsoft.bcl.asyncinterfaces.nuspec",
-        "ref/net461/Microsoft.Bcl.AsyncInterfaces.dll",
-        "ref/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.dll",
-        "ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
@@ -235,18 +230,18 @@
         "version.txt"
       ]
     },
-    "System.Runtime.CompilerServices.Unsafe/4.7.1": {
-      "sha512": "zOHkQmzPCn5zm/BH+cxC1XbUS3P4Yoi3xzW7eRgVpDR2tPGSzyMZ17Ig1iRkfJuY0nhxkQQde8pgePNiA7z7TQ==",
+    "System.Runtime.CompilerServices.Unsafe/5.0.0": {
+      "sha512": "ZD9TMpsmYJLrxbbmdvhwt9YEgG5WntEnZ/d1eH8JBX9LBp+Ju8BSBhUGbZMNVHHomWo2KVImJhTDl2hIgw/6MA==",
       "type": "package",
-      "path": "system.runtime.compilerservices.unsafe/4.7.1",
+      "path": "system.runtime.compilerservices.unsafe/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
-        "lib/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/net45/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net45/System.Runtime.CompilerServices.Unsafe.xml",
         "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
         "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
         "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
@@ -259,16 +254,18 @@
         "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
         "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
         "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
-        "system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
+        "ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.1/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
     },
-    "System.Text.Encodings.Web/4.7.1": {
-      "sha512": "3qreYFQcLnyFk1LuaNWyyWE+sfkfe5eSTaIIssYrLNUIDbgyZNQBYQSzSDo4AprpjVeVX2T4KHKii9fiSZVUow==",
+    "System.Text.Encodings.Web/5.0.0": {
+      "sha512": "EEslUvHKll1ftizbn20mX3Ix/l4Ygk/bdJ2LY6/X6FlGaP0RIhKMo9nS6JIGnKKT6KBP2PGj6JC3B9/ZF6ErqQ==",
       "type": "package",
-      "path": "system.text.encodings.web/4.7.1",
+      "path": "system.text.encodings.web/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -277,22 +274,24 @@
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net461/System.Text.Encodings.Web.dll",
         "lib/net461/System.Text.Encodings.Web.xml",
+        "lib/netcoreapp3.0/System.Text.Encodings.Web.dll",
+        "lib/netcoreapp3.0/System.Text.Encodings.Web.xml",
         "lib/netstandard1.0/System.Text.Encodings.Web.dll",
         "lib/netstandard1.0/System.Text.Encodings.Web.xml",
         "lib/netstandard2.0/System.Text.Encodings.Web.dll",
         "lib/netstandard2.0/System.Text.Encodings.Web.xml",
         "lib/netstandard2.1/System.Text.Encodings.Web.dll",
         "lib/netstandard2.1/System.Text.Encodings.Web.xml",
-        "system.text.encodings.web.4.7.1.nupkg.sha512",
+        "system.text.encodings.web.5.0.0.nupkg.sha512",
         "system.text.encodings.web.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
     },
-    "System.Text.Json/4.7.2": {
-      "sha512": "TcMd95wcrubm9nHvJEQs70rC0H/8omiSGGpU4FQ/ZA1URIqD4pjmFJh2Mfv1yH1eHgJDWTi2hMDXwTET+zOOyg==",
+    "System.Text.Json/5.0.0": {
+      "sha512": "+luxMQNZ2WqeffBU7Ml6njIvxc8169NW2oU+ygNudXQGZiarjE7DOtN7bILiQjTZjkmwwRZGTtLzmdrSI/Ustw==",
       "type": "package",
-      "path": "system.text.json/4.7.2",
+      "path": "system.text.json/5.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -305,7 +304,7 @@
         "lib/netcoreapp3.0/System.Text.Json.xml",
         "lib/netstandard2.0/System.Text.Json.dll",
         "lib/netstandard2.0/System.Text.Json.xml",
-        "system.text.json.4.7.2.nupkg.sha512",
+        "system.text.json.5.0.0.nupkg.sha512",
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -357,7 +356,7 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
       "GameEngine >= 1.0.0",
-      "System.Text.Json >= 4.7.2"
+      "System.Text.Json >= 5.0.0"
     ]
   },
   "packageFolders": {
@@ -383,20 +382,27 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
           "projectReferences": {
             "/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameEngine/GameEngine.csproj": {
               "projectPath": "/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameEngine/GameEngine.csproj"
             }
           }
         }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
       }
     },
     "frameworks": {
       "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
         "dependencies": {
           "System.Text.Json": {
             "target": "Package",
-            "version": "[4.7.2, )"
+            "version": "[5.0.0, )"
           }
         },
         "imports": [
@@ -414,7 +420,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }

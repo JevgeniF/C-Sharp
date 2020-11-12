@@ -1,9 +1,11 @@
 ﻿using System;
 using System.IO;
 using System.Linq;
+using DAL;
 using GameEngine;
 using GameUIConsole;
 using MenuSystem;
+using Microsoft.EntityFrameworkCore;
 
 namespace ConsoleApp
 {
@@ -11,6 +13,18 @@ namespace ConsoleApp
     {
         private static void Main()
         {
+
+            var dbOptions = new DbContextOptionsBuilder<ApplicationDbContext>()
+                .UseSqlServer(@"
+                    Server=barrel.itcollege.ee,1533;
+                    User Id=student;
+                    Password=Student.Bad.password.0;
+                    Database=jefenk_battleShips;
+                    MultipleActiveResultSets=true;
+                    ").Options;
+            using var dbContext = new ApplicationDbContext(dbOptions);
+            dbContext.Database.Migrate();
+
             // App Header.
             Console.WriteLine("============================> BATTLESHIP <=============================");
             Console.WriteLine("");

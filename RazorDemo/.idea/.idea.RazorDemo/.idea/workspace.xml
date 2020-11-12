@@ -24,85 +24,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca68503e-3a4a-4051-83b4-d530c37e6bcb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../RazerPagesDemo/Domain/GpsLocation.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RazorDemo/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RazorDemo/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RazorDemo/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RazorDemo/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RazorDemo/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RazorDemo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.RazorDemo/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Directory.Build.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RazorDemo.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Error.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Error.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Index.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Privacy.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Privacy.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Shared/_Layout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/_ViewStart.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/WebApp.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.1/.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.1/WebApp.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.1/WebApp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.1/WebApp.RazorAssemblyInfo.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.1/WebApp.RazorAssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.1/WebApp.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/netcoreapp3.1/WebApp.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/js/site.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ConsoleApp/ConsoleAppProject/.idea/.idea.ConsoleAppProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleApp/ConsoleAppProject/.idea/.idea.ConsoleAppProject/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../DBDemo/.idea/.idea.DBDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../DBDemo/.idea/.idea.DBDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RazerPagesDemo/.idea/.idea.RazerPagesDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RazerPagesDemo/.idea/.idea.RazerPagesDemo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RazorDemo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RazorDemo/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,13 +95,14 @@
       <option name="presentableId" value="Default" />
       <updated>1605118890832</updated>
       <workItem from="1605118902361" duration="4811000" />
+      <workItem from="1605130201159" duration="416000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -190,6 +114,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

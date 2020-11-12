@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Net.NetworkInformation;
 using Domain;
 using Microsoft.EntityFrameworkCore;
@@ -17,6 +18,31 @@ namespace DAL
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
         {
+        }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+
+            modelBuilder
+                .Entity<Player>()
+                .HasOne<Game>()
+                .WithOne(x => x.PlayerA!)
+                .HasForeignKey<Game>(x => x.PlayerAId);
+            
+            modelBuilder
+                .Entity<Player>()
+                .HasOne<Game>()
+                .WithOne(x => x.PlayerB!)
+                .HasForeignKey<Game>(x => x.PlayerBId);
+            
+            foreach (var relationship in modelBuilder.Model
+                .GetEntityTypes()
+                .Where( e => !e.IsOwned())
+                .SelectMany(e => e.GetForeignKeys()))
+            {
+                relationship.DeleteBehavior = DeleteBehavior.Restrict;
+            }
         }
     }
 }

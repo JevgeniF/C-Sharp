@@ -7168,7 +7168,8 @@
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
       "Domain >= 1.0.0",
-      "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.0"
+      "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.0",
+      "System.ComponentModel.Annotations >= 5.0.0"
     ]
   },
   "packageFolders": {
@@ -7194,18 +7195,29 @@
       },
       "frameworks": {
         "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
           "projectReferences": {
             "/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/Domain/Domain.csproj": {
               "projectPath": "/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/Domain/Domain.csproj"
             }
           }
         }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
       }
     },
     "frameworks": {
       "netstandard2.1": {
+        "targetAlias": "netstandard2.1",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[5.0.0, )"
+          },
+          "System.ComponentModel.Annotations": {
             "target": "Package",
             "version": "[5.0.0, )"
           }
@@ -7225,7 +7237,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.403/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -73,15 +73,18 @@ namespace GameEngine
         public void SetGameStateFromJson(string jsonString)
         {
             var state = JsonSerializer.Deserialize<GameState>(jsonString);
-            NextMoveByFirst = state.NextMoveByFirst;
-            _boards[0] = new CellState[state.Width, state.Height];
-            for (var x = 0; x < state.Width; x++)
-            for (var y = 0; y < state.Height; y++)
-                _boards[0][x, y] = state.BoardOne[x][y];
-            _boards[1] = new CellState[state.Width, state.Height];
-            for (var x = 0; x < state.Width; x++)
-            for (var y = 0; y < state.Height; y++)
-                _boards[1][x, y] = state.BoardTwo[x][y];
+            if (state != null)
+            {
+                NextMoveByFirst = state.NextMoveByFirst;
+                _boards[0] = new CellState[state.Width, state.Height];
+                for (var x = 0; x < state.Width; x++)
+                for (var y = 0; y < state.Height; y++)
+                    _boards[0][x, y] = state.BoardOne[x][y];
+                _boards[1] = new CellState[state.Width, state.Height];
+                for (var x = 0; x < state.Width; x++)
+                for (var y = 0; y < state.Height; y++)
+                    _boards[1][x, y] = state.BoardTwo[x][y];
+            }
         }
     }
 }
