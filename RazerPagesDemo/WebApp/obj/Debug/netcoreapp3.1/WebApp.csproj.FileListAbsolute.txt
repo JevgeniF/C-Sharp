@@ -1,6 +1,5 @@
 /Users/jevgeni/RiderProjects/icd0008-2020f/RazerPagesDemo/WebApp/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /Users/jevgeni/RiderProjects/icd0008-2020f/RazerPagesDemo/WebApp/bin/Debug/netcoreapp3.1/appsettings.json
-/Users/jevgeni/RiderProjects/icd0008-2020f/RazerPagesDemo/WebApp/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
 /Users/jevgeni/RiderProjects/icd0008-2020f/RazerPagesDemo/WebApp/bin/Debug/netcoreapp3.1/WebApp.deps.json
 /Users/jevgeni/RiderProjects/icd0008-2020f/RazerPagesDemo/WebApp/bin/Debug/netcoreapp3.1/WebApp.runtimeconfig.json
 /Users/jevgeni/RiderProjects/icd0008-2020f/RazerPagesDemo/WebApp/bin/Debug/netcoreapp3.1/WebApp.runtimeconfig.dev.json
@@ -185,3 +184,5 @@
 /Users/jevgeni/RiderProjects/icd0008-2020f/RazerPagesDemo/WebApp/obj/Debug/netcoreapp3.1/Razor/Pages/GpsLocations/Details.cshtml.g.cs
 /Users/jevgeni/RiderProjects/icd0008-2020f/RazerPagesDemo/WebApp/obj/Debug/netcoreapp3.1/Razor/Pages/GpsLocations/Edit.cshtml.g.cs
 /Users/jevgeni/RiderProjects/icd0008-2020f/RazerPagesDemo/WebApp/obj/Debug/netcoreapp3.1/Razor/Pages/GpsLocations/Index.cshtml.g.cs
+/Users/jevgeni/RiderProjects/icd0008-2020f/RazerPagesDemo/WebApp/obj/Debug/netcoreapp3.1/scopedcss/bundle/WebApp.styles.css
+/Users/jevgeni/RiderProjects/icd0008-2020f/RazerPagesDemo/WebApp/obj/Debug/netcoreapp3.1/Razor/Pages/test.cshtml.g.cs

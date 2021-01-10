@@ -12,7 +12,7 @@
         <e p="ConsoleApp.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="netcoreapp3.1" t="Include">
+            <e p="net5.0" t="Include">
               <e p="ConsoleApp.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
@@ -26,8 +26,8 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="DAL.csproj" t="IncludeRecursive" />
         <e p="Migrations" t="Include">
-          <e p="20201112002531_initialMigration.cs" t="Include" />
-          <e p="20201112002531_initialMigration.Designer.cs" t="Include" />
+          <e p="20210110223532_InitialCreate.cs" t="Include" />
+          <e p="20210110223532_InitialCreate.Designer.cs" t="Include" />
           <e p="ApplicationDbContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -40,20 +40,19 @@
       </e>
       <e p="Directory.Build.props" t="Include" />
       <e p="Domain" t="IncludeRecursive">
+        <e p="BattleShipLog.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="BoardState.cs" t="Include" />
-        <e p="Boat.cs" t="Include" />
-        <e p="BoatSquareState.cs" t="Include" />
+        <e p="DbBoat.cs" t="Include" />
         <e p="Domain.csproj" t="IncludeRecursive" />
         <e p="Enums" t="Include">
           <e p="EBoatsCanTouch.cs" t="Include" />
+          <e p="ECellState.cs" t="Include" />
           <e p="ENextMoveAfterHit.cs" t="Include" />
           <e p="EPlayerType.cs" t="Include" />
         </e>
-        <e p="Game.cs" t="Include" />
         <e p="GameBoat.cs" t="Include" />
-        <e p="GameOption.cs" t="Include" />
-        <e p="GameOptionBoat.cs" t="Include" />
+        <e p="GameOptions.cs" t="Include" />
+        <e p="GameState.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netstandard2.1" t="Include">
@@ -61,19 +60,16 @@
             </e>
           </e>
         </e>
-        <e p="Player.cs" t="Include" />
-        <e p="PlayerBoardState.cs" t="Include" />
+        <e p="SavedGame.cs" t="Include" />
       </e>
-      <e p="GameEngine" t="IncludeRecursive">
+      <e p="GameLogic" t="IncludeRecursive">
         <e p="Battleships.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="CellState.cs" t="Include" />
-        <e p="GameEngine.csproj" t="IncludeRecursive" />
-        <e p="GameState.cs" t="Include" />
+        <e p="GameLogic.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netstandard2.1" t="Include">
-              <e p="GameEngine.AssemblyInfo.cs" t="Include" />
+              <e p="GameLogic.AssemblyInfo.cs" t="Include" />
             </e>
           </e>
         </e>

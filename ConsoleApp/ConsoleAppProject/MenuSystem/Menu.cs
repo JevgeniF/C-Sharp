@@ -31,8 +31,12 @@ namespace MenuSystem
             {
                 throw new Exception("UserChoice can't be empty");
             }
+            else if (_reservedActions.Contains(item.UserChoice.ToUpper()))
+            {
+                throw new Exception("This choice is HardCoded");
+            }
 
-            MenuItems.Add(item.UserChoice, item);
+            MenuItems.Add(item.UserChoice.ToUpper(), item);
         }
 
         public string RunMenu() // main method for screening menus and functionality.

@@ -1,48 +1,63 @@
 ﻿using System;
-using GameEngine;
+using Domain;
 
 namespace GameUIConsole
 {
     public static class ConsoleUi
     {
-        private static readonly char[] Alpha = "ABCDEFGHIJKLMNOPQRSTUVWXYZ".ToCharArray();
+        private static readonly char[] Alpha = "ABCDEFGHIJKLMNOPQRST".ToCharArray();
 
-        public static void DrawBoard(CellState[,] board)
+        public static void DrawBoards((ECellState[,], ECellState[,]) boards, bool nextMoveByFirst)
         {
+            if (nextMoveByFirst)
+            {
+                Console.WriteLine("===================> ENEMY'S FLEET DISLOCATION MAP <====================");
+                DrawBoard(boards.Item1, false);
+                Console.WriteLine("==================> YOUR FLEET DISLOCATION MAP, SIR <===================");
+                DrawBoard(boards.Item2, true);
+            }
+            else
+            {
+                Console.WriteLine("===================> ENEMY'S FLEET DISLOCATION MAP <====================");
+                DrawBoard(boards.Item2, false);
+                Console.WriteLine("==================> YOUR FLEET DISLOCATION MAP, SIR <===================");
+                DrawBoard(boards.Item1, true);
+            }
+        }
+
+        public static void DrawBoard(ECellState[,] board, bool shipsOnBoard) {
             var width = board.GetUpperBound(0) + 1; // x
             var height = board.GetUpperBound(1) + 1; // y
 
-            for (var colIndex = 0; colIndex < width; colIndex++) Console.Write($"  {Alpha[colIndex]}  ");
+            for (var col = 0; col < width; col++) Console.Write($"  {Alpha[col]}  ");
 
             Console.WriteLine();
-            for (var colIndex = 0; colIndex < width; colIndex++) Console.Write("+---+");
-
+            for (var col = 0;  col < width; col++) Console.Write("+---+");
             Console.WriteLine();
-
-            for (var rowIndex = 0; rowIndex < height; rowIndex++)
+            for (var row = 0; row < height; row++)
             {
-                for (var colIndex = 0; colIndex < width; colIndex++)
-                    Console.Write($"| {CellString(board[colIndex, rowIndex])} |");
+                for (var col = 0; col < width; col++)
+                    Console.Write($"| {CellString(board[col, row], shipsOnBoard)} |");
 
-                for (var colIndex = 11; colIndex == 11; colIndex++) Console.Write($"  {rowIndex + 1}");
+                for (var col = 11; col == 11; col++) Console.Write($"  {row + 1}");
 
                 Console.WriteLine();
-                for (var colIndex = 0; colIndex < width; colIndex++) Console.Write("+---+");
+                for (var col = 0; col < width; col++) Console.Write("+---+");
 
                 Console.WriteLine();
             }
         }
 
-        private static string CellString(CellState cellState)
+        private static string CellString(ECellState cellState, bool shipsOnBoard)
         {
-            switch (cellState)
+            return cellState switch
             {
-                case CellState.Empty: return " ";
-                case CellState.O: return "1";
-                case CellState.T: return "2";
-            }
-
-            return "";
+                ECellState.Empty => " ",
+                ECellState.Miss => "@",
+                ECellState.Object => shipsOnBoard ? "S" : " ",
+                ECellState.Wreck => "X",
+                _ => " "
+            };
         }
     }
 }

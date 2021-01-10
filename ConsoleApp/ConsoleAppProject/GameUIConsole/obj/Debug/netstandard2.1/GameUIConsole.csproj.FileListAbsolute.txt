@@ -25,8 +25,6 @@ D:/TalTech/Projects/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/Gam
 /Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameUIConsole/bin/Debug/netstandard2.1/GameUIConsole.deps.json
 /Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameUIConsole/bin/Debug/netstandard2.1/GameUIConsole.dll
 /Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameUIConsole/bin/Debug/netstandard2.1/GameUIConsole.pdb
-/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameUIConsole/bin/Debug/netstandard2.1/GameEngine.dll
-/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameUIConsole/bin/Debug/netstandard2.1/GameEngine.pdb
 /Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.csprojAssemblyReference.cache
 /Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.AssemblyInfoInputs.cache
 /Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.AssemblyInfo.cs
@@ -34,3 +32,7 @@ D:/TalTech/Projects/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/Gam
 /Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.csproj.CopyComplete
 /Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.dll
 /Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameUIConsole/obj/Debug/netstandard2.1/GameUIConsole.pdb
+/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameUIConsole/bin/Debug/netstandard2.1/GameLogic.dll
+/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameUIConsole/bin/Debug/netstandard2.1/GameLogic.pdb
+/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameUIConsole/bin/Debug/netstandard2.1/Domain.dll
+/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameUIConsole/bin/Debug/netstandard2.1/Domain.pdb

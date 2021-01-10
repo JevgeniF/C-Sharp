@@ -10,7 +10,7 @@ ProjectSection(SolutionItems) = preProject
 				.gitignore = .gitignore
 EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameEngine", "GameEngine\GameEngine.csproj", "{C00A5E45-6C62-441F-8CE0-EA46F70338A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameLogic", "GameLogic\GameLogic.csproj", "{C00A5E45-6C62-441F-8CE0-EA46F70338A8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameUIConsole", "GameUIConsole\GameUIConsole.csproj", "{34A41940-808D-4282-B94B-DD3C5C8CAA47}"
 EndProject

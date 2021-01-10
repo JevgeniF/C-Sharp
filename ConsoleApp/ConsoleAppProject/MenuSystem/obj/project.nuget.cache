@@ -1,17 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "v9yovjZc0bmHCFGh8apsLkCgQBA1nlPMKNYXkIBGW/mRhtUP/lJyKtOg2aGJEqUAYXibs5L4fJdl7D4r49Yr8Q==",
+  "dgSpecHash": "AvKqCu9z0DCvhvCsrwXxn1n9RiYoiHon/AqsI3Rb+9VAw1i0CBU0wl96E9dwQsTH4ZL9Gi2l9rFqKEwHJ7hNZA==",
   "success": true,
   "projectFilePath": "/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/MenuSystem/MenuSystem.csproj",
-  "expectedPackageFiles": [
-    "/Users/jevgeni/.nuget/packages/microsoft.bcl.asyncinterfaces/5.0.0/microsoft.bcl.asyncinterfaces.5.0.0.nupkg.sha512",
-    "/Users/jevgeni/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
-    "/Users/jevgeni/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
-    "/Users/jevgeni/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
-    "/Users/jevgeni/.nuget/packages/system.runtime.compilerservices.unsafe/5.0.0/system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
-    "/Users/jevgeni/.nuget/packages/system.text.encodings.web/5.0.0/system.text.encodings.web.5.0.0.nupkg.sha512",
-    "/Users/jevgeni/.nuget/packages/system.text.json/5.0.0/system.text.json.5.0.0.nupkg.sha512",
-    "/Users/jevgeni/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
