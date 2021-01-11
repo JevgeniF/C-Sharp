@@ -14,7 +14,5 @@ namespace Domain
         public BattleShipLog[] BattleShipLogs { get; set; } = null!;
         
         public int Side { get; set; }
-
-        public GameOptions GameOptions { get; set; } = null!;
     }
 }

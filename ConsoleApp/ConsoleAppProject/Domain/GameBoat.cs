@@ -7,6 +7,8 @@ namespace Domain
         //private static readonly char[] Alpha = "ABCDEFGHIJKLMNOPQRSTX".ToCharArray();
         
         public int GameBoatId { get; set; }
+
+        public string Name { get; set; } = null!;
         public int Size { get; set; }
 
         public int LocationByColumn { get; set; } = -1; // don't forget to user view starts with 1

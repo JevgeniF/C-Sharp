@@ -6,8 +6,7 @@ namespace Domain
 {
     public class GameOptions
     {
-        [Key]
-        public int GameOptionId { get; set; }
+        public int GameOptionsId { get; set; }
 
         public int BoardSide{ get; set; } = 10; //default classic
         
@@ -16,7 +15,7 @@ namespace Domain
         public EBoatsCanTouch EBoatsCanTouch { get; set; } = EBoatsCanTouch.No; //default classic
         public ENextMoveAfterHit ENextMoveAfterHit { get; set; } = ENextMoveAfterHit.SamePlayer; //default classic
 
-        public ICollection<DbBoat> BoatsList { get; set; } = new List<DbBoat>();
+        public ICollection<Boat> BoatsList { get; set; } = new List<Boat>();
 
         public int SavedGameId { get; set; }
         public ICollection<SavedGame> SavedGamesList { get; set; } = new List<SavedGame>();

@@ -7,7 +7,7 @@ namespace DAL
     {
         public DbSet<SavedGame> SavedGames { get; set; } = null!;
         public DbSet<GameOptions> GameOptions { get; set; } = null!;
-        public DbSet<DbBoat> Boats { get; set; } = null!;
+        public DbSet<Boat> Boats { get; set; } = null!;
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)

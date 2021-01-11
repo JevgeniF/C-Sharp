@@ -1,0 +1,191 @@
+@page
+@using GameLogic
+@using Domain
+@model WebApp.Pages.Game.Index
+@{
+                                  
+    var game = Model.Battleships?? new Battleships(Model.GameOptions);
+    
+}
+
+@functions
+{
+    static string GetCellContent(ECellState cellState, bool playersTurn)
+    {
+        return cellState switch
+        {
+            ECellState.Empty => " ",
+            ECellState.Miss => "@",
+            ECellState.Object => playersTurn ? "S" : " ",
+            ECellState.Wreck => "X",
+            _ => throw new ArgumentException()
+            };
+    }
+}
+<div class="text-center">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    @if (Model.Battleships?.EndGame != 0)
+    {//todo ascii
+        <h2>WINNER WINNER CHICKEN DINNER!</h2>
+    }
+    
+    @if (Request.Query.ContainsKey("PlaceBoats"))
+    {
+        <h2>COMMANDERS!</h2>
+        <h2>Your ships are waiting for the order!</h2>
+        <form method="get" name="PlaceBoats">
+            <div class="row">
+                <div class="col">
+                    <table class="table table-bordered">
+                        <h3> First Player</h3>
+                        @{
+                            var index1 = 1;
+                            @foreach (var boat in game.GetBoatsArrays().Item1)
+                            {
+                                <tr>
+                                    <td>
+                                        @index1. @boat.Name, Size = @boat.Size
+                                        <br>
+                                        <!--<input type="number" min="-1" max="@(game.GetSide() - 1)" value="-1" name="pOne_col_@index1" placeholder="col">
+                                        <input type="number" min="-1" max="@(game.GetSide() - 1)" value="-1" name="pOne_row_@index1" placeholder="row">
+                                        <input type="checkbox" value='1' name="pOne_hor_@index1" checked/> horizontal?
+                                        <input type="hidden" value='0' name="pOne_hor_@index1"/>-->
+                                    </td>
+                                </tr>
+                                index1++;
+                            }
+
+                        }
+
+                    </table>
+                </div>
+                <div class="col">
+                    <table class="table table-bordered">
+                        <h3> Second Player</h3>
+                        @{
+                            var index2 = 1;
+                            @foreach (var boat in game.GetBoatsArrays().Item2)
+                            {
+                                <tr>
+                                    <td>
+                                        @index2. @boat.Name, Size = @boat.Size
+                                        <br>
+                                        <!--<input type="number" min="-1" max="@(game.GetSide() - 1)" value="-1" name="pOne_col_@index2" placeholder="col">
+                                        <input type="number" min="-1" max="@(game.GetSide() - 1)" value="-1" name="pOne_row_@index2" placeholder="row">
+                                        <input type="checkbox" value='1' name="pOne_hor_@index2" checked/> horizontal?
+                                        <input type="hidden" value='0' name="pOne_hor_@index2"/>-->
+                                    </td>
+                                </tr>
+                                index2++;
+                            }
+
+                        }
+
+                    </table>
+                </div>
+
+            </div>
+
+            <!--<input type="submit" name="PlaceManually" value="Place Ships" class="btn btn-primary"/>-->
+            <input type="submit" name="PlaceRandomly" value="Ships on positions!" class="btn btn-primary"/>
+            <input type="submit" name="ContinueGame" value="Continue" class="btn btn-primary"/>
+        </form>
+    }
+    else
+    {
+        <div>
+            @if (game.NextMoveByFirst)
+            {
+                <h2>COMMANDER ONE!</h2>
+                <h2>Attaaack!</h2>
+            }
+            else
+            {
+                <h2>FUEHRER ZWEI!</h2>
+                <h2>Feuer!!!</h2>
+            }
+            <div class="row">
+                <div class="col">
+                    <a> @if (game.NextMoveByFirst)
+                        {
+                            <h3>ENEMY SOMEWHERE IN THIS AREA</h3>
+                        }
+                        else
+                        {
+                            <h3>OUR POSITIONS</h3>
+                        }</a>
+                    <table class="table table-bordered">
+                        @for (var row = 0; row < Model.GameOptions.BoardSide; row++)
+                        {
+                            <tr style="height:50px">
+                                @for (var col = 0; col < Model.GameOptions.BoardSide; col++)
+                                {
+                                    @if (game.NextMoveByFirst)
+                                    {
+                                        <td style="width:100px" onclick="window.location.href = '?col=@col&row=@row'" style="cursor: pointer">
+                                            @GetCellContent(game.GetBoards().Item1[row, col], !game.NextMoveByFirst)
+                                        </td>
+                                    }
+                                    else
+                                    {
+                                        <td style="width:100px">
+                                            @GetCellContent(game.GetBoards().Item1[row, col], !game.NextMoveByFirst)
+                                        </td>
+                                    }
+                                }
+
+
+                            </tr>
+                        }
+                    </table>
+                </div>
+                <div class="col">
+                    <a> @if (game.NextMoveByFirst)
+                        {
+                            <h3>OUR POSITIONS</h3>
+                        }
+                        else
+                        {
+                            <h3>ENEMY SOMEWHERE IN THIS AREA</h3>
+                        }</a>
+                    <table class="table table-bordered">
+                        @for (var row = 0; row < Model.GameOptions.BoardSide; row++)
+                        {
+                            <tr style="height:50px">
+                                @for (var col = 0; col < Model.GameOptions.BoardSide; col++)
+                                {
+                                    @if (!game.NextMoveByFirst)
+                                    {
+                                        <td style="width:100px" onclick="window.location.href = '?col=@col&row=@row'" style="cursor: pointer">
+                                            @GetCellContent(game.GetBoards().Item2[row, col], game.NextMoveByFirst)
+                                        </td>
+                                    }
+                                    else
+                                    {
+                                        <td style="width:100px">
+                                            @GetCellContent(game.GetBoards().Item2[row, col], game.NextMoveByFirst)
+                                        </td>
+                                    }
+                                }
+                            </tr>
+                        }
+                    </table>
+
+                </div>
+
+            </div>
+        </div>
+        <div><h2>Tired From This Insane Battle?</h2>
+            <h3>Save this Battle in Memories, and Go to Sleep!</h3></div>
+        <div>
+            <Form method="get">
+                <input type="text" name="SaveName" placeholder="Enter battle name">
+                <input type="hidden" name="gameState" value="@Model.Battleships!.GetSerializedGameState()">
+                <br>
+                <input type="submit" name="SaveGame" value="Save This Battle" class="btn btn-primary"/>
+                
+            </Form>
+        </div>
+            }
+        </div>
+

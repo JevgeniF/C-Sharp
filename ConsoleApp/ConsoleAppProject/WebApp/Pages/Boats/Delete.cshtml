@@ -1,0 +1,46 @@
+@page
+@model WebApp.Pages.Boats.DeleteModel
+
+@{
+    ViewData["Title"] = "Scrap Ship For Pieces";
+}
+
+<h1>Scrap Ship For Pieces</h1>
+
+<h3>Are you sure you want to scrap it?</h3>
+<div>
+    <h4>Ship Type</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Type Name
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Boat!.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Boat!.Size)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Boat!.Size)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Boat!.Quantity)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Boat!.Quantity)
+        </dd>
+        <dt class="col-sm-2">
+            Option
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Boat!.GameOptions!.GameOptionsId)
+        </dd>
+    </dl>
+    
+    <form method="post">
+        <input type="hidden" asp-for="Boat!.BoatId" />
+        <input type="submit" value="Scrap It" class="btn btn-danger" /> |
+        <a asp-page="./Index">Back to Fleet</a>
+    </form>
+</div>

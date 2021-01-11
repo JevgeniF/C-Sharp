@@ -1,12 +1,12 @@
 /Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameLogic/bin/Debug/netstandard2.1/GameLogic.deps.json
 /Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameLogic/bin/Debug/netstandard2.1/GameLogic.dll
 /Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameLogic/bin/Debug/netstandard2.1/GameLogic.pdb
+/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameLogic/bin/Debug/netstandard2.1/Domain.dll
+/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameLogic/bin/Debug/netstandard2.1/Domain.pdb
 /Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameLogic/obj/Debug/netstandard2.1/GameLogic.csprojAssemblyReference.cache
 /Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameLogic/obj/Debug/netstandard2.1/GameLogic.AssemblyInfoInputs.cache
 /Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameLogic/obj/Debug/netstandard2.1/GameLogic.AssemblyInfo.cs
 /Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameLogic/obj/Debug/netstandard2.1/GameLogic.csproj.CoreCompileInputs.cache
+/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameLogic/obj/Debug/netstandard2.1/GameLogic.csproj.CopyComplete
 /Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameLogic/obj/Debug/netstandard2.1/GameLogic.dll
 /Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameLogic/obj/Debug/netstandard2.1/GameLogic.pdb
-/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameLogic/bin/Debug/netstandard2.1/Domain.dll
-/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameLogic/bin/Debug/netstandard2.1/Domain.pdb
-/Users/jevgeni/RiderProjects/icd0008-2020f/ConsoleApp/ConsoleAppProject/GameLogic/obj/Debug/netstandard2.1/GameLogic.csproj.CopyComplete

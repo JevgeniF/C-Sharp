@@ -1,0 +1,55 @@
+@page
+@model WebApp.Pages.GameOptions.IndexModel
+
+@{
+    ViewData["Title"] = "Battle Details";
+}
+
+<h1>Battle Rules</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Battlefileld Side Size
+            </th>
+            <th>
+                Ships Quantity in Fleet
+            </th>
+            <th>
+                Ships Placed Nearby
+            </th>
+            <th>
+                After Target Hit Shoots
+            </th>
+            <th>
+                Game Save
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.GameOptions) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.BoardSide)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BoatsCount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EBoatsCanTouch)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ENextMoveAfterHit)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SavedGameId)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.GameOptionsId">Change Rules</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

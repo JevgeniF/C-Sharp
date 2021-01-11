@@ -1,0 +1,55 @@
+@page
+@model WebApp.Pages.Boats.IndexModel
+
+@{
+    Layout = "Shared/_Layout";
+    ViewData["Title"] = "Fleet";
+}
+
+<h1>Fleet</h1>
+
+<p>
+    <a asp-page="Create">Build More Ships</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Ship Type
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Boat[0].Size)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Boat[0].Quantity)
+            </th>
+            <th>
+                Option
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+   
+    @foreach (var item in Model.Boat) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Size)
+            </td>
+            <td>
+            @Html.DisplayFor(modelItem => item.Quantity)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GameOptions!.GameOptionsId)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.BoatId">Revize</a> | 
+                <a asp-page="./Delete" asp-route-id="@item.BoatId">Scrap</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

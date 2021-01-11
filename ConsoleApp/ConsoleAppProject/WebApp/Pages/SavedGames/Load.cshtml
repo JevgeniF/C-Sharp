@@ -1,0 +1,36 @@
+@page
+@model WebApp.Pages.SavedGames.Load
+
+@{
+ViewData["Title"] = "Load Saved Battle or Battle Sate";
+}
+
+<h1>Saved Battles and Moves</h1>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            Date, Time
+        </th>
+        <th>
+            Saved Battle Name
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.SavedGamesList) {
+        <tr>
+            <td>
+                @Html.DisplayFor(model => item.DateTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SavedGameName)
+            </td>
+            <td>
+                <a asp-page="/Game/Index" asp-route-loadId="@item.SavedGameId">Load</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

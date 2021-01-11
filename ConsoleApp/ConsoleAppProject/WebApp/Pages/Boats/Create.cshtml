@@ -1,0 +1,49 @@
+@page
+@model WebApp.Pages.Boats.CreateModel
+
+@{
+    ViewData["Title"] = "Build Ships of New Type";
+}
+
+<h1>Build Ships of New Type</h1>
+
+<h4>Type</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Boat.Name" class="control-label">Type Name</label>
+                <input asp-for="Boat.Name" class="form-control" />
+                <span asp-validation-for="Boat.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Boat.Size" class="control-label"></label>
+                <input asp-for="Boat.Size" class="form-control" />
+                <span asp-validation-for="Boat.Size" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Boat.Quantity" class="control-label"></label>
+                <input asp-for="Boat.Quantity" class="form-control" />
+                <span asp-validation-for="Boat.Quantity" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Boat.GameOptions!.GameOptionsId" class="control-label">Option</label>
+                <input asp-for="Boat.GameOptions!.GameOptionsId" class="form-control" />
+                <span asp-validation-for="Boat.GameOptions!.GameOptionsId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Build It" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to Fleet</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

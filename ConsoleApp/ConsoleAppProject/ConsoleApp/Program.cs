@@ -3,7 +3,7 @@ using System.Linq;
 using DAL;
 using Domain;
 using Domain.Enums;
-using GameEngine;
+using GameLogic;
 using GameUIConsole;
 using MenuSystem;
 using Microsoft.EntityFrameworkCore;
@@ -268,7 +268,7 @@ namespace ConsoleApp
 
         private static void AddBoat(GameOptions gameOptions)
         {
-            var boat = new DbBoat();
+            var boat = new Boat();
             int size;
             int quantity;
             do
@@ -881,6 +881,10 @@ namespace ConsoleApp
                 menu.AddMenuItem(new MenuItem("Engage weapons system", "P",
                     () =>
                     {
+                        if (game.EndGame == 1)
+                        { //todo ascii
+                            return "";
+                        }
                         ConsoleUi.DrawBoards(game.GetBoards(), game.NextMoveByFirst);
                         var target = GetMoveCoordinates();
                         game.RecordToLog(target);
@@ -976,7 +980,7 @@ namespace ConsoleApp
 
             for (var index = 1; index < savedGamesList.Count; index++)
             {
-                    Console.WriteLine($"{index}. = {savedGamesList[index].SavedGameName} = {savedGamesList[index].Description}");
+                    Console.WriteLine($"{index}. = {savedGamesList[index].SavedGameName} = {savedGamesList[index].DateTime}");
             }
             Console.WriteLine("R = return without load");
             Console.WriteLine(""); 

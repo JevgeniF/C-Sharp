@@ -1,0 +1,40 @@
+@page
+@model WebApp.Pages.SavedGames.EditModel
+
+@{
+    ViewData["Title"] = "Edit Battle Data";
+}
+
+<h1>Edit Battle</h1>
+
+<h4>Saved Battle</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="SavedGame.SavedGameId" />
+            <div class="form-group">
+                <label asp-for="SavedGame.DateTime" class="control-label">Date, Time</label>
+                <input asp-for="SavedGame.DateTime" class="form-control" />
+                <span asp-validation-for="SavedGame.DateTime" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SavedGame.SavedGameName" class="control-label">Battle Name</label>
+                <input asp-for="SavedGame.SavedGameName" class="form-control" />
+                <span asp-validation-for="SavedGame.SavedGameName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to Saved Battles</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

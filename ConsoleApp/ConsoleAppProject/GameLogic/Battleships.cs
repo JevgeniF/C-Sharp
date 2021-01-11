@@ -1,39 +1,45 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text.Json;
 using Domain;
 using Domain.Enums;
 
-namespace GameEngine
+namespace GameLogic
 {
     public class Battleships
     {
         public bool NextMoveByFirst = true;
         public bool NextFleetDisplacementByFirst = true;
-        private static bool _endGame;
+        public int EndGame = 0;
 
         private ECellState[,] _playerOneBoard;
         private ECellState[,] _playerTwoBoard;
         private GameBoat[] _playerOneBoatsArray;
         private GameBoat[] _playerTwoBoatsArray;
-        
+
         private List<BattleShipLog> _shipsLogsList;
 
-        private  GameOptions _gameOptions;
+        private GameOptions _gameOptions;
         private static int _side;
 
         public Battleships(GameOptions gameOptions)
         {
             _gameOptions = gameOptions;
             _side = gameOptions.BoardSide;
-            
+
             _playerOneBoard = new ECellState[gameOptions.BoardSide, gameOptions.BoardSide];
             _playerTwoBoard = new ECellState[gameOptions.BoardSide, gameOptions.BoardSide];
             _playerOneBoatsArray = ShareBoatsToPlayers();
             _playerTwoBoatsArray = ShareBoatsToPlayers();
 
             _shipsLogsList = new List<BattleShipLog>();
+        }
+
+        public int GetSide()
+        {
+            return _side;
         }
 
         public (GameBoat[], GameBoat[]) GetBoatsArrays()
@@ -43,14 +49,14 @@ namespace GameEngine
 
             return (playerOneBoatsArray, playerTwoBoatsArray);
         }
-        
+
         public (ECellState[,], ECellState[,]) GetBoards()
         {
             var playerOneBoard = new ECellState[_side, _side];
-            Array.Copy(_playerOneBoard,playerOneBoard, _playerOneBoard.Length);
+            Array.Copy(_playerOneBoard, playerOneBoard, _playerOneBoard.Length);
 
             var playerTwoBoard = new ECellState[_side, _side];
-            Array.Copy(_playerTwoBoard,playerTwoBoard, _playerTwoBoard.Length);
+            Array.Copy(_playerTwoBoard, playerTwoBoard, _playerTwoBoard.Length);
 
             return (playerOneBoard, playerTwoBoard);
         }
@@ -64,7 +70,7 @@ namespace GameEngine
         {
             return _side;
         }
-        
+
         private GameBoat[] ShareBoatsToPlayers()
         {
             var boatsArray = new GameBoat[_gameOptions.BoatsList.Sum(boat => boat.Quantity)];
@@ -76,6 +82,7 @@ namespace GameEngine
                 {
                     boatsArray[index] = new GameBoat
                     {
+                        Name = boat.Name,
                         Size = boat.Size
                     };
                     index++;
@@ -85,63 +92,63 @@ namespace GameEngine
             return boatsArray;
         }
 
-        public void MakeAMove(String target)
+        public void MakeAMove(string target)
         {
-            if (!_endGame)
+            if (EndGame != 0) return;
+            
+            var attackCol = char.ToUpper(target[0]) - 65;
+            var attackRow = _side + 1;
+            var success = int.TryParse(target.Substring(1), out var number);
+            if (success) attackRow = number - 1;
+
+            if (attackCol >= _side || attackRow >= _side)
             {
-                var attackCol = char.ToUpper(target[0]) - 65;
-                var attackRow = _side + 1;
-                var success = int.TryParse(target.Substring(1), out var number);
-                if (success) attackRow = number - 1;
-
-                if (attackCol >= _side || attackRow >= _side)
+                Console.WriteLine("COMMANDER, stop drinking Rum! You can't choose proper coordinates already!");
+            }
+            else
+            {
+                var board = _playerOneBoard;
+                if (!NextMoveByFirst)
                 {
-                    Console.WriteLine("COMMANDER, stop drinking Rum! You can't choose proper coordinates already!");
+                    board = _playerTwoBoard;
                 }
-                else
+
+                switch (board[attackCol, attackRow])
                 {
-                    var board = _playerOneBoard;
-                    if (!NextMoveByFirst)
-                    {
-                        board = _playerTwoBoard;
-                    }
+                    case ECellState.Empty:
+                        board[attackCol, attackRow] = ECellState.Miss;
+                        Console.WriteLine("COMMANDER! We hit deep blue ocean! Damn that fog!");
+                        NextMoveByFirst = !NextMoveByFirst;
+                        break;
+                    case ECellState.Wreck:
+                        Console.WriteLine("COMMANDER! It is a wreck!");
+                        NextMoveByFirst = !NextMoveByFirst;
+                        break;
+                    case ECellState.Object:
+                        board[attackCol, attackRow] = ECellState.Wreck;
+                        Console.WriteLine(
+                            "COMMANDER! What a nice shot! Seems that I heard armory explosion, but who knows?");
+                        switch (_gameOptions.ENextMoveAfterHit)
+                        {
+                            case ENextMoveAfterHit.OtherPlayer:
+                                NextMoveByFirst = !NextMoveByFirst;
+                                break;
+                            case ENextMoveAfterHit.SamePlayer:
+                                break;
+                            default:
+                                throw new ArgumentOutOfRangeException();
+                        }
 
-                    switch (board[attackCol, attackRow])
-                    {
-                        case ECellState.Empty:
-                            board[attackCol, attackRow] = ECellState.Miss;
-                            Console.WriteLine("COMMANDER! We hit deep blue ocean! Damn that fog!");
-                            NextMoveByFirst = !NextMoveByFirst;
-                            break;
-                        case ECellState.Wreck:
-                            Console.WriteLine("COMMANDER! It is a wreck!");
-                            NextMoveByFirst = !NextMoveByFirst;
-                            break;
-                        case ECellState.Object:
-                            board[attackCol, attackRow] = ECellState.Wreck;
-                            Console.WriteLine(
-                                "COMMANDER! What a nice shot! Seems that I heard armory explosion, but who knows?");
-                            switch (_gameOptions.ENextMoveAfterHit)
-                            {
-                                case ENextMoveAfterHit.OtherPlayer:
-                                    NextMoveByFirst = !NextMoveByFirst;
-                                    break;
-                                case ENextMoveAfterHit.SamePlayer:
-                                    break;
-                                default:
-                                    throw new ArgumentOutOfRangeException();
-                            }
-
-                            break;
-                        case ECellState.Miss:
-                            Console.WriteLine("COMMANDER! Who told that shell doesn't hit the same place twice?");
-                            NextMoveByFirst = !NextMoveByFirst;
-                            break;
-                        default:
-                            throw new ArgumentOutOfRangeException();
-                    }
-                    WinCheck(board);
+                        break;
+                    case ECellState.Miss:
+                        Console.WriteLine("COMMANDER! Who told that shell doesn't hit the same place twice?");
+                        NextMoveByFirst = !NextMoveByFirst;
+                        break;
+                    default:
+                        throw new ArgumentOutOfRangeException();
                 }
+
+                WinCheck(board);
             }
         }
 
@@ -160,9 +167,9 @@ namespace GameEngine
             }
 
             if (shipsLeft != 0) return;
-            _endGame = true;
+            EndGame = 1;
             if (board == _playerOneBoard)
-            {
+            {//todo ascii
                 Console.WriteLine("COMMANDER ONE! Your Honor, enemy DEFEATED, enemy fleet sunk, whole sea area " +
                                   "covered by dead bodies. Only some of enemy seamen still alive. We may save them" +
                                   "or leave them. It is up to you...");
@@ -179,7 +186,7 @@ namespace GameEngine
         {
             _shipsLogsList.Add(new BattleShipLog(target));
         }
-        
+
         public void Cheating(int move)
         {
             if (move < 0 && move >= _shipsLogsList.Count) return;
@@ -196,7 +203,7 @@ namespace GameEngine
             _shipsLogsList.RemoveRange(move + 1, _shipsLogsList.Count - move - 1);
         }
 
-        public void PlaceBoat(int index, int row, int col)
+        public void PlaceBoat(int index, int col, int row)
         {
             var boatsArray = _playerOneBoatsArray;
             if (!NextFleetDisplacementByFirst)
@@ -240,10 +247,11 @@ namespace GameEngine
             for (var cell = 0; cell < boat.Size; cell++)
             {
                 if (boat.IsHor)
-                {  
+                {
                     board[boat.LocationByRow, boat.LocationByColumn + cell] = ECellState.Object;
                     continue;
                 }
+
                 board[boat.LocationByRow + cell, boat.LocationByColumn] = ECellState.Object;
             }
         }
@@ -260,14 +268,17 @@ namespace GameEngine
             foreach (var boat in boatsArray)
             {
                 if (boat.LocationByColumn >= 0 && boat.LocationByRow >= 0)
-                { 
+                {
                     UpdateBoatOnBoard(boat, placementBoard);
                 }
             }
-            if (NextFleetDisplacementByFirst) {
+
+            if (NextFleetDisplacementByFirst)
+            {
                 _playerOneBoard = placementBoard;
                 return;
             }
+
             _playerTwoBoard = placementBoard;
         }
 
@@ -322,13 +333,13 @@ namespace GameEngine
                 }
 
                 if (!(CheckIfBoatsOverBattleField(boatsArray) || CheckIfBoatsTooClose(boatsArray, board) ||
-                      CheckIfFleetNotAsBigAsRequired(boatsArray))) 
+                      CheckIfFleetNotAsBigAsRequired(boatsArray)))
                 {
                     break;
                 }
             } while (true);
         }
-        
+
         public bool CheckIfFleetNotAsBigAsRequired(GameBoat[] boatsArray)
         {
             var countBoats = boatsArray.Count(boat => boat.LocationByRow > -1 && boat.LocationByColumn > -1);
@@ -346,7 +357,7 @@ namespace GameEngine
             foreach (var boat in boatsArray)
             {
                 if (boat.LocationByRow == -1 && boat.LocationByColumn == -1) continue;
-                
+
                 shipsCells += boat.Size;
                 UpdateBoatOnBoard(boat, checkBoard);
             }
@@ -358,6 +369,7 @@ namespace GameEngine
                     if (checkBoard[row, col] == ECellState.Object) shipsOnBoard++;
                 }
             }
+
             return shipsCells != shipsOnBoard;
         }
 
@@ -383,6 +395,7 @@ namespace GameEngine
                     return true;
                 }
             }
+
             return false;
         }
 
@@ -397,6 +410,7 @@ namespace GameEngine
                         return true;
                     }
                 }
+
                 if (!(boat.LocationByRow - 1 < 0 || boat.LocationByColumn + boat.Size > _side - 1))
                 {
                     if (board[boat.LocationByRow - 1, boat.LocationByColumn + boat.Size] == ECellState.Object)
@@ -404,6 +418,7 @@ namespace GameEngine
                         return true;
                     }
                 }
+
                 if (!(boat.LocationByRow + 1 > _side - 1 || boat.LocationByColumn - 1 < 0))
                 {
                     if (board[boat.LocationByRow + 1, boat.LocationByColumn - 1] == ECellState.Object)
@@ -411,6 +426,7 @@ namespace GameEngine
                         return true;
                     }
                 }
+
                 if (!(boat.LocationByRow + 1 > _side - 1 || boat.LocationByColumn + boat.Size > -_side - 1))
                 {
                     if (board[boat.LocationByRow + 1, boat.LocationByColumn + boat.Size] == ECellState.Object)
@@ -418,6 +434,7 @@ namespace GameEngine
                         return true;
                     }
                 }
+
                 return false;
             }
 
@@ -428,21 +445,24 @@ namespace GameEngine
                     return true;
                 }
             }
-            if (!(boat.LocationByRow - 1 < 0 || boat.LocationByColumn  + 1 > _side - 1 ))
-            { 
-                if (board[boat.LocationByRow - 1, boat.LocationByColumn + 1] == ECellState.Object) 
-                { 
+
+            if (!(boat.LocationByRow - 1 < 0 || boat.LocationByColumn + 1 > _side - 1))
+            {
+                if (board[boat.LocationByRow - 1, boat.LocationByColumn + 1] == ECellState.Object)
+                {
                     return true;
                 }
             }
-            if (!(boat.LocationByRow + boat.Size > _side - 1 || boat.LocationByColumn - 1 < 0 ))
+
+            if (!(boat.LocationByRow + boat.Size > _side - 1 || boat.LocationByColumn - 1 < 0))
             {
                 if (board[boat.LocationByRow + boat.Size, boat.LocationByColumn - 1] == ECellState.Object)
                 {
                     return true;
                 }
             }
-            if (!(boat.LocationByRow + boat.Size > _side - 1 || boat.LocationByColumn + 1 > _side - 1 ))
+
+            if (!(boat.LocationByRow + boat.Size > _side - 1 || boat.LocationByColumn + 1 > _side - 1))
             {
                 if (board[boat.LocationByRow + boat.Size, boat.LocationByColumn + 1] == ECellState.Object)
                 {
@@ -464,6 +484,7 @@ namespace GameEngine
                         return true;
                     }
                 }
+
                 if (!(boat.LocationByColumn + boat.Size >= _side))
                 {
                     if (board[boat.LocationByRow, boat.LocationByColumn + boat.Size] == ECellState.Object)
@@ -471,6 +492,7 @@ namespace GameEngine
                         return false;
                     }
                 }
+
                 for (var cell = 0; cell < boat.Size; cell++)
                 {
                     if (!(boat.LocationByRow - 1 < 0 || boat.LocationByColumn + cell >= _side))
@@ -480,6 +502,7 @@ namespace GameEngine
                             return true;
                         }
                     }
+
                     if (!(boat.LocationByRow + 1 >= _side || boat.LocationByColumn + cell >= _side))
                     {
                         if (board[boat.LocationByRow + 1, boat.LocationByColumn + cell] == ECellState.Object)
@@ -488,6 +511,7 @@ namespace GameEngine
                         }
                     }
                 }
+
                 return false;
             }
 
@@ -498,22 +522,25 @@ namespace GameEngine
                     return true;
                 }
             }
+
             if (!(boat.LocationByRow + boat.Size + 1 >= _side))
             {
-                if (board[boat.LocationByRow  + boat.Size + 1, boat.LocationByColumn] == ECellState.Object)
+                if (board[boat.LocationByRow + boat.Size + 1, boat.LocationByColumn] == ECellState.Object)
                 {
                     return true;
                 }
             }
+
             for (var cell = 0; cell < boat.Size; cell++)
             {
-                if (!(boat.LocationByRow + cell >= _side || boat.LocationByColumn  - 1 < 0))
+                if (!(boat.LocationByRow + cell >= _side || boat.LocationByColumn - 1 < 0))
                 {
                     if (board[boat.LocationByRow + cell, boat.LocationByColumn - 1] == ECellState.Object)
                     {
                         return true;
                     }
                 }
+
                 if (!(boat.LocationByRow + cell >= _side || boat.LocationByColumn + 1 >= _side))
                 {
                     if (board[boat.LocationByRow + cell, boat.LocationByColumn + 1] == ECellState.Object)
@@ -522,6 +549,7 @@ namespace GameEngine
                     }
                 }
             }
+
             return false;
         }
 
@@ -533,7 +561,7 @@ namespace GameEngine
             };
             var state = new GameState
             {
-                NextMoveByFirst = NextMoveByFirst, 
+                NextMoveByFirst = NextMoveByFirst,
                 //GameOptions = _gameOptions,
                 Side = _playerOneBoard.GetLength(0),
                 PlayerOneBoats = _playerOneBoatsArray,
@@ -581,6 +609,60 @@ namespace GameEngine
                     _playerOneBoard[col, row] = state.PlayerOneBoard[col][row];
                     _playerTwoBoard[col, row] = state.PlayerTwoBoard[col][row];
                 }
+            }
+        }
+
+        public void MoveForWeb(int attackRow, int attackCol)
+        {
+            if (EndGame != 0) return;
+            if (attackCol >= _side || attackRow >= _side)
+            {
+                Console.WriteLine("COMMANDER, stop drinking Rum! You can't choose proper coordinates already!");
+            }
+            else
+            {
+                var board = _playerOneBoard;
+                if (!NextMoveByFirst)
+                {
+                    board = _playerTwoBoard;
+                }
+
+                switch (board[attackCol, attackRow])
+                {
+                    case ECellState.Empty:
+                        board[attackCol, attackRow] = ECellState.Miss;
+                        Console.WriteLine("COMMANDER! We hit deep blue ocean! Damn that fog!");
+                        NextMoveByFirst = !NextMoveByFirst;
+                        break;
+                    case ECellState.Wreck:
+                        Console.WriteLine("COMMANDER! It is a wreck!");
+                        NextMoveByFirst = !NextMoveByFirst;
+                        break;
+                    case ECellState.Object:
+                        board[attackCol, attackRow] = ECellState.Wreck;
+                        Console.WriteLine(
+                            "COMMANDER! What a nice shot! Seems that I heard armory explosion, but who knows?");
+                        switch (_gameOptions.ENextMoveAfterHit)
+                        {
+                            case ENextMoveAfterHit.OtherPlayer:
+                                NextMoveByFirst = !NextMoveByFirst;
+                                break;
+                            case ENextMoveAfterHit.SamePlayer:
+                                break;
+                            default:
+                                throw new ArgumentOutOfRangeException();
+                        }
+
+                        break;
+                    case ECellState.Miss:
+                        Console.WriteLine("COMMANDER! Who told that shell doesn't hit the same place twice?");
+                        NextMoveByFirst = !NextMoveByFirst;
+                        break;
+                    default:
+                        throw new ArgumentOutOfRangeException();
+                }
+
+                WinCheck(board);
             }
         }
     }

@@ -1,0 +1,62 @@
+@page
+@model WebApp.Pages.GameOptions.EditModel
+
+@{
+    ViewData["Title"] = "Change Rules";
+}
+
+<h1>Change Rules</h1>
+
+<h4>Your rules</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="GameOptions.GameOptionsId" />
+            <div class="form-group">
+                <label asp-for="GameOptions.BoardSide" class="control-label">Battlefileld Side Size</label>
+                <input asp-for="GameOptions.BoardSide" class="form-control" />
+                <span asp-validation-for="GameOptions.BoardSide" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GameOptions.BoatsCount" class="control-label">Ships Quantity in Fleet</label>
+                <input asp-for="GameOptions.BoatsCount" class="form-control" />
+                <span asp-validation-for="GameOptions.BoatsCount" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GameOptions.EBoatsCanTouch" class="control-label">Ships Can Be Placed Nearby</label>
+                <select asp-for="GameOptions.EBoatsCanTouch" class="form-control">
+                <option value="0">No</option>
+                <option value="1">Corner</option>
+                <option value="2">Yes</option>
+                </select>
+                <span asp-validation-for="GameOptions.EBoatsCanTouch" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GameOptions.ENextMoveAfterHit" class="control-label">After Hit on Target Shoots</label>
+                <select asp-for="GameOptions.ENextMoveAfterHit" class="form-control">
+                <option value="0">Same Player</option>
+                <option value="1">Another Player</option>
+                </select>
+                <span asp-validation-for="GameOptions.ENextMoveAfterHit" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GameOptions.SavedGameId" class="control-label">Game Save</label>
+                <input asp-for="GameOptions.SavedGameId" class="form-control" />
+                <span asp-validation-for="GameOptions.SavedGameId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Dictate Your Rules" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to Battle Rules</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
