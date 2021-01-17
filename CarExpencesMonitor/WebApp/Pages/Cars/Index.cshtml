@@ -1,0 +1,73 @@
+@page
+@model WebApp.Pages.Cars.IndexModel
+
+@{
+    ViewData["Title"] = "Garage";
+}
+
+<h4>Cars</h4>
+
+<p>
+    <a asp-page="Create">Add New Car</a>
+</p>
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Car[0].Mark)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Car[0].Model)
+        </th>
+        <th>
+            Y.O.B.
+        </th>
+        <th>
+            License Plate
+        </th>
+        <th>
+            Engine (ltrs)
+        </th>
+        <th>
+            Fuel
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Car[0].Transmission)
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.Car)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mark.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Model)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.YearOfBuilt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RegNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EngineDisplacement)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FuelType!.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Transmission!.Name)
+            </td>
+            <td>
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

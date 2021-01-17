@@ -1,0 +1,129 @@
+﻿@page
+@model IndexModel
+@{
+    Layout = "Shared/_Layout";
+    ViewData["Title"] = "Last Added";
+}
+
+<h4>Last Added Cars</h4>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Car[0].Mark)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Car[0].Model)
+        </th>
+        <th>
+            Y.O.B.
+        </th>
+        <th>
+            License Plate
+        </th>
+        <th>
+            Engine (ltrs)
+        </th>
+        <th>
+            Fuel
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Car[0].Transmission)
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.Car)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Mark.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Model)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.YearOfBuilt)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RegNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EngineDisplacement)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FuelType!.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Transmission!.Name)
+            </td>
+            <td>
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+<a asp-page="/Cars/Index">Show more cars</a>
+<hr>
+<hr>
+<h4>Last Added Costs</h4>
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            Car Model
+        </th>
+        <th>
+            Licence Plate
+        </th>
+        <th>
+            Date/Time
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Expense[0].Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Expense[0].Category)
+        </th>
+        <th>
+            Price (EUR)
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.Expense)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Car!.Model)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Car!.RegNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category!.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+<a asp-page="/Expenses/Index">Show more expenses</a>

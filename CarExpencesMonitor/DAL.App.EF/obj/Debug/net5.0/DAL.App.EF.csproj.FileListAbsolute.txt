@@ -1,0 +1,15 @@
+/Users/jevgeni/RiderProjects/icd0008-2020f/CarExpencesMonitor/DAL.App.EF/bin/Debug/net5.0/DAL.App.EF.deps.json
+/Users/jevgeni/RiderProjects/icd0008-2020f/CarExpencesMonitor/DAL.App.EF/bin/Debug/net5.0/DAL.App.EF.dll
+/Users/jevgeni/RiderProjects/icd0008-2020f/CarExpencesMonitor/DAL.App.EF/bin/Debug/net5.0/ref/DAL.App.EF.dll
+/Users/jevgeni/RiderProjects/icd0008-2020f/CarExpencesMonitor/DAL.App.EF/bin/Debug/net5.0/DAL.App.EF.pdb
+/Users/jevgeni/RiderProjects/icd0008-2020f/CarExpencesMonitor/DAL.App.EF/obj/Debug/net5.0/DAL.App.EF.csprojAssemblyReference.cache
+/Users/jevgeni/RiderProjects/icd0008-2020f/CarExpencesMonitor/DAL.App.EF/obj/Debug/net5.0/DAL.App.EF.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jevgeni/RiderProjects/icd0008-2020f/CarExpencesMonitor/DAL.App.EF/obj/Debug/net5.0/DAL.App.EF.AssemblyInfoInputs.cache
+/Users/jevgeni/RiderProjects/icd0008-2020f/CarExpencesMonitor/DAL.App.EF/obj/Debug/net5.0/DAL.App.EF.AssemblyInfo.cs
+/Users/jevgeni/RiderProjects/icd0008-2020f/CarExpencesMonitor/DAL.App.EF/obj/Debug/net5.0/DAL.App.EF.csproj.CoreCompileInputs.cache
+/Users/jevgeni/RiderProjects/icd0008-2020f/CarExpencesMonitor/DAL.App.EF/obj/Debug/net5.0/DAL.App.EF.dll
+/Users/jevgeni/RiderProjects/icd0008-2020f/CarExpencesMonitor/DAL.App.EF/obj/Debug/net5.0/ref/DAL.App.EF.dll
+/Users/jevgeni/RiderProjects/icd0008-2020f/CarExpencesMonitor/DAL.App.EF/obj/Debug/net5.0/DAL.App.EF.pdb
+/Users/jevgeni/RiderProjects/icd0008-2020f/CarExpencesMonitor/DAL.App.EF/bin/Debug/net5.0/Domain.dll
+/Users/jevgeni/RiderProjects/icd0008-2020f/CarExpencesMonitor/DAL.App.EF/bin/Debug/net5.0/Domain.pdb
+/Users/jevgeni/RiderProjects/icd0008-2020f/CarExpencesMonitor/DAL.App.EF/obj/Debug/net5.0/DAL.App.EF.csproj.CopyComplete

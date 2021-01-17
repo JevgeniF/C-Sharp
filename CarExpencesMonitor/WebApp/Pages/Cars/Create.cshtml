@@ -1,0 +1,77 @@
+@page
+@model WebApp.Pages.Cars.CreateModel
+
+@{
+    ViewData["Title"] = "Add New Car";
+}
+
+<h4>Add New Car</h4>
+<hr/>
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group mb-3">
+                <label asp-for="Car.MarkId" class="control-label">Mark *</label>
+                <select asp-for="Car.MarkId" class="form-control" asp-items="ViewBag.MarkId"></select>
+                <a asp-page="/Marks/CreateFmCars">Add New Mark</a>
+            </div>
+            <div class="form-group">
+                <label asp-for="Car.Model" class="control-label">Model *</label>
+                <input asp-for="Car.Model" class="form-control"/>
+                <span asp-validation-for="Car.Model" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Car.YearOfBuilt" class="control-label">Y.O.B. *</label>
+                <input asp-for="Car.YearOfBuilt" class="form-control"/>
+                <span asp-validation-for="Car.YearOfBuilt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Car.RegNumber" class="control-label">License Plate *</label>
+                <input asp-for="Car.RegNumber" class="form-control"/>
+                <span asp-validation-for="Car.RegNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Car.EngineDisplacement" class="control-label">Engine (ltrs)</label>
+                <input asp-for="Car.EngineDisplacement" class="form-control"/>
+                <span asp-validation-for="Car.EngineDisplacement" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Car.FuelTypeId" class="control-label">Fuel</label>
+                <select asp-for="Car.FuelTypeId" class="form-control" asp-items="ViewBag.FuelTypeId"></select>
+                <a asp-page="/FuelTypes/CreateFmCars">Add New Fuel Type</a>
+            </div>
+            <div class="form-group">
+                <label asp-for="Car.TransmissionId" class="control-label">Transmission</label>
+                <select asp-for="Car.TransmissionId" class="form-control" asp-items="ViewBag.TransmissionId"></select>
+                <a asp-page="/Transmissions/CreateFmCars">Add New Transmission Type</a>
+            </div>
+            <div class="form-group">
+                <label asp-for="Car.BodyStyleId" class="control-label">Body Style</label>
+                <select asp-for="Car.BodyStyleId" class="form-control" asp-items="ViewBag.BodyStyleId"></select>
+                <a asp-page="/BodyStyles/CreateFmCars">Add New Body Style</a>
+            </div>
+            <div class="form-group">
+                <label asp-for="Car.Vin" class="control-label">VIN no.</label>
+                <input asp-for="Car.Vin" class="form-control"/>
+                <span asp-validation-for="Car.Vin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Car.ImageUrl" class="control-label">Link to car image</label>
+                <input asp-for="Car.ImageUrl" class="form-control"/>
+                <span asp-validation-for="Car.ImageUrl" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary"/>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="Index">Back to Cars</a>
+</div>
+
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}

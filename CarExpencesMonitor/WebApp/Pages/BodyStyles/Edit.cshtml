@@ -1,0 +1,34 @@
+@page
+@model WebApp.Pages.BodyStyles.EditModel
+
+@{
+    ViewData["Title"] = "Edit Body Syle";
+}
+
+<h4>Edit Body Syle</h4>
+
+<hr/>
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="BodyStyle.Id"/>
+            <div class="form-group">
+                <label asp-for="BodyStyle.Name" class="control-label"></label>
+                <input asp-for="BodyStyle.Name" class="form-control"/>
+                <span asp-validation-for="BodyStyle.Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary"/>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to Styles</a>
+</div>
+
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}

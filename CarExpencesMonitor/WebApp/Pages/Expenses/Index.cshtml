@@ -1,0 +1,103 @@
+@page
+@model WebApp.Pages.Expenses.IndexModel
+
+@{
+    ViewData["Title"] = "Maintenance Costs";
+}
+
+<h4>Maintenance Costs</h4>
+
+<p>
+    <a asp-route-id=@Model.Id asp-page="Create">Add New Record</a>
+</p>
+<p>
+    @if (Model.Id != null)
+    {
+        <a asp-page="/Expenses/Index" style="color:#FF0000">The View and Record Addition Locked to @Model.Expense[0].Car?.Mark @Model.Expense[0].Car?.Model . Click Here to Reset</a>
+    }
+    else
+    {
+        <form class="form-inline" method="get">
+            <label asp-for="SearchCar" class="my-1 mr-2">Filter by Car</label>
+            <input asp-for="SearchCar" class="form-control mb-2 mr-sm-2"/>
+            <label asp-for="SearchCost" class="my-1 mr-2">Filter by Cost</label>
+            <input asp-for="SearchCost" class="form-control mb-2 mr-sm-2"/>
+            <label asp-for="SearchCategory" class="my-1 mr-2">Filter by Category</label>
+            <input asp-for="SearchCategory" class="form-control mb-2 mr-sm-2"/>
+            <input input asp-for="Btn" type="submit" value="Search" class="btn btn-primary mb-2 my-1">
+            @if (!string.IsNullOrWhiteSpace(Model.SearchCar) || !string.IsNullOrWhiteSpace(Model.SearchCost) || !string.IsNullOrWhiteSpace(Model.SearchCategory))
+            {
+                <input asp-for="Btn" type="submit" value="Reset" class="btn btn-primary mr-2 mb-2 my-1">
+            }
+        </form>
+    }
+<hr>
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            Car Model
+        </th>
+        <th>
+            Licence Plate
+        </th>
+        <th>
+            Date/Time
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Expense[0].Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Expense[0].Category)
+        </th>
+        <th>
+            Price (EUR)
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.Expense)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Car!.Model)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Car!.RegNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category!.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+    <thread>
+        @if (Model.TotalCosts != 0)
+        {
+            <tr>
+                <th>
+                    Total Costs (EUR):
+                </th>
+                <th>
+                    @Html.DisplayFor(model => model.TotalCosts)
+                </th>
+            </tr>
+        }
+    </thread>
+
+</table>
+<a asp-page="/Cars/Index">Back to Cars</a>

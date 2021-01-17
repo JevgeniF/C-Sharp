@@ -1,0 +1,82 @@
+@page "{id}"
+@model WebApp.Pages.Cars.EditModel
+
+@{
+    ViewData["Title"] = "Edit Car";
+}
+
+<h4>Edit Car</h4>
+<hr/>
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Car.Id"/>
+            <div class="form-group">
+                <label asp-for="Car.MarkId" class="control-label">Mark</label>
+                <select asp-for="Car.MarkId" class="form-control" asp-items="ViewBag.MarkId"></select>
+                <span asp-validation-for="Car.MarkId" class="text-danger"></span>
+                <a asp-route-id="@Model.Id" asp-page="/Marks/CreateFmEdit">Add New Mark</a>
+            </div>
+            <div class="form-group">
+                <label asp-for="Car.Model" class="control-label"></label>
+                <input asp-for="Car.Model" class="form-control"/>
+                <span asp-validation-for="Car.Model" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Car.YearOfBuilt" class="control-label">Y.O.B.</label>
+                <input asp-for="Car.YearOfBuilt" class="form-control"/>
+                <span asp-validation-for="Car.YearOfBuilt" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Car.EngineDisplacement" class="control-label">Engine (ltrs)</label>
+                <input asp-for="Car.EngineDisplacement" class="form-control"/>
+                <span asp-validation-for="Car.EngineDisplacement" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Car.FuelTypeId" class="control-label">Fuel</label>
+                <select asp-for="Car.FuelTypeId" class="form-control" asp-items="ViewBag.FuelTypeId"></select>
+                <span asp-validation-for="Car.FuelTypeId" class="text-danger"></span>
+                <a asp-route-id="@Model.Id" asp-page="/FuelTypes/CreateFmEdit">Add New Fuel Type</a>
+            </div>
+            <div class="form-group">
+                <label asp-for="Car.RegNumber" class="control-label">License Plate</label>
+                <input asp-for="Car.RegNumber" class="form-control"/>
+                <span asp-validation-for="Car.RegNumber" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Car.TransmissionId" class="control-label">Transmission</label>
+                <select asp-for="Car.TransmissionId" class="form-control" asp-items="ViewBag.TransmissionId"></select>
+                <span asp-validation-for="Car.TransmissionId" class="text-danger"></span>
+                <a asp-route-id="@Model.Id" asp-page="/Transmissions/CreateFmEdit">Add New Transmission Type</a>
+            </div>
+            <div class="form-group">
+                <label asp-for="Car.BodyStyleId" class="control-label">Body Style</label>
+                <select asp-for="Car.BodyStyleId" class="form-control" asp-items="ViewBag.BodyStyleId"></select>
+                <span asp-validation-for="Car.BodyStyleId" class="text-danger"></span>
+                <a asp-route-id="@Model.Id" asp-page="/BodyStyles/CreateFmEdit">Add New Body Style</a>
+            </div>
+            <div class="form-group">
+                <label asp-for="Car.Vin" class="control-label">VIN no.</label>
+                <input asp-for="Car.Vin" class="form-control"/>
+                <span asp-validation-for="Car.Vin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Car.ImageUrl" class="control-label">Link to car image</label>
+                <input asp-for="Car.ImageUrl" class="form-control"/>
+                <span asp-validation-for="Car.ImageUrl" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary"/>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to Cars</a>
+</div>
+
+@section Scripts {
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
+}

@@ -1,0 +1,56 @@
+@page
+@model WebApp.Pages.Expenses.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h4>Delete this cost</h4>
+
+<div>
+    <hr/>
+    <dl class="row">
+        <dt class="col-sm-2">
+            Car Model
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Expense.Car!.Model)
+        </dd>
+        <dt class="col-sm-2">
+            License Plate
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Expense.Car!.RegNumber)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Expense.DateTime)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Expense.DateTime)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Expense.Description)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Expense.Description)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Expense.Category)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Expense.Category!.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Expense.Price)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Expense.Price)
+        </dd>
+    </dl>
+
+    <form method="post">
+        <input type="hidden" asp-for="Expense.Id"/>
+        <input type="submit" value="Delete" class="btn btn-danger"/> |
+        <a asp-page="./Index">Back to Costs</a>
+    </form>
+</div>

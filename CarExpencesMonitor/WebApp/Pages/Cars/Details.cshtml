@@ -1,0 +1,77 @@
+@page
+@model WebApp.Pages.Cars.DetailsModel
+
+@{
+    ViewData["Title"] = "Car Details";
+}
+
+<h4>Car Details</h4>
+
+<div>
+    <hr/>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Car.Mark)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Car.Mark.Name)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Car.Model)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Car.Model)
+        </dd>
+        <dt class="col-sm-2">
+            Y.O.B.
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Car.YearOfBuilt)
+        </dd>
+        <dt class="col-sm-2">
+            Engine (ltrs)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Car.EngineDisplacement)
+        </dd>
+        <dt class="col-sm-2">
+            Fuel
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Car.FuelType!.Name)
+        </dd>
+        <dt class="col-sm-2">
+            License Plate
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Car.RegNumber)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.Car.Transmission)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Car.Transmission!.Name)
+        </dd>
+        <dt class="col-sm-2">
+            Body Style
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Car.BodyStyle!.Name)
+        </dd>
+        <dt class="col-sm-2">
+            VIN no.
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Car.Vin)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-page="/Expenses/Create" asp-route-id="@Model.Car.Id">Add Expenses</a> |
+    <a asp-page="/Expenses/Index" asp-route-id="@Model.Car.Id">Show Expenses</a> |
+    <a asp-page="./Edit" asp-route-id="@Model.Car.Id">Edit</a> |
+    <a asp-page="./Index">Back to Cars</a>
+</div>
+<div>
+    <img src="@Url.Content(Model.Car.ImageUrl)" alt="car image">
+</div>

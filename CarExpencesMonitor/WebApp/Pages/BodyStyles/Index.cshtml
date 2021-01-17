@@ -1,0 +1,36 @@
+@page
+@model WebApp.Pages.BodyStyles.IndexModel
+
+@{
+    ViewData["Title"] = "Body Styles";
+}
+
+<h4>Body Styles</h4>
+
+<p>
+    <a asp-page="Create">Add New</a>
+</p>
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.BodyStyle[0].Name)
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.BodyStyle)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

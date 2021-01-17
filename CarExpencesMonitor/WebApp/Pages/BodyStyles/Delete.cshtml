@@ -1,0 +1,27 @@
+@page
+@model WebApp.Pages.BodyStyles.DeleteModel
+
+@{
+    ViewData["Title"] = "Delete Body Style";
+}
+
+<h4>Delete Body Style</h4>
+
+
+<div>
+    <hr/>
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.BodyStyle.Name)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.BodyStyle.Name)
+        </dd>
+    </dl>
+
+    <form method="post">
+        <input type="hidden" asp-for="BodyStyle.Id"/>
+        <input type="submit" value="Delete" class="btn btn-danger"/> |
+        <a asp-page="./Index">Back to Styles</a>
+    </form>
+</div>
