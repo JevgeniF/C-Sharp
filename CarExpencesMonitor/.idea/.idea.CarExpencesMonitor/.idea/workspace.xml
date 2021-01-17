@@ -4,455 +4,7 @@
     <projectFile>WebApp/WebApp.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e86f1dd-4ddd-4645-86c1-82c528ec1e89" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CarExpencesMonitor/.idea/contentModel.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CarExpencesMonitor/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CarExpencesMonitor/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CarExpencesMonitor/.idea/dataSources/519b3322-5bdb-46d1-8ec2-9d54e913c2da.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CarExpencesMonitor/.idea/dataSources/519b3322-5bdb-46d1-8ec2-9d54e913c2da/storage_v2/_src_/database/jefenk_cars.58ezjQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CarExpencesMonitor/.idea/dataSources/519b3322-5bdb-46d1-8ec2-9d54e913c2da/storage_v2/_src_/database/jefenk_cars.58ezjQ/schema/INFORMATION_SCHEMA.NBgcMw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CarExpencesMonitor/.idea/dataSources/519b3322-5bdb-46d1-8ec2-9d54e913c2da/storage_v2/_src_/database/jefenk_cars.58ezjQ/schema/dbo.sYMBAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CarExpencesMonitor/.idea/dataSources/519b3322-5bdb-46d1-8ec2-9d54e913c2da/storage_v2/_src_/database/jefenk_cars.58ezjQ/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CarExpencesMonitor/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CarExpencesMonitor/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CarExpencesMonitor/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CarExpencesMonitor/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CarExpencesMonitor/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CarExpencesMonitor.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/ApplicationDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/DAL.App.EF.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Migrations/20210117010637_InitialMigrations.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Migrations/20210117010637_InitialMigrations.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/net5.0/DAL.App.EF.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/net5.0/DAL.App.EF.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/net5.0/DAL.App.EF.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/net5.0/Domain.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/net5.0/Domain.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/bin/Debug/net5.0/ref/DAL.App.EF.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/DAL.App.EF.csproj.EntityFrameworkCore.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/DAL.App.EF.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/DAL.App.EF.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/DAL.App.EF.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/Debug/net5.0/DAL.App.EF.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/Debug/net5.0/DAL.App.EF.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/Debug/net5.0/DAL.App.EF.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/Debug/net5.0/DAL.App.EF.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/Debug/net5.0/DAL.App.EF.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/Debug/net5.0/DAL.App.EF.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/Debug/net5.0/DAL.App.EF.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/Debug/net5.0/DAL.App.EF.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/Debug/net5.0/DAL.App.EF.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/Debug/net5.0/DAL.App.EF.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/Debug/net5.0/ref/DAL.App.EF.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DAL.App.EF/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Directory.Build.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/BodyStyle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Car.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Category.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Domain.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Expense.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/FuelType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Mark.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/Transmission.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/bin/Debug/net5.0/Domain.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/bin/Debug/net5.0/Domain.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/bin/Debug/net5.0/Domain.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/bin/Debug/net5.0/ref/Domain.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/Domain.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/Domain.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/Domain.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/Domain.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/Domain.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/Domain.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/Domain.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/Domain.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/Domain.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/obj/Debug/net5.0/ref/Domain.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/obj/Domain.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Domain/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Areas/Identity/Pages/_ViewStart.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/BodyStyles/Create.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/BodyStyles/Create.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/BodyStyles/CreateFmCars.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/BodyStyles/CreateFmCars.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/BodyStyles/CreateFmEdit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/BodyStyles/CreateFmEdit.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/BodyStyles/Delete.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/BodyStyles/Delete.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/BodyStyles/Edit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/BodyStyles/Edit.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/BodyStyles/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/BodyStyles/Index.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Cars/Create.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Cars/Create.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Cars/Delete.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Cars/Delete.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Cars/Details.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Cars/Details.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Cars/Edit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Cars/Edit.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Cars/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Cars/Index.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Categories/Create.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Categories/Create.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Categories/CreateFmExpense.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Categories/CreateFmExpense.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Categories/Delete.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Categories/Delete.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Categories/Edit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Categories/Edit.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Categories/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Categories/Index.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Error.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Error.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Expenses/Create.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Expenses/Create.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Expenses/Delete.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Expenses/Delete.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Expenses/Details.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Expenses/Details.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Expenses/Edit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Expenses/Edit.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Expenses/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Expenses/Index.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/FuelTypes/Create.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/FuelTypes/Create.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/FuelTypes/CreateFmCars.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/FuelTypes/CreateFmCars.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/FuelTypes/CreateFmEdit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/FuelTypes/CreateFmEdit.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/FuelTypes/Delete.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/FuelTypes/Delete.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/FuelTypes/Edit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/FuelTypes/Edit.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/FuelTypes/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/FuelTypes/Index.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Index.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Marks/Create.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Marks/Create.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Marks/CreateFmCars.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Marks/CreateFmCars.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Marks/CreateFmEdit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Marks/CreateFmEdit.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Marks/Delete.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Marks/Delete.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Marks/Edit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Marks/Edit.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Marks/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Marks/Index.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Privacy.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Privacy.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Shared/_Layout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Shared/_LoginPartial.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Shared/_ValidationScriptsPartial.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Transmissions/Create.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Transmissions/Create.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Transmissions/CreateFmCars.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Transmissions/CreateFmCars.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Transmissions/CreateFmEdit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Transmissions/CreateFmEdit.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Transmissions/Delete.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Transmissions/Delete.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Transmissions/Edit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Transmissions/Edit.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Transmissions/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/Transmissions/Index.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/_ViewImports.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Pages/_ViewStart.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Startup.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Views/Shared/DisplayTemplates/DateTime.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/Views/Shared/DisplayTemplates/DateTime.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/WebApp.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/DAL.App.EF.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/DAL.App.EF.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Domain.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Domain.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Humanizer.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.Internal.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.AspNetCore.Identity.UI.Views.V4.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.AspNetCore.Identity.UI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.AspNetCore.Razor.Language.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.Bcl.AsyncInterfaces.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.CodeAnalysis.CSharp.Workspaces.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.CodeAnalysis.CSharp.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.CodeAnalysis.Razor.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.CodeAnalysis.Workspaces.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.CodeAnalysis.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.Data.SqlClient.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.Data.Sqlite.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.DotNet.PlatformAbstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Abstractions.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Design.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.SqlServer.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.Sqlite.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.EntityFrameworkCore.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.Extensions.DependencyModel.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.Extensions.FileProviders.Embedded.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.Extensions.Identity.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.Extensions.Identity.Stores.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.Identity.Client.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.VisualStudio.Web.CodeGeneration.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/Newtonsoft.Json.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/SQLitePCLRaw.batteries_v2.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/SQLitePCLRaw.core.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/SQLitePCLRaw.nativelibrary.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/SQLitePCLRaw.provider.dynamic_cdecl.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/System.Composition.AttributedModel.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/System.Composition.Convention.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/System.Composition.Hosting.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/System.Composition.Runtime.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/System.Composition.TypedParts.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/System.Configuration.ConfigurationManager.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/System.Diagnostics.DiagnosticSource.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/System.Runtime.Caching.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/WebApp.StaticWebAssets.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/WebApp.Views.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/WebApp.Views.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/WebApp.deps.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/WebApp.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/WebApp.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/WebApp.runtimeconfig.dev.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/WebApp.runtimeconfig.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/cs/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/cs/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/de/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/de/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/dotnet-aspnet-codegenerator-design.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/es/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/es/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/fr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/fr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/it/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/it/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/ja/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/ja/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/ko/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/ko/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/pl/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/pl/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/pt-BR/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/ref/WebApp.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/ru/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/ru/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/runtimes/alpine-x64/native/libe_sqlite3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/runtimes/linux-arm/native/libe_sqlite3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/runtimes/linux-arm64/native/libe_sqlite3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/runtimes/linux-armel/native/libe_sqlite3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/runtimes/linux-mips64/native/libe_sqlite3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/runtimes/linux-musl-x64/native/libe_sqlite3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/runtimes/linux-x64/native/libe_sqlite3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/runtimes/linux-x86/native/libe_sqlite3.so" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/runtimes/osx-x64/native/libe_sqlite3.dylib" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/runtimes/win-arm/lib/net5.0/dotnet-aspnet-codegenerator-design.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/runtimes/win-arm/native/e_sqlite3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/runtimes/win-arm64/lib/net5.0/dotnet-aspnet-codegenerator-design.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/runtimes/win-arm64/native/e_sqlite3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/runtimes/win-x64/native/e_sqlite3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/runtimes/win-x86/native/e_sqlite3.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/tr/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/tr/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/DAL.App.EF.EntityFrameworkCore.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Areas/Identity/Pages/_ViewStart.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/BodyStyles/Create.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/BodyStyles/CreateFmCars.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/BodyStyles/CreateFmEdit.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/BodyStyles/Delete.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/BodyStyles/Edit.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/BodyStyles/Index.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Cars/Create.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Cars/Delete.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Cars/Details.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Cars/Edit.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Cars/Index.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Categories/Create.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Categories/CreateFmExpense.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Categories/Delete.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Categories/Edit.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Categories/Index.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Error.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Expenses/Create.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Expenses/Delete.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Expenses/Details.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Expenses/Edit.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Expenses/Index.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/FuelTypes/Create.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/FuelTypes/CreateFmCars.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/FuelTypes/CreateFmEdit.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/FuelTypes/Delete.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/FuelTypes/Edit.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/FuelTypes/Index.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Index.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Marks/Create.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Marks/CreateFmCars.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Marks/CreateFmEdit.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Marks/Delete.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Marks/Edit.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Marks/Index.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Privacy.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Shared/_Layout.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Shared/_LoginPartial.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Shared/_ValidationScriptsPartial.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Transmissions/Create.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Transmissions/CreateFmCars.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Transmissions/CreateFmEdit.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Transmissions/Delete.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Transmissions/Edit.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Transmissions/Index.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/_ViewImports.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/_ViewStart.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Views/Shared/DisplayTemplates/DateTime.cshtml.g.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.MvcApplicationPartsAssemblyInfo.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.MvcApplicationPartsAssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.RazorAssemblyInfo.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.RazorAssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.RazorCoreGenerate.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.RazorTargetAssemblyInfo.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.RazorTargetAssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.TagHelpers.input.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.TagHelpers.output.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.Views.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.Views.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.csproj.CopyComplete" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.genruntimeconfig.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.pdb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/ref/WebApp.dll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/staticwebassets/WebApp.StaticWebAssets.Manifest.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/staticwebassets/WebApp.StaticWebAssets.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.EntityFrameworkCore.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.codegeneration.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.nuget.dgspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/WebApp.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/project.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/project.packagespec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/obj/rider.project.restore.info" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/20200628_091356.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/css/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/js/site.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery-validation/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery-validation/dist/additional-methods.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery/dist/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery/dist/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WebApp/wwwroot/lib/jquery/dist/jquery.min.map" afterDir="false" />
+    <list default="true" id="3e86f1dd-4ddd-4645-86c1-82c528ec1e89" name="Default Changelist" comment="ExamProject">
       <change afterPath="$PROJECT_DIR$/../ConsoleApp/ConsoleAppProject/ConsoleApp.deps.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ConsoleApp/ConsoleAppProject/ConsoleApp.dll" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ConsoleApp/ConsoleAppProject/ConsoleApp.pdb" afterDir="false" />
@@ -906,6 +458,27 @@
       <change afterPath="$PROJECT_DIR$/../ConsoleApp/ConsoleAppProject/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ConsoleApp/ConsoleAppProject/zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ConsoleApp/ConsoleAppProject/zh-Hant/Microsoft.CodeAnalysis.resources.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CarExpencesMonitor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CarExpencesMonitor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Pages/Cars/Create.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Pages/Cars/Create.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Pages/Cars/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Pages/Cars/Delete.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Pages/Cars/Details.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Pages/Cars/Details.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Pages/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Pages/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Pages/Index.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Pages/Index.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/Pages/Marks/CreateFmCars.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/Pages/Marks/CreateFmCars.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/WebApp.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/WebApp.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/WebApp.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/WebApp.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/WebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/WebApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/WebApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/WebApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/ref/WebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/bin/Debug/net5.0/ref/WebApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Cars/Delete.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Cars/Delete.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Cars/Details.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Cars/Details.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/Razor/Pages/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/WebApp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/ref/WebApp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/WebApp/obj/Debug/net5.0/ref/WebApp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ConsoleApp/ConsoleAppProject/.idea/.idea.ConsoleAppProject/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleApp/ConsoleAppProject/.idea/.idea.ConsoleAppProject/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ConsoleApp/ConsoleAppProject/.idea/.idea.ConsoleAppProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleApp/ConsoleAppProject/.idea/.idea.ConsoleAppProject/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ConsoleApp/ConsoleAppProject/ConsoleApp/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ConsoleApp/ConsoleAppProject/ConsoleApp/Program.cs" afterDir="false" />
@@ -983,6 +556,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -994,12 +572,12 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/DAL.App.EF/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/WebApp/Pages/BodyStyles/Edit.cshtml" />
-      <option value="$PROJECT_DIR$/WebApp/Pages/BodyStyles/Edit.cshtml.cs" />
       <option value="$PROJECT_DIR$/WebApp/Pages/BodyStyles/Index.cshtml" />
-      <option value="$PROJECT_DIR$/WebApp/Pages/Cars/Create.cshtml" />
       <option value="$PROJECT_DIR$/WebApp/Pages/Cars/Edit.cshtml" />
       <option value="$PROJECT_DIR$/WebApp/Pages/BodyStyles/Create.cshtml" />
       <option value="$PROJECT_DIR$/WebApp/Pages/BodyStyles/CreateFmCars.cshtml" />
@@ -1020,7 +598,6 @@
       <option value="$PROJECT_DIR$/WebApp/Pages/Marks/Create.cshtml" />
       <option value="$PROJECT_DIR$/WebApp/Pages/Marks/Create.cshtml.cs" />
       <option value="$PROJECT_DIR$/WebApp/Pages/Marks/CreateFmCars.cshtml" />
-      <option value="$PROJECT_DIR$/WebApp/Pages/Marks/CreateFmCars.cshtml.cs" />
       <option value="$PROJECT_DIR$/WebApp/Pages/Marks/CreateFmEdit.cshtml" />
       <option value="$PROJECT_DIR$/WebApp/Pages/Marks/CreateFmEdit.cshtml.cs" />
       <option value="$PROJECT_DIR$/WebApp/Pages/Marks/Delete.cshtml" />
@@ -1039,14 +616,18 @@
       <option value="$PROJECT_DIR$/WebApp/Pages/Transmissions/Index.cshtml" />
       <option value="$PROJECT_DIR$/WebApp/Pages/Cars/Index.cshtml" />
       <option value="$PROJECT_DIR$/WebApp/Pages/Shared/_Layout.cshtml" />
-      <option value="$PROJECT_DIR$/WebApp/Pages/Index.cshtml" />
-      <option value="$PROJECT_DIR$/WebApp/Pages/Index.cshtml.cs" />
       <option value="$PROJECT_DIR$/DAL.App.EF/Migrations/ApplicationDbContextModelSnapshot.cs" />
       <option value="$PROJECT_DIR$/Domain/Car.cs" />
       <option value="$PROJECT_DIR$/Domain/Expense.cs" />
+      <option value="$PROJECT_DIR$/WebApp/Pages/Expenses/Index.cshtml" />
+      <option value="$PROJECT_DIR$/WebApp/Pages/Expenses/Index.cshtml.cs" />
+      <option value="$PROJECT_DIR$/WebApp/Pages/Marks/CreateFmCars.cshtml.cs" />
+      <option value="$PROJECT_DIR$/WebApp/Pages/Cars/Create.cshtml" />
+      <option value="$PROJECT_DIR$/WebApp/Pages/Cars/Create.cshtml.cs" />
       <option value="$PROJECT_DIR$/WebApp/Pages/Cars/Delete.cshtml" />
       <option value="$PROJECT_DIR$/WebApp/Pages/Cars/Details.cshtml" />
-      <option value="$PROJECT_DIR$/WebApp/Pages/Expenses/Index.cshtml" />
+      <option value="$PROJECT_DIR$/WebApp/Pages/Index.cshtml.cs" />
+      <option value="$PROJECT_DIR$/WebApp/Pages/Index.cshtml" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1n9PMvlcojYimYEtGaeRk92pA4i" />
@@ -1109,8 +690,24 @@
       <option name="presentableId" value="Default" />
       <updated>1610799288770</updated>
       <workItem from="1610799292661" duration="415000" />
-      <workItem from="1610799736997" duration="52411000" />
+      <workItem from="1610799736997" duration="53083000" />
+      <workItem from="1610876786130" duration="5774000" />
     </task>
+    <task id="LOCAL-00001" summary="Gitignore">
+      <created>1610852717993</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610852717993</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ExamProject">
+      <created>1610852843572</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610852843572</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1132,5 +729,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Gitignore" />
+    <MESSAGE value="ExamProject" />
+    <option name="LAST_COMMIT_MESSAGE" value="ExamProject" />
   </component>
 </project>

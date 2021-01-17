@@ -20,6 +20,10 @@ namespace WebApp.Pages
         public IList<Car> Car { get; set; } = default!;
         public IList<Expense> Expense { get; set; } = default!;
 
+        public int TotalCars;
+        public int TotalCosts;
+        public double TotalSum;
+
         public async Task OnGetAsync()
         {
             Car = await _context.Cars
@@ -30,11 +34,19 @@ namespace WebApp.Pages
                 .OrderByDescending(c => c.Id).Take(4)
                 .ToListAsync();
 
+            TotalCars = _context.Cars.Count();
+
             Expense = await _context.Expenses
                 .Include(e => e.Car)
                 .Include(e => e.Category)
                 .OrderByDescending(e => e.Id).Take(4)
                 .ToListAsync();
+
+            TotalCosts = _context.Expenses.Count();
+            foreach (var expense in _context.Expenses)
+            {
+                TotalSum += expense.Price;
+            }
         }
     }
 }

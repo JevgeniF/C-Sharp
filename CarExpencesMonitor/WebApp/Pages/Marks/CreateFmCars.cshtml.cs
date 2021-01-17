@@ -40,7 +40,7 @@ namespace WebApp.Pages.Marks
             _context.Marks.Add(Mark);
             await _context.SaveChangesAsync();
 
-            return RedirectToPage("/Cars/Create");
+            return RedirectToPage("/Cars/Create", new {markId = Mark.Id});
         }
     }
 }

@@ -1,3 +1,4 @@
+using System.Linq;
 using System.Threading.Tasks;
 using DAL.App.EF;
 using Domain;
@@ -19,12 +20,21 @@ namespace WebApp.Pages.Cars
         }
 
         [BindProperty] public Car Car { get; set; } = default!;
+        [BindProperty (SupportsGet = true)] public int? MarkId { get; set; }
 
         public IActionResult OnGet()
         {
             ViewData["BodyStyleId"] = new SelectList(_context.BodyStyles, "Id", "Name");
             ViewData["FuelTypeId"] = new SelectList(_context.FuelTypes, "Id", "Name");
-            ViewData["MarkId"] = new SelectList(_context.Marks, "Id", "Name");
+            if (MarkId != null)
+            {
+                ViewData["MarkId"] = new SelectList(_context.Marks.Where(m => m.Id == MarkId), "Id", "Name");
+            }
+            else
+            {
+                ViewData["MarkId"] = new SelectList(_context.Marks, "Id", "Name");
+            }
+
             ViewData["TransmissionId"] = new SelectList(_context.Transmissions, "Id", "Name");
             return Page();
         }

@@ -72,6 +72,9 @@
     <a asp-page="./Edit" asp-route-id="@Model.Car.Id">Edit</a> |
     <a asp-page="./Index">Back to Cars</a>
 </div>
-<div>
-    <img src="@Url.Content(Model.Car.ImageUrl)" alt="car image">
-</div>
+@if (Model.Car.ImageUrl != null)
+    {
+        <div>
+            <img src="@Url.Content(Model.Car.ImageUrl)" alt="car image">
+        </div>
+    }

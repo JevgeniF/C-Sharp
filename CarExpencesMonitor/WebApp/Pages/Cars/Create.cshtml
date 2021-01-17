@@ -39,17 +39,17 @@
             <div class="form-group">
                 <label asp-for="Car.FuelTypeId" class="control-label">Fuel</label>
                 <select asp-for="Car.FuelTypeId" class="form-control" asp-items="ViewBag.FuelTypeId"></select>
-                <a asp-page="/FuelTypes/CreateFmCars">Add New Fuel Type</a>
+                @*<a asp-page="/FuelTypes/CreateFmCars">Add New Fuel Type</a>*@
             </div>
             <div class="form-group">
                 <label asp-for="Car.TransmissionId" class="control-label">Transmission</label>
                 <select asp-for="Car.TransmissionId" class="form-control" asp-items="ViewBag.TransmissionId"></select>
-                <a asp-page="/Transmissions/CreateFmCars">Add New Transmission Type</a>
+                @*<a asp-page="/Transmissions/CreateFmCars">Add New Transmission Type</a>*@
             </div>
             <div class="form-group">
                 <label asp-for="Car.BodyStyleId" class="control-label">Body Style</label>
                 <select asp-for="Car.BodyStyleId" class="form-control" asp-items="ViewBag.BodyStyleId"></select>
-                <a asp-page="/BodyStyles/CreateFmCars">Add New Body Style</a>
+                @*<a asp-page="/BodyStyles/CreateFmCars">Add New Body Style</a>*@
             </div>
             <div class="form-group">
                 <label asp-for="Car.Vin" class="control-label">VIN no.</label>
