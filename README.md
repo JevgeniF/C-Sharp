@@ -1,6 +1,4 @@
-Owner: Jevgeni Fenko
+Owner: Jevgeni Fenko  
 Student ID: 200810IADB
-Group: IADB30
-Contacts:
-    tel: +37256277592;
-    e-mail: jefenk@taltech.ee
+
+## Collection of C# projects made during C# course at University
