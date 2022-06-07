@@ -1,9 +1,0 @@
-/Users/jevgeni/RiderProjects/icd0008-2020f/RazerPagesDemo/Domain/bin/Debug/netstandard2.1/Domain.deps.json
-/Users/jevgeni/RiderProjects/icd0008-2020f/RazerPagesDemo/Domain/bin/Debug/netstandard2.1/Domain.dll
-/Users/jevgeni/RiderProjects/icd0008-2020f/RazerPagesDemo/Domain/bin/Debug/netstandard2.1/Domain.pdb
-/Users/jevgeni/RiderProjects/icd0008-2020f/RazerPagesDemo/Domain/obj/Debug/netstandard2.1/Domain.csprojAssemblyReference.cache
-/Users/jevgeni/RiderProjects/icd0008-2020f/RazerPagesDemo/Domain/obj/Debug/netstandard2.1/Domain.AssemblyInfoInputs.cache
-/Users/jevgeni/RiderProjects/icd0008-2020f/RazerPagesDemo/Domain/obj/Debug/netstandard2.1/Domain.AssemblyInfo.cs
-/Users/jevgeni/RiderProjects/icd0008-2020f/RazerPagesDemo/Domain/obj/Debug/netstandard2.1/Domain.csproj.CoreCompileInputs.cache
-/Users/jevgeni/RiderProjects/icd0008-2020f/RazerPagesDemo/Domain/obj/Debug/netstandard2.1/Domain.dll
-/Users/jevgeni/RiderProjects/icd0008-2020f/RazerPagesDemo/Domain/obj/Debug/netstandard2.1/Domain.pdb
